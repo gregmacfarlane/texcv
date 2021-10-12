@@ -1,0 +1,6 @@
+*.fls
+CV.synctex.gz
+*.xdv
+*.out
+*.fdb_latexmk
+
