@@ -25,38 +25,41 @@ BIBTYPES = j c w
 # require different LaTeX output suppressors (>/dev/null will not be
 # recognized)
 
-
-TEXFILES = $(wildcard *.tex)
-DEPENDS = $(TEXFILES)
-
-
-site: all
-	@ echo + Copying to website folder ~/Sites/academic-kickstart
-	@ cp $(MASTER) ~/Sites/academic-kickstart/static/files/cv.pdf
-
-all: $(MASTER) 
+all: $(MASTER) detail
 	@ make clean
 
-$(MASTER): $(DEPENDS) 
+site: $(MASTER)
+	@ echo + Copying $< to website folder ~/Sites/academic-kickstart
+	@ cp $(MASTER) ~/Sites/academic-kickstart/static/files/cv.pdf
 
-%.pdf: %.tex 
+$(MASTER): cv.tex
 	@ echo + Writing $@ from $< ...
 	@ echo + XeLaTex pass 0/2
-	@ xelatex $< >/dev/null
+	@ xelatex "\def\myvar{} \input{$<}">/dev/null
 	@ echo + XeLaTeX pass 1/2
-	@ xelatex $< >/dev/null
+	@ xelatex "\def\myvar{} \input{$<}">/dev/null
+	@ xelatex "\def\myvar{} \input{$<}">/dev/null
 	@ echo + XeLaTeX pass 2/2
-	@ xelatex $< >/dev/null
+	@ xelatex "\def\myvar{} \input{$<}">/dev/null
+
+detail: cv_detail.pdf
+
+cv_detail.pdf: cv.tex
+	@ echo + making $@ from $< ...
+	@ xelatex -jobname=cv_detail "\def\myvar{\detailtrue} \input{$<}">/dev/null
+	@ xelatex -jobname=cv_detail "\def\myvar{\detailtrue} \input{$<}">/dev/null
+
 
 clean:
 	@ echo + Cleaning ...
-	@ rm -f *.aux *.lof *.log *.lot *.toc Rplots.pdf 
-	@ rm -f *.bbl *.blg *.dvi 
-	@ rm -f $(patsubst %.rnw,%.tex,$(RNWFILES)) 
+	@ rm -f *.aux *.lof *.log *.lot *.toc Rplots.pdf
+	@ rm -f *.bbl *.blg *.dvi *.fls *.fdb_latexmk
+	@ rm -f $(patsubst %.rnw,%.tex,$(RNWFILES))
 
 realclean: clean
 	@echo + Really cleaning ...
 	rm -f $(MASTER)
+	rm -f cv_detail.pdf
 
 
 
@@ -64,10 +67,11 @@ menu:
 	@ echo + ==============================
 	@ echo + .......GNU Make menu..........
 	@ echo + all: ......... create document
+	@ echo + detail: .. create extended doc
 	@ echo + clean: ...... delete aux files
 	@ echo + realclean: . delete all output
 	@ echo + site ......... copy to website
-	@ echo + 
+	@ echo +
 	@ echo + Georgia Tech---------
 	@ echo + --------Civil Engineering
 	@ echo + ==============================

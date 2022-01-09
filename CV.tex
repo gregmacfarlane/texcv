@@ -1,6 +1,7 @@
 \documentclass[margin,line]{res}
 
 %This lets me make hyper references to BYU and Georgia Tech
+\usepackage{etoolbox}
 \usepackage{booktabs}
 \usepackage{enumitem}
 \usepackage{etaremune}
@@ -22,7 +23,9 @@
 % if detailtrue, then the CV will show notes on publication venue
 % as well as student evaluations for each course.
 \newif\ifdetail
-\detailtrue
+\ifcsdef{myvar}{\myvar}{}
+
+%\detailtrue
 
 %% ==========================================
 %This allows me to use Bibtex to create my publication list
