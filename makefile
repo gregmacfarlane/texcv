@@ -30,6 +30,10 @@ TEXFILES = $(wildcard *.tex)
 DEPENDS = $(TEXFILES)
 
 
+site: all
+	@ echo + Copying to website folder ~/Sites/academic-kickstart
+	@ cp $(MASTER) ~/Sites/academic-kickstart/static/files/cv.pdf
+
 all: $(MASTER) 
 	@ make clean
 
@@ -39,9 +43,6 @@ $(MASTER): $(DEPENDS)
 	@ echo + Writing $@ from $< ...
 	@ echo + XeLaTex pass 0/2
 	@ xelatex $< >/dev/null
-	@ echo + BibTeX pass
-	#@ $(foreach var,$(BIBTYPES), bibtex $(var);)
-	@ bibtex CV
 	@ echo + XeLaTeX pass 1/2
 	@ xelatex $< >/dev/null
 	@ echo + XeLaTeX pass 2/2
@@ -65,6 +66,7 @@ menu:
 	@ echo + all: ......... create document
 	@ echo + clean: ...... delete aux files
 	@ echo + realclean: . delete all output
+	@ echo + site ......... copy to website
 	@ echo + 
 	@ echo + Georgia Tech---------
 	@ echo + --------Civil Engineering
