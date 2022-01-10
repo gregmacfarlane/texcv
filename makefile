@@ -29,8 +29,8 @@ all: $(MASTER) detail
 	@ make clean
 
 site: $(MASTER)
-	@ echo + Copying $< to website folder ~/Sites/academic-kickstart
-	@ cp $(MASTER) ~/Sites/academic-kickstart/static/files/cv.pdf
+	@ echo + Copying $< to website folder ~/Sites/website
+	@ cp $(MASTER) ~/Sites/website/static/uploads/cv.pdf
 
 $(MASTER): cv.tex
 	@ echo + Writing $@ from $< ...
