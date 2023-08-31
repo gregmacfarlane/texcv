@@ -30,7 +30,7 @@ all: $(MASTER) detail
 
 site: $(MASTER)
 	@ echo + Copying $< to website folder ~/Sites/website
-	@ cp $(MASTER) ~/Sites/website/static/uploads/cv.pdf
+	@ cp $(MASTER) ~/Sites/gregmacfarlane.github.io/static/cv.pdf
 
 $(MASTER): cv.tex
 	@ echo + Writing $@ from $< ...
