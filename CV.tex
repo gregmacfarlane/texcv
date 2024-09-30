@@ -52,14 +52,6 @@
 %      \endlist}
 %\makeatother
 
-\usepackage{bibentry}
-\nobibliography*
-\makeatletter
-\def\bibliography#1{%
-   \if@filesw
-   \immediate\write\@auxout{\string\bibdata{#1}}%
-\fi}
-\makeatother
 %\usepackage[resetlabels]{multibib}
 %  \newcites{j,c,w}{{Test},{Test1},{Test2}}
 % j- journals c-conferences p-presentations
@@ -86,7 +78,7 @@
 {%
  \setcounter{enuminitialize}{#1}
  \addtocounter{enuminitialize}{2}
- \begin{enumerate}[left= 4pt, itemsep=12pt, start=\value{enuminitialize}, label=\arabic*\addtocounter{enumi}{-2}]
+ \begin{enumerate}[left= 4pt, itemsep=8pt, start=\value{enuminitialize}, label=\arabic*\addtocounter{enumi}{-2}]
 }
 {%
  \end{enumerate}
@@ -119,6 +111,46 @@
 %\section{\sc Contact\\ Information}
 \vspace{.05in}
 
+
+
+%% ============================================================================
+\section{\secfont Education}
+\href{http://www.gatech.edu}{\acc Georgia Institute of Technology}
+\\
+	\vspace*{-.1in}
+	\begin{list1}
+	\item[] Ph.D., Transportation Systems Engineering  \hfill{May 2014}
+%	\begin{list2}
+%  	\item[] Advisor: Laurie A. Garrow
+%		\item[] Dissertation: ``Using Big Data to Model Travel Behavior: Applications to Vehicle Ownership and Willingness-to-Pay for Transit Accessibility''
+%%		\item[] GPA: 3.86/4.0
+%%		\item[] Committee: Laurie A. Garrow (Chair - CEE), Juan Moreno-Cruz
+%%(Economics), \\ Patricia L. Mokhtarian (CEE), Kari E. Watkins (CEE), Patrick S.
+%%McCarthy (Economics), Jeffrey P. Newman (CEE)
+%  \end{list2}
+	\vspace*{.05in}
+	\item[]M.S., Economics \hfill{May 2014}
+	\end{list1}
+
+\href{http://www.byu.edu}{\acc Brigham Young University}\hfill{December 2009}
+\\
+\vspace*{-.1in}
+\begin{list1}
+  \item[] B.S. with University Honors, Civil Engineering
+	\item[] Minor	degrees in Mathematics and Asian Studies
+%  \begin{list2}
+%		\item[] Honors Thesis: ``Delay Patterns
+%			and Perceptions at Free Right-turn Channelized Intersections''
+%		\item[] Advisor: Mitsuru Saito
+%%		\item[] GPA: 3.7/4.0
+%    \item[] Studies Abroad: Nanjing, China (Engineering);
+%			Naples, Italy (Arch{\ae}ology)
+%	\end{list2}
+\end{list1}
+
+\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
+%\textit{ Research Interests ---} Passive data and its applications in transport and
+%land use modeling and forecasting.
 %% ============================================================================
 \section{\secfont Academic Experience}
 
@@ -144,51 +176,13 @@
 Transportation planning and engineering, travel demand modeling,
 passive transportation data, spatial and social correlation.
 
-
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
-%% ============================================================================
-\section{\secfont Education}
-\href{http://www.gatech.edu}{\acc Georgia Institute of Technology}\hfill{May 2014}
-\\
-	\vspace*{-.1in}
-	\begin{list1}
-	\item[] Ph.D., Transportation Systems Engineering
-	\begin{list2}
-  	\item[] Advisor: Laurie A. Garrow
-		\item[] Dissertation: ``Using Big Data to Model Travel Behavior: Applications to Vehicle Ownership and Willingness-to-Pay for Transit Accessibility''
-%		\item[] GPA: 3.86/4.0
-%		\item[] Committee: Laurie A. Garrow (Chair - CEE), Juan Moreno-Cruz
-%(Economics), \\ Patricia L. Mokhtarian (CEE), Kari E. Watkins (CEE), Patrick S.
-%McCarthy (Economics), Jeffrey P. Newman (CEE)
-  \end{list2}
-	\vspace*{.05in}
-	\item[]M.S., Economics
-	\end{list1}
-
-\href{http://www.byu.edu}{\acc Brigham Young University}\hfill{December 2009}
-\\
-\vspace*{-.1in}
-\begin{list1}
-  \item[] B.S. with University Honors, Civil Engineering
-	\item[] Minor	degrees in Mathematics and Asian Studies
-%  \begin{list2}
-%		\item[] Honors Thesis: ``Delay Patterns
-%			and Perceptions at Free Right-turn Channelized Intersections''
-%		\item[] Advisor: Mitsuru Saito
-%%		\item[] GPA: 3.7/4.0
-%    \item[] Studies Abroad: Nanjing, China (Engineering);
-%			Naples, Italy (Arch{\ae}ology)
-%	\end{list2}
-\end{list1}
-
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
-%\textit{ Research Interests ---} Passive data and its applications in transport and
-%land use modeling and forecasting.
 
 %% ============================================================================
 %\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{\secfont Professional \\ Experience}
 
+Registered professional engineer in North Carolina, license \#044518
 
 {\acc Transport Foundry} Atlanta, Georgia
 
@@ -228,33 +222,67 @@ Prepared traffic impact analyses for commercial and residential developments.
 %\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 \section{\secfont Refereed \\ Journal\\ Articles}
-First author or first faculty author on 7 of 19 total journal articles.
+First author or first faculty author on 13 of 27 total journal articles.
 $^\dagger$indicates BYU graduate student authors, $^*$indicates BYU undergraduate authors.
-\ifdetail Paper 1 came from my undergraduate work, papers 2 through 6 were from my doctoral research, and
-papers 7 through 15 represent work completed during my time on the faculty at BYU. Number of citations
+\ifdetail 
+Paper 1 came from my undergraduate work, papers 2 through 6 were from my doctoral research, and
+papers 7 onward represent work completed during my time on the faculty at BYU. Number of citations
 are from Google Scholar as of December 2021. \fi
 \vspace{.3cm}
 
-\begin{myenum}[19]
+\begin{myenum}[27]
 
-  \item Erhardt, G.D., \textbf{Macfarlane, G.S.}, Ven Hentenryck, P., Peeta, S., Watkins, K.E. (2023). Implementation and quantitative evaluation of multi-modal optimization and simulation for transit and ridehail competitive analysis. Working paper.
-
-  \item Tenenboim, E., Xu, Y., Erhardt, G.D.,  \textbf{Macfarlane, G.S.}, Peeta, S.
-  (2023).  A model of ride-hailing driver participation: shift duration, start
-  time, and start location. Working paper.
 
   \item Erhardt, G.D., Guan, H.Z. Lee, D., \textbf{Macfarlane, G.S.}, Van Hentenryck,
-  P. (2023). Comprehensive studies on on-demand multimodal transit systems with
+  P. (2024). Comprehensive studies on on-demand multimodal transit systems with
   two case studies in San Francisco and Salt Lake City. Working paper.
+
+  \item Tenenboim, E., Xu, Y., Erhardt, G.D.,  \textbf{Macfarlane, G.S.}, \& Peeta, S.
+  (2024).  A model of ride-hailing driver participation: shift duration, start
+  time, and start location. Working paper.
+
+  \item Day, C.$^\dagger$, \textbf{Macfarlane, G.S.}, Atchley, S.H. $^*$, Erhardt, G.D., Ven Hentenryck, P., Watkins, K.E. (2024). 
+  Implementation and quantitative evaluation of multi-modal optimization and simulation for transit and ridehail competitive analysis. 
+  Working paper.
+
+  \item \textbf{Macfarlane, G.S.} \& Gray, N.M.$^\dagger$ (2024). 
+  Evaluating the impacts of parameter uncertainty in a practical transportation demand model. Working paper.
+
+  \item Atchley, S.H.$^\dagger$, Mansfield, K.A.$^*$, \textbf{Macfarlane, G.S.}
+  (2024). A comparative illustration of trip- and activity-based modeling
+  methods. Under review at \textit{Transportation Research Record}.
+
+  \item Hyer, J.C.$^\dagger$, Schultz, G.G., \textbf{Macfarlane, G.S.} An analysis
+  of UDOT’s expanded incident management team program. Under review at
+  \textit{Transportation Research Record}.
+
+  \item \textbf{Macfarlane, G.S.}, Stucki, E.$^\dagger$, Salmon, M.$^*$, Redelfs, A.H.,
+  Spruance, L.A. (2024). Where’s dinner coming from? A utility-based
+  investigation of access to nutrition in Utah. Under review at \textit{Journal of Transport and Land Use}.
+
+  \item Sivakumar, A., Jones, P. M\"ockel, R., Moreno Chou, A.T., Erhardt, G.,
+  \textbf{Macfarlane, G.S.}. (2024). The ‘activity-based’ approach: a new
+  perspective for addressing the major environmental and resource challenges
+  faced by societies. Under review at \textit{Proceedings of the National Academy of Science}. 
+
+  \item \textbf{Macfarlane, G.S.}, Barnes, M.$^\dagger$, \& Gray, N.M.$^*$ (2024). 
+  A utility-based approach to modeling systemic resilience of highway networks with an application in Utah.
+  \textit{Journal of Transportation Engineering Part A: Systems}, forthcoming.
+
+  \item Wang, B.$^\dagger$, Fulda, N., Huang, Z.Y.$^*$, Schultz, G.G., \textbf{Macfarlane, G.S.}, Arnesen, J.$^*$, Khayyat, A.$^*$ (2024). 
+  Predicting directional traffic volume at intersections with automated traffic signal performance measures data using machine learning algorithms.
+ \textit{Transportation Research Record}. \url{https://doi.org/10.1177/03611981241252829}
+
+  \item \textbf{Macfarlane, G.S.}, Riches, G.$^\dagger$, Youngs, E.K.$^\dagger$, Nielsen, J.A. (2024). Classifying location points as daily activities using simultaneously optimized DBSCAN-TE parameters. 
+  \textit{Findings}. \url{https://doi.org/10.32866/001c.116197}
+
+  \item Turley Voulgaris, C., \textbf{Macfarlane, G.S.}, Kaylor, J. (2024).
+  Whose emissions are these anyway? Estimating vehicle miles traveled to account for site-level climate impacts.
+  \textit{Journal of the American Planning Association}.  \url{https://doi.org/10.1080/01944363.2023.2298962}
 
   \item  Wang, B.$^\dagger$, Schultz, G.G., \textbf{Macfarlane, G.S.}, Eggett, D.L., 
   \& Davis, M.C.$^*$ (2023) A methodology to detect traffic data anomalies in automated traffic 
-  signal performance measures. Under initial review at \textit{Future Transportation}.
-
-  \item Turley Voulgaris, C., \textbf{Macfarlane, G.S.}, Kaylor, J. (2022).
-  Whose emissions are these anyway? Estimating vehicle miles traveled to account for site-level climate impacts.
-  Preprint available on SSRN at \url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4258174}.
-  Under second-round review at \textit{Journal of the American Planning Association}.
+  signal performance measures. \textit{Future Transportation}. 3(4), 1175-1194. \url{https://doi.org/10.3390/futuretransp3040064}
 
   \item Daines, T.J.$^\dagger$, Schultz, G.G., \textbf{Macfarlane, G.S.}, \&
   Ward, C.$^*$ (2022). Evaluating real time ramp meter queue length estimation.
@@ -345,7 +373,7 @@ Italian Journal of Quaternary Sciences}, 22(1), 39–52. \url{https://portal.iss
   CiteScore: 14.0; 3/318 in civil engineering. 5-year impact factor: $8.089$. Publisher: Elsevier.
   \item[\textit{Findings}] is an interdisciplinary, independent, community-led,
   peer-reviewed, open access journal focused on short, clear, and pointed
-  research results.  The journal was established in 2019. Publisher: University of
+  research results. The journal was established in 2019. Publisher: University of
   Sydney and McGill University.
   \item[\textit{International Journal of Environmental Research and Public Health}]
   is an interdisciplinary, peer-reviewed, open access journal. CiteScore: 3.4;
@@ -365,9 +393,14 @@ single-blind review process with multiple expert reviewers for consideration.
 \ifdetail Papers 1 and 2 resulted from my undergraduate honors thesis, papers 3 through 5
 resulted from my doctoral work, and items since item 6 represent work completed since joining the faculty at BYU.\fi
 \vspace{.3cm}
-\begin{myenum}[10]
+\begin{myenum}[11]
+%\item \textbf{Macfarlane, G.S.}, Stucki, E.$^\dagger$, Salmon, M.$^*$, Redelfs, A.H., Spruance, L.A. (2024). Where's dinner coming from? A utility-based investigation of access to nutrition in Utah. In \textit{World Symposium of Transport and Land Use Research}. Bogot\'a, Colombia.
 
-\item Apelu, D.$^*$, \textbf{Macfarlane, G.S.}, Guthrie, W.S., Adams, N.$^*$, Mazzeo, B. (2023) Measuring Pavement Smoothness From the Perspective of E-Scooters. In \textit{2023 Intermountain Engineering, Technology, and Computing Conference (i-ETC)}. IEEE XPlore, \url{https://doi.org/10.1109/IETC57902.2023.10152077}
+
+\item Jarvis, D.L.$^\dagger$, \textbf{Macfarlane, G.S.}, Woolley, B.$^*$, Schultz, G.G. (2024). Simulating incident management team response and performance. \textit{Procedia Computer Science}. 238,
+pp. 91-96.  \url{https://doi.org/10.1016/j.procs.2024.06.002}
+
+\item Apelu, D.$^*$, \textbf{Macfarlane, G.S.}, Guthrie, W.S., Adams, N.$^*$, Mazzeo, B. (2023). Measuring Pavement Smoothness From the Perspective of E-Scooters. In \textit{2023 Intermountain Engineering, Technology, and Computing Conference (i-ETC)}. IEEE XPlore, \url{https://doi.org/10.1109/IETC57902.2023.10152077}
 
 \item \textbf{Macfarlane, G.S.}, Lant, N.$\dagger$ (2023). How Far Are We From Transportation Equity? Measuring the Effect of Wheelchair Use on Daily Activity Patterns. In: Antoniou, C., Busch, F., Rau, A., Hariharan, M. (eds) Proceedings of the 12th International Scientific Conference on Mobility and Transport. \textit{Lecture Notes in Mobility.} Springer, Singapore. \url{https://doi.org/10.1007/978-981-19-8361-0_10}
 
@@ -392,28 +425,67 @@ resulted from my doctoral work, and items since item 6 represent work completed 
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{\secfont Reports}
 \ifdetail These are technical reports completed under contract for the sponsoring agency;
-each report was reviewed by a technical advisory committee prior to publication. Item 1 resulted from postdoctoral activities at Georgia Tech, items 2 and 3 from my consulting practice, and items 4 through 9 from my work since joining BYU.\fi
+each report was reviewed by a technical advisory committee prior to publication. Item 1 
+resulted from postdoctoral activities at Georgia Tech, 
+items 2 and 3 from my consulting practice, and items 4 through the present from my work 
+since joining BYU.\fi
 \vspace{0.3cm}
-\begin{myenum}[9]
+\begin{myenum}[12]
+\item \textbf{Macfarlane, G.S.}, Atchley, S.H.$^\dagger$, Mansfield, K.A.$^*$, Baird, T. \& Gresham, C. (2024). 
+  \textit{Activity-based Model Implementation and Analysis Considerations. }  (No. UT-24.16).  Utah Dept.\ of Transportation. Division of Research. 
 
-\item  \textbf{Macfarlane, G.S.}, Atchley, S.H.$^\dagger$ (2023). \textit{Identifying Microtransit Service Areas through Microsimulation}. (No. UT-23.01). Utah Dept. of Transportation. Division of Research. \url{https://rosap.ntl.bts.gov/view/dot/66312}
+\item \textbf{Macfarlane, G.S.},  Jarvis, D.L.$^\dagger$, Woolley, B.$^*$, \& Schutz, G.G. (2024).
+  \textit{Simulating Incident Management Team Response and Performance.} (No. UT-23.22). 
+  Utah Dept.\ of Transportation. Division of Research. \url{https://rosap.ntl.bts.gov/view/dot/74034}
 
-\item Schultz, G.G. \textbf{Macfarlane, G.S.}, Wang, B.$^\dagger$, \& Davis, M.C.$^*$ (2022). \textit{Detecting Traffic Data Anomalies in
-Longitudinal Signal Performance Measures}. (No. UT-22.21). Utah Dept. of Transportation. Division of Research. \url{https://rosap.ntl.bts.gov/view/dot/65833}
+\item Schultz, G.G., Hyer, J.$^\dagger$, Holdsworth, H.$^*$, Eggett, D.L., \& \textbf{Macfarlane, G.S.} (2023).
+  \textit{Analysis of Benefits of UDOT’s Expanded Incident Management Team Program.} (No. UT-23.05). 
+  Utah Dept.\ of Transportation. Division of Research. \url{https://doi.org/10.21949/1528563} 
 
-\item Schultz, G. G., \textbf{Macfarlane, G.S.}, Daines, T.J.$^\dagger$, Ward, C.K.$^*$, Umphress, J.$^*$ (2022). \textit{Evaluating Ramp Meter Wait Time in Utah}. (No. UT-21.06). Utah Dept. of Transportation. Division of Research. \url{https://rosap.ntl.bts.gov/view/dot/61507}
+  \item  \textbf{Macfarlane, G.S.}, Atchley, S.H.$^\dagger$ (2023).
+  \textit{Identifying Microtransit Service Areas through Microsimulation}. 
+  (No. UT-23.01). Utah Dept.\ of Transportation. Division of Research.
+  \url{https://rosap.ntl.bts.gov/view/dot/66312}
 
-\item \textbf{Macfarlane, G.S.}, Lant, N.J.$^\dagger$, (2021). \textit{Estimation and Simulation of Daily Activity Patterns for Individuals Using Wheelchairs} (No. UT-21.10). Utah Dept. of Transportation. Division of Research. \url{https://rosap.ntl.bts.gov/view/dot/54639/dot_54639_DS1.pdf}
+\item Schultz, G.G. \textbf{Macfarlane, G.S.}, Wang, B.$^\dagger$, \& Davis,
+  M.C.$^*$ (2022). \textit{Detecting Traffic Data Anomalies in Longitudinal Signal
+  Performance Measures}. (No. UT-22.21). Utah Dept.\ of Transportation. Division of
+  Research. \url{https://rosap.ntl.bts.gov/view/dot/65833}
 
-\item Schultz, G. G., \textbf{Macfarlane, G.S.}, Wang, B.$^\dagger$, \& McCuen, S.$^*$ (2020). \textit{Evaluating the Quality of Signal Operations Using Signal Performance Measures} (No. UT-20.08). Utah Dept. of Transportation. Division of Research. \url{https://rosap.ntl.bts.gov/view/dot/54639/dot_54639_DS1.pdf}
+\item Schultz, G. G., \textbf{Macfarlane, G.S.}, Daines, T.J.$^\dagger$, Ward,
+  C.K.$^*$, Umphress, J.$^*$ (2022). \textit{Evaluating Ramp Meter Wait Time in
+  Utah}. (No. UT-21.06). Utah Dept.\ of Transportation. Division of Research.
+  \url{https://rosap.ntl.bts.gov/view/dot/61507}
 
-\item \textbf{Macfarlane, G.S.} \& Copley, M.J.$^*$ (2020). \textit{ A Synthesis of Passive Third-Party Data sets used for Transportation Planning.} (No. UT-20.20). Utah Dept. of Transportation. Division of Research. \url{https://rosap.ntl.bts.gov/view/dot/54890/dot_54890_DS1.pdf}
+\item \textbf{Macfarlane, G.S.}, Lant, N.J.$^\dagger$, (2021).
+  \textit{Estimation and Simulation of Daily Activity Patterns for Individuals
+  Using Wheelchairs} (No. UT-21.10). Utah Dept.\ of Transportation. Division of
+  Research. \url{https://rosap.ntl.bts.gov/view/dot/54639/dot_54639_DS1.pdf}
 
-\item Zalewski, A., Sonenklar, D., Cohen, A., Kressner, J., \& \textbf{Macfarlane, G.S.} (2019). \textit{ Public Transit Rider Origin–Destination Survey Methods and Technologies}. TCRP Synthesis of Transit Practice 138. Transportation Research Board. \url{http://www.trb.org/Main/Blurbs/179008.aspx} \ifdetail Citations: 1  \fi
+\item Schultz, G. G., \textbf{Macfarlane, G.S.}, Wang, B.$^\dagger$, \& McCuen,
+  S.$^*$ (2020). \textit{Evaluating the Quality of Signal Operations Using Signal
+  Performance Measures} (No. UT-20.08). Utah Dept.\ of Transportation. Division of
+  Research. \url{https://rosap.ntl.bts.gov/view/dot/54639/dot_54639_DS1.pdf}
 
-\item Miller, H., O'Kelly, M., Jaegal, Y., Bachman, W., Huntsinger, L., \& \textbf{Macfarlane, G.S.} (2017). \textit{Estimating External Travel Using Purchased Third-Party Data.} Research Report 134877, the Ohio Department of Transportation, Office of Statewide Planning \& Research. \ifdetail Citations: 1  \fi
+\item \textbf{Macfarlane, G.S.} \& Copley, M.J.$^*$ (2020). \textit{ A Synthesis
+  of Passive Third-Party Data sets used for Transportation Planning.} (No.
+  UT-20.20). Utah Dept.\ of Transportation. Division of Research.
+  \url{https://rosap.ntl.bts.gov/view/dot/54890/dot_54890_DS1.pdf}
 
-\item Cruz, J., \textbf{Macfarlane, G.S.}, Xu, Y., Rodgers, M.O., \& Guensler, R. (2015). \textit{Sustainable Transportation Curricula}. National Center for Sustainable Transportation. \url{https://escholarship.org/uc/item/3c13q43c}.
+\item Zalewski, A., Sonenklar, D., Cohen, A., Kressner, J., \&
+  \textbf{Macfarlane, G.S.} (2019). \textit{ Public Transit Rider
+  Origin–Destination Survey Methods and Technologies}. TCRP Synthesis of Transit
+  Practice 138. Transportation Research Board.
+  \url{http://www.trb.org/Main/Blurbs/179008.aspx} \ifdetail Citations: 1  \fi
+
+\item Miller, H., O'Kelly, M., Jaegal, Y., Bachman, W., Huntsinger, L., \&
+  \textbf{Macfarlane, G.S.} (2017). \textit{Estimating External Travel Using
+  Purchased Third-Party Data.} Research Report 134877, the Ohio Department of
+  Transportation, Office of Statewide Planning \& Research. \ifdetail Citations: 1 \fi
+
+\item Cruz, J., \textbf{Macfarlane, G.S.}, Xu, Y., Rodgers, M.O., \& Guensler,
+  R. (2015). \textit{Sustainable Transportation Curricula}. National Center for
+  Sustainable Transportation. \url{https://escholarship.org/uc/item/3c13q43c}.
 \end{myenum}
 
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
@@ -421,11 +493,21 @@ Longitudinal Signal Performance Measures}. (No. UT-22.21). Utah Dept. of Transpo
 \ifdetail This includes invited presentations to academic and non-academic audiences, as
 well as presentations resulting from abstract-only submission. Includes both
 lectern sessions and posters. Item 1 came from my undergraduate honors thesis, items 2 through 4 from doctoral research,
-items 5 through 10 from my work as a consultant, and items 11 through 26 represent work
+items 5 through 10 from my work as a consultant, and items 11 through the present represent work
 completed during my time at BYU.\fi
+
 \vspace{0.3cm}
-\begin{myenum}[27]
-\item \textbf{Macfarlane, G.S.} Modeling with Big Data. At \textit{Technische Universit\"at M\"unchen}, invited lecture in Dr. Rolf M\"ockel's travel modeling course.
+
+
+
+\begin{myenum}[33]
+\item \textbf{Macfarlane, G.S.}, Baird, T., \& Atchley, S.H.$^\dagger$ (2024). Activity-based models in Utah: A comparative illustration. In \textit{Utah Model User's Group Meeting}. Working group presentation. Orem, Utah. 
+\item Turley Voulgaris, C., Jensen, A.F., \textbf{Macfarlane, G.S.} (2024). Children’s mode choice and independence for the journey to school. In \textit{17th International Conference on Travel Behavior Research}. Lectern presentation. Vienna, Austria.
+\item Baird, T., Gresham, C., Atchley, S.H.$^\dagger$ \& \textbf{Macfarlane, G.S.} (2024). A Clearer Crystal Ball? Practitioner perspectives on improving travel models. In \textit{Mountain District ITE Meeting}. Lectern presentation. Big Sky, Montana. 
+\item Jarvis, D.L.$^\dagger$, \textbf{Macfarlane, G.S.}, Woolley, B.$^*$, Schultz, G.G. (2024). Simulating incident management team response and performance. In \textit{The 15th International Conference on Ambient Systems, Networks and Technologies (ANT)}. Hasselt, Belgium. Lectern presentation.
+\item \textbf{Macfarlane, G.S.}, Barnes, M.$^\dagger$, \& Gray, N.M.$^*$ (2024).  A utility-based approach to modeling systemic resilience of highway networks with an application in Utah.  In \textit{Transportation Research Board Annual Meeting}. Poster presentation. Washington, D.C.
+\item Brown, N., \textbf{Macfarlane, G.S.}., Baird, T., \& Gresham, C. (2023). Activity-based models: A clearer crystal ball? in \textit{Utah Transportation Conference}. Lectern presentation. Sandy, Utah.
+\item \textbf{Macfarlane, G.S.} Modeling with Big Data. (2023) At \textit{Technische Universit\"at M\"unchen}, invited lecture in Dr. Rolf M\"ockel's travel modeling course.
 \item Guan, H.Z., Van Hentenryck, P., Erhardt, G.D., \textbf{Macfarlane, G.S.}, \& Watkins, K.E. (2023). Lessons from the design of on-demand multimodal transit systems in two cities. In \textit{Innovations in Transportation Analysis and Planning Conference}. Lectern presentation. Indianapolis, Indiana. \textit{Winner, best presentation by a student author.}
 \item Ducuara, A. Holtrop-Kohl, L., Begay, S., Spruance, L., Redelfs, A., \textbf{Macfarlane, G.S.} (2023). Hungry for change: how cutting-edge research is helping to reduce food deserts in Utah. In \textit{Move Utah Summit}. Moderated panel discussion. Salt Lake City, Utah.
 \item Singh, G., Young, S., \textbf{Macfarlane, G.S.}, Katsikides, N., Granato, S. (2023). Travel Data Users Forum: Innovative Usage of GPS Trajectory Data: Present and Future. In \textit{Transportation Research Board Annual Meeting}. Invited panel discussion. Washington, D.C.
@@ -460,9 +542,10 @@ completed during my time at BYU.\fi
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{\secfont External \\Funding}
 
-As Principal Investigator, totalling \$375,000:
+As Principal Investigator, totalling \$435,000:
 \vspace{0.3cm}
-\begin{myenum}[7]
+\begin{myenum}[8]
+  \item {\textbf{Macfarlane, G.S.} \& Schultz, G.G. 2024. \textit{Effectiveness of Temporary Portable Rumble Strips}. \$60,000, Utah Department of Transportation.}
   \item {\textbf{Macfarlane, G.S.} \& Brown, N.M. 2022. \textit{Activity-based Model Implementation and Analysis Considerations}. \$70,000, Utah Department of Transportation.}
   \item {\textbf{Macfarlane, G.S.} \& Schultz, G.G. 2021. \textit{Optimizing Traffic Incident Management Deployment in Utah}. \$70,000, Utah Department of Transportation.}
   \item {\textbf{Macfarlane, G.S.}, Redelfs, A.H., \& Spruance, L.A. 2021. \textit{Equitable Access to Nutrition in Utah}. \$70,000, Utah Department of Transportation.}
@@ -477,9 +560,10 @@ characteristics for wheelchair-accessible, on-demand mobility services}.
 Critical Highway Facilities}. \$60,000, Utah Department of Transportation}
 \end{myenum}
 
-As Co-Principal Investigator, totalling \$1.16 million (\$235,000 to BYU):
+As Co-Principal Investigator, totalling \$1.44 million (\$320,000 to BYU):
 \vspace{0.3cm}
-\begin{myenum}[4]
+\begin{myenum}[5]
+  \item{Watkins, K.E. (PI), Erhardt, G.D., \& \textbf{Macfarlane, G.S.} 2024. \textit{The Potential for Behavioral Change in New High Speed Rail Lines}. \$280,000, California High Speed Rail Authority and Deutsche Bahn.}
   \item{Schultz, G.G. \& \textbf{Macfarlane, G.S.}. 2021. \textit{Analysis of
   performance measures of UDOT’s traffic incident management program: Phase
   III}. \$30,000. Utah Department of Transportation.}
@@ -494,18 +578,19 @@ As Co-Principal Investigator, totalling \$1.16 million (\$235,000 to BYU):
 delay in Utah}. \$65,000, Utah Department of Transportation}
 \end{myenum}
 
+\ifdetail
 Unfunded Proposals:
 \vspace{0.3cm}
-\begin{myenum}[2]
+\begin{myenum}[3]
+  \item{Dashti, S. (PI), Torres-Machi, C., Mooney, M., Misra, A., Crow, D., Mallet, S., Esteghemati, M, \textbf{Macfarlane, G.S.}, Zlatkovic, M., Kack, D. (2023). \textit{Resilient, Equitable, and Sustainable Environment through Transportation (RESET)}. \$3,000,000. United States Department of Transportation.}
   \item{Erhardt, G.D. (PI), Watkins, K.E., Brakewood, C.,  Pike, S.C., \textbf{Macfarlane, G.S.}, Chavis, C., Tal, G., Hunter, M., Van Hentenryck, P., McDonald, N. (2022). \textit{T-SCORE 2.0: Transit – Sustainable, Competitive, Responsive, and Equitable Center}. \$2,000,000. United States Department of Transportation.}
   \item{Turley Voulgaris, C.  (PI), Forsyth, A., Pandey, V., Park, H., Handy, S., \textbf{Macfarlane, G.S.}, Pande, A., Braun, L.M., Noland, R.B. (2023). \textit{Chester: Consortium for Healthy, Equitable, and Sustainable Transportation Systems for Environmental Resilience}. \$2,000,000, United States Department of Transportation}
 \end{myenum}
-
 Pending Proposals:
-\begin{myenum}[1]
-  \item{Dashti, S. (PI), Torres-Machi, C., Mooney, M., Misra, A., Crow, D., Mallet, S., Esteghemati, M, \textbf{Macfarlane, G.S.}, Zlatkovic, M., Kack, D. (2023). \textit{Resilient, Equitable, and Sustainable Environment through Transportation (RESET)}. \$3,000,000. United States Department of Transportation.}
-\end{myenum}
+%\begin{myenum}[0]
+%\end{myenum}
 
+\fi
 \section{\secfont{Internal Competitive Funding}}
 Funded research:
 \begin{itemize}
@@ -738,12 +823,12 @@ work and non-work trip purposes using multinomial and nested logit models.
 %% ============================================================================
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{\secfont Graduate Mentoring}
-Students mentored as graduate committee chair (9 total, 3 current):
+Students mentored as graduate committee chair (9 total):
 \vspace{0.3cm}
 \begin{myenum}[9]
-  \item Emily Blanchard. MS scheduled August 2024.
-  \item Hayden Atchley. MS scheduled April 2024.
-  \item Daniel Jarvis. MS scheduled December 2023.
+  \item Emily Youngs. \textit{Exploring the Link between Travel Behavior and Mental Health}. MS granted August 2024.
+  \item Hayden Atchley. \textit{A Comparative Illustration of Trip- and Activity-Based Modeling Techniques}. MS granted August 2024.
+  \item Daniel Jarvis. \textit{Simulating Incident Management Team Response and Performance}. MS granted December 2023.
   \item Natalie Gray, \textit{Evaluating parameter uncertainty in transportation demand models}. MS granted June 2023.
   \item Emma Stucki, \textit{Evaluating equitable access to nutrition in Utah}. MS granted December 2022.
   \item Gillian Riches, \textit{Transforming GPS points to daily activities using simultaneously optimized DBSCAN-TE parameters}. MS granted December 2022.
@@ -752,13 +837,19 @@ Students mentored as graduate committee chair (9 total, 3 current):
   \item Nate Lant, \textit{Estimation and simulation of daily activity patterns for individuals using wheelchairs.} MS granted June 2021.
 \end{myenum}
 
-Students mentored as graduate committee member (16 total, 3 current, 3 non-BYU):
+Students mentored as graduate committee member (22 total, 5 current, 3 non-BYU):
 \vspace{0.3cm}
-\begin{myenum}[16]
-  \item William Charlton, Ph.D. scheduled July 2023 (at TU Berlin).
-  \item Wang Bangyu (Bruce). Ph.D.\ proposed May 2021.
-  \item Tomas Barriga. MS scheduled April 2023.
-  \item Joel Hyer, \textit{Analysis of benefits of UDOT's exapanded incident management team program.} MS granted June 2023.
+\begin{myenum}[22]
+  \item Sara Jaen Hosey, Ph.D.\ in Civil Engineering pre-proposal.
+  \item Samuel McKinnon, Ph.D.\ in Mechanical Engineering pre-proposal.
+  \item Ian MacGregor. MS scheduled December 2024.
+  \item Adam Hill. MS scheduled December 2024.
+  \item Sam Runyan. MS scheduled December 2024.
+  \item Joel Hyer, \textit{Analysis of benefits of UDOT's exapanded incident management team program.} MS granted April 2024.
+  \item Matthew Davis, \textit{Effectiveness of Intelligent Transportation Systems on Utah Roadways}. MS granted December 2023.
+  \item William Charlton, \textit{Web-based data visualization in support of agent-based microsimulation models}. Ph.D. granted October 2023 (at TU Berlin).
+  \item Wang Bangyu (Bruce), \textit{Evaluating and advancing automated traffic signal performance measures: Statistical and machine learning approaches }. Ph.D.\ granted August 2023.
+  \item Tomas Barriga, \textit{Using severity weighted risk scores to prioritize safety funding in Utah}. MS granted August 2023.
   \item Benjamin Meek, \textit{Load-deformation behavior of tension-only X-brace roof truss diaphragms.} MS granted April 2023.
   \item Mylan Cook. \textit{Physics-guided modeling of acoustic environments using limited spatio-spectro-temporal data}. Ph.D.\ in Physics granted June 2023.
   \item Cory Ward, \textit{An evaluation of the safe speed limit setting procedure and tool for Utah} (Project). MS granted December 2022.
@@ -780,20 +871,21 @@ Students mentored as graduate committee member (16 total, 3 current, 3 non-BYU):
 Students mentored on funded research projects (25 total):
 \vspace{0.2cm}
 \begin{myenum}[25]
-  \item Kamryn Mansfield, undergraduate research assistant in demand microsimulation (2023 - ).
+  \item Kaleigh Squires, undergraduate research assistant in demand microsimulation (2024 - )
+  \item Kamryn Mansfield, undergraduate research assistant in demand microsimulation (2023 - 2024).
   \item Harrison Holdsworth, undergraduate research assistant in demand microsimulation (2021 - 2022).
-  \item Brynn Wooley, undergraduate research assistant in demand microsimulation (2022 - ).
-  \item Jeremy Raine, undergraduate research assistant in community resources (2022 - 2022). Majoring in Psychology.
-  \item Jonathan Orton, undergraduate research assistant in e-scooters and pavements (2022 - 2022).
+  \item Brynn Woolley, undergraduate research assistant in demand microsimulation (2022 - 2024). Ph.D.\ Student at University of Michigan.
+  \item Jeremy Raine, undergraduate research assistant in community resources (2022). Majoring in Psychology.
+  \item Jonathan Orton, undergraduate research assistant in e-scooters and pavements (2022).
   \item Dylan Apelu, undergraduate research assistant in e-scooters and pavements (2021 - 2023). Now MS student at Georgia Institute of Technology.
   \item Hayden Atchley, undergraduate research assistant in demand microsimulation (2020 - 2022). Now MS student at BYU.
-  \item Nicole Adams, undergraduate research assistant in e-scooters and pavements (2021 - ).
-  \item Liv Neeley, undergraduate research assistant in e-scooters and pavements (2021 - 2022).
+  \item Nicole Adams, undergraduate research assistant in e-scooters and pavements (2021 - 2022). 
+  \item Liv Neeley, undergraduate research assistant in e-scooters and pavements (2021 - 2022). 
   \item Kaeli Monahan, undergraduate research assistant in community resources and passive data (2020 - 2022). Now BS student in Mechanical Engineering at BYU.
-  \item Shannon Anderson, undergraduate research assistant in V2X data, jointly mentored with Grant Schultz (2020 - 2022).
+  \item Shannon Anderson, undergraduate research assistant in V2X data, jointly mentored with Grant Schultz (2020 - 2022). Now working in industry.
   \item Corey Ward, undergraduate research assistant in ramp meter evaluation, jointly mentored with Grant Schultz (2020 - 2021). Completed MS at BYU.
   \item Michael Copley, undergraduate research assistant in third-party passive data (2018 - 2021). Completed MS at University of Illinois.
-  \item James Umphress, undergraduate research assistant in ramp meters (2020-2021), jointly mentored with Grant Schultz. Now MS student at Oregon State University.
+  \item James Umphress, undergraduate research assistant in ramp meters (2020-2021), jointly mentored with Grant Schultz. Completed MS at Oregon State University.
   \item Christopher Day, undergraduate research assistant in demand microsimulation (2020 - 2021). Completed MS at BYU.
   \item Emma Stucki, undergraduate research assistant in community resources (2020 - 2021). Completed MS at BYU.
   \item Gillian Martin Riches, undergraduate research assistant in community resources (2020 - 2021). Completed MS at BYU.
@@ -802,15 +894,26 @@ Students mentored on funded research projects (25 total):
   \item Kim Munseok, undergraduate research assistant in demand microsimulation (2020 - 2021). Completed BS in Computer Science at BYU.
   \item Christian Hunter, undergraduate research assistant in demand microsimulation (2018 - 2019). Completed MS at University of Texas at Austin.
   \item Christian Vanderhoeven, undergraduate research assistant in demand microsimulation (2019). Completed MS at University of Washington.
-  \item Hayden Anderson, undergraduate research assistant in e-scooters (2019 - 2020). Completed MS at the University of California, Davis.
+  \item Hayden Anderson, undergraduate research assistant in e-scooters (2019 - 2020). Completed MS at University of California, Davis.
   \item Emily Andrus, undergraduate research assistant in signal peformance data, jointly mentored with Grant Schultz (2019).
   \item Sabrina McCuen, undergraduate research assistant in signal peformance data, jointly mentored with Grant Schultz (2019 - 2020).
 \end{myenum}
 
+Honors students mentored as department honors coordinator (3 total).
+\vspace{0.2cm}
+\begin{myenum}[3]
+  \item Becca Apgar, \textit{Development and demonstration of an apparatus for assessing frost-heave susceptibility of soil} (2024).
+  \item Daria Sofia Velasco-Vega, \textit{Thermal performance of thin-shell concrete dome structures} (2023).
+  \item Emma Kratz-Bailey, \textit{Accessible methods, novel arrangement: Developing self-centering composite structural frames for highly resilient buildings} (2022).
+\end{myenum}
 
-Students mentored as civil engineering capstone team advisor (19 total):
+
+
+Students mentored as civil engineering capstone team advisor (23 total):
 \vspace{0.2cm}
 \begin{description}
+  \item[2023-2024] BYU household travel survey. Sponsored by BYU Sustainability Office. Students: 
+    Megan Hungerford, Ellie Johns, Kamryn Mansfield, and Myrranda Salmon.
   \item[2022-2023] SR-140 Corridor alternatives. Sponsored by Bluffdale City. Students:
     Clinton Childers, Robert Mickelson, Trevor Mickelson, and Joseph Wells.
   \item[2021-2022] BYU household travel survey. Sponsored by BYU Sustainability Office. Students: Nicole Adams, Hayden Atchley, Kyle Leatham, and Daniel Jarvis.
@@ -833,9 +936,11 @@ Students mentored as civil engineering capstone team advisor (19 total):
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{\secfont Awards and\\ Honors}
 \begin{description}
-\item[\acc Most Influential Faculty] Given to the faculty member in the department
+\item[\acc Most Influential Faculty] Given to the faculty member in the Civil Engineering program
 whom graduating seniors name as the most influential on their undergraduate
 education. Awarded by 2022 graduating class.
+\item{\acc TUM Global Visiting Professor} Selected to enrich the vibrant research culture at 
+the Technische Universit\"at M\"unchen by virtue of innovative approaches and to explore new, cutting-edge research fields. Awarded in 2023.
 \item[\acc ASCE ExCEEd Teaching Fellow] Participated in week-long intensive teacher
 development program. Class of 2022.
 \item[\acc Dwight David Eisenhower Graduate Fellowship] Full doctoral funding from
@@ -870,7 +975,7 @@ Institute for International Education.
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{\secfont External \\ Citizenship}
 
-Registered professional engineer in North Carolina, license \#044518
+
 
 Panel Member, NCHRP 08-184, \textit{Framework for Assessing Induced Demand Effects of Various Roadway Investments}. (2023 - )
 
@@ -883,7 +988,7 @@ Transportation Research Board of the National Academies of Science:
   travel demand forecasting. Chair of the travel forecasting resources
   subcommittee and editor of \url{tfresource.org}.
   \item AMS20: Economics and Land Development Member of the committee (2014
-  --- ). formerly standing committee on transportation and land use.
+  --- 2022). formerly standing committee on transportation and land use.
   \item Young Members Council (2019 --- 2021). Planning and Environment subcommittee
   chair.
 \end{itemize}
@@ -914,6 +1019,7 @@ Triangle NC chapter.
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 \section{\secfont Media}
+DeBrule, D. (2024). E-scooter safety top of mind after mother's death. \textit{Fox 13 Salt Lake City}. Quoted expert opinion. March 27th, 2024. \url{https://www.fox13now.com/news/local-news/e-scooter-safety-top-of-mind-after-mothers-death}
 
 Carlisle, N. (2022). Here’s what it might cost to ride the Little Cottonwood Canyon gondola. \textit{Fox 13 Salt Lake City}. Quoted expert opinion. November 16th, 2022. \url{https://www.fox13now.com/news/fox-13-investigates/heres-what-it-might-cost-to-ride-the-little-cottonwood-canyon-gondola}.
 
