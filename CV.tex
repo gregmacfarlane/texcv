@@ -6,7 +6,17 @@
 \usepackage{enumitem}
 \usepackage{etaremune}
 \usepackage[colorlinks=false]{hyperref}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[table, dvipsnames]{xcolor}
+
+% Define a macro to color a row of a table. https://tex.stackexchange.com/a/413008/12874
+\makeatletter
+\g@addto@macro{\endtabular}{\rowfont{}}% Clear row font
+\makeatother
+\newcommand{\rowfonttype}{}% Current row font
+\newcommand{\rowfont}[1]{% Set current row font
+\gdef\rowfonttype{#1}#1\ignorespaces%
+}
+\makeatother
 
 % page numbers
 \usepackage{fancyhdr}
@@ -649,15 +659,15 @@ and application to the infrastructure investment alternatives.
 
 
 \ifdetail
-\begin{tabular}{cccc}
+\begin{tabular}{*{4}{>{\rowfonttype}c}<{\rowfont{}}}
   \toprule
   Semester & Enrolled & Student Rating (Historical) & Average GPA\\
   \midrule
   Fall 2020 & 33 & 4.1 - 4.7 (4.1)& 3.41 \\
   Fall 2021 & 64 & 4.1 - 4.5 (4.3)& 3.25 \\
-  Fall 2022 & 60 & 3.6 - 4.2 (4.3)& 3.26 \\
-  Fall 2023 & 59 & 3.9 - 4.3 (4.2) & 3.24\\
-  Spring 2023 (Study Abroad) & 20 & 3.9 - 4.9 (4.2) & 3.32\\
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Fall 2022 & 60 & 3.6 - 4.2 (4.3)& 3.26 \\
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Fall 2023 & 59 & 3.9 - 4.3 (4.2) & 3.24\\
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Spring 2023 (Study Abroad) & 20 & 3.9 - 4.9 (4.2) & 3.32\\
   \bottomrule
 \end{tabular}
 
@@ -692,15 +702,15 @@ transportation planning, geometric design, pavement design, transportation
 safety, freight, public transport, sustainable transportation.
 
 \ifdetail
-\begin{tabular}{cccc}
+\begin{tabular}{*{4}{>{\rowfonttype}c}<{\rowfont{}}}
   \toprule
   Semester & Enrolled & Student Rating (Historical) & Average GPA\\
   \midrule
   Winter 2020 & 42 & 4.4 - 4.8 (4.4) & 3.13 \\
   Winter 2021 & 38 & 4.1 - 4.7 (4.4) & 3.21 \\
-  Winter 2022 & 42 & 3.9 - 4.5 (4.5) & 3.42 \\
-  Winter 2023 & 37 & 4.2 - 4.6 (4.5) & 3.28 \\
-  Winter 2024 & 43 & 3.9 - 4.5 (4.4) & 3.39 \\
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Winter 2022 & 42 & 3.9 - 4.5 (4.5) & 3.42 \\
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Winter 2023 & 37 & 4.2 - 4.6 (4.5) & 3.28 \\
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Winter 2024 & 43 & 3.9 - 4.5 (4.4) & 3.39 \\
   \bottomrule
 
 \end{tabular}
@@ -738,15 +748,15 @@ demand modeling, site impact analysis, sustainable transportation, and livable
 cities.
 
 \ifdetail
-\begin{tabular}{cccc}
+\begin{tabular}{*{4}{>{\rowfonttype}c}<{\rowfont{}}}
   \toprule
   Semester & Enrolled & Student Rating (Historical) & Average GPA\\
   \midrule
   Fall 2019 & 12 & 3.9 - 4.9 (4.4) & 3.41 \\
   Fall 2020 & 19 & 4.1 - 4.7 (4.4) & 3.46 \\
   Fall 2021 & 19 & 3.9 - 4.9 (4.4) & 3.63 \\
-  Winter 2023& 14 & 4.4-5.0 (4.6) & 3.24 \\ 
-  Winter 2024& 14 & 3.9-4.7 (4.5) & 3.03 \\ 
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Winter 2023& 14 & 4.4-5.0 (4.6) & 3.24 \\ 
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Winter 2024& 14 & 3.9-4.7 (4.5) & 3.03 \\ 
   \bottomrule
 
 \end{tabular}
@@ -778,7 +788,7 @@ literate programming in Markdown and LaTeX, version control with git, data
 manipulation and visualization with R, object-oriented programming with Java.
 
 \ifdetail
-\begin{tabular}{cccc}
+\begin{tabular}{*{4}{>{\rowfonttype}c}<{\rowfont{}}}
   \toprule
   Semester & Enrolled & Student Rating (Historical) & Average GPA\\
   \midrule
@@ -817,14 +827,14 @@ Laboratory assignments use MATSim and PTV Vissim simulation softwares.
 
 
 \ifdetail
-\begin{tabular}{cccc}
+\begin{tabular}{*{4}{>{\rowfonttype}c}<{\rowfont{}}}
   \toprule
   Semester & Enrolled & Student Rating (Historical) & Average GPA\\
   \midrule
   Winter 2019 & 2 & 4.6 (4.3) & 3.70 \\
   Winter 2020 & 3 & 5.0 - 5.0 (4.4) & 3.00 \\
-  Winter 2022 & 7 & 3.3 - 5.0 (4.3) & 3.44 \\
-  Fall 2023 & 8 & 4.1 - 5.0 (4.4) & 3.48\\
+  \rowcolor{White}\rowfont{\color{NavyBlue}} Winter 2022 & 7 & 3.3 - 5.0 (4.3) & 3.44   \\
+  \rowcolor{White}\rowfont{\color{NavyBlue}}Fall 2023 & 8 & 4.1 - 5.0 (4.4) & 3.48\\
   \bottomrule
 \end{tabular}
 
