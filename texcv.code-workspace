@@ -7,7 +7,5 @@
 			"path": "../../Sites/gregmacfarlane.github.io"
 		}
 	],
-	"settings": {
-		"makefile.configureOnOpen": false
-	}
+	"settings": {}
 }
