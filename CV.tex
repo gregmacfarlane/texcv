@@ -12,8 +12,11 @@
 %\usepackage{fontspec}
 %\setmainfont[Mapping=tex-text]{Palatino}
 %\newfontface\acc{Marcellus SC}
+
+\usepackage{needspace}
 \newcommand{\acc}{\scshape }
-\let\oldsection\section\renewcommand{\section}[1]{\oldsection{\scshape{#1}}}
+\def\r{\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}}
+\let\oldsection\section\renewcommand{\section}[1]{\r \oldsection{\scshape{#1}}}
 
 % Define a macro to color a row of a table. https://tex.stackexchange.com/a/413008/12874
 \makeatletter
@@ -104,6 +107,7 @@
 
 
 
+
 \begin{document}
 % Center the name over the entire width of resume:
  \moveleft.5\hoffset\centerline{\LARGE\scshape Gregory S.  Macfarlane}
@@ -160,7 +164,6 @@
 %	\end{list2}
 \end{list1}
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 %\textit{ Research Interests ---} Passive data and its applications in transport and
 %land use modeling and forecasting.
 %% ============================================================================
@@ -187,8 +190,6 @@
 \section{Research\\ Interests}
 Transportation planning and engineering, travel demand modeling,
 passive transportation data, spatial and social correlation.
-
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 %% ============================================================================
 %\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
@@ -231,7 +232,6 @@ Prepared traffic impact analyses for commercial and residential developments.
 %\section{\secfont Under \\ Review}
 %\bibentry{epb_parkaccess}
 
-%\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 \section{Refereed \\ Journal\\ Articles}
 First author or first faculty author on 13 of 26 total journal articles.
@@ -429,7 +429,6 @@ Italian Journal of Quaternary Sciences}, 22(1), 39–52. \url{https://portal.iss
 
 % \textbf{Macfarlane, G.S.}, \& Lant, N.$^\dagger$ (2021). Identifying Segmentation Strategies in a Daily Activity Pattern Model for Wheelchair Users.
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Peer- Reviewed Conference \\ Papers}
 All listed conference papers are full papers and include at least a
 single-blind review process with multiple expert reviewers for consideration.
@@ -479,7 +478,6 @@ Citations: 5  \fi
 \end{myenum}
 
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Reports}
 \ifdetail These are technical reports completed under contract for the sponsoring agency;
 each report was reviewed by a technical advisory committee prior to publication. Item 1 
@@ -551,7 +549,6 @@ since joining BYU.\fi
 \end{myenum}
 
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Conferences Organized}
 \ifdetail
 This includes conferences and symposia for which I served on an organizing or
@@ -565,7 +562,6 @@ scientific committee.
   \ifdetail} \fi
 \end{myenum}  
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Presentations}
 \ifdetail This includes invited presentations to academic and non-academic audiences, as
 well as presentations resulting from abstract-only submission. Includes both
@@ -625,7 +621,6 @@ completed during my time at BYU.\fi
 
 
 %% ==========================================
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{External \\Funding}
 
 As Principal Investigator, totalling \$503,000:
@@ -700,7 +695,6 @@ Unfunded proposals:
 \fi
 
 %% ============================================================================
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Courses}
 
 {\acc CCE 102: Sustainable Infrastructure}
@@ -861,7 +855,6 @@ work and non-work trip purposes using multinomial and nested logit models.
 % experience with a modern practicing regional model.
 
 %% ============================================================================
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Graduate Mentoring}
 Students mentored as graduate committee chair (9 total, all MS):
 \vspace{0.3cm}
@@ -910,7 +903,6 @@ Students mentored as graduate committee member (23 total, 4 current, 3 non-BYU, 
 \end{myenum}
 
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Undergraduate Mentoring}
 
 Students mentored on funded research projects (28 total):
@@ -996,7 +988,6 @@ Students mentored as civil engineering capstone team mentor (26 total):
 
 
 %% ============================================================================
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Awards and\\ Honors}
 \begin{description}
   \ifdetail {\color{NavyBlue} \fi
@@ -1082,7 +1073,6 @@ Triangle NC chapter.
   \item American Public Transportation Association scholar task force (2011 - 2013).
 \end{itemize}
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 \section{Media}
 DeBrule, D. (2024). E-scooter safety top of mind after mother's death. \textit{Fox 13 Salt Lake City}. Quoted expert opinion. March 27th, 2024. \url{https://www.fox13now.com/news/local-news/e-scooter-safety-top-of-mind-after-mothers-death}
@@ -1093,7 +1083,6 @@ McCann, A. (2021). Best and worst cities to drive in. \textit{WalletHub}. Quoted
 
 \textbf{Macfarlane, G.S.}. (2020). No, Utah County does not have to choose between preservation and growth. \textit{Deseret News}. Guest Opinion, August 21, 2020. \url{https://www.deseret.com/opinion/2020/8/21/21376479/}
 
-\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 \section{Internal \\ Citizenship}
 \begin{description}
   \item[Department undergraduate committee] Co-Chair (2023 --- ), Member (2021 --- ). Led curriculum revisions for civil engineering program and spearhead ABET accreditation / continuous improvement efforts.
