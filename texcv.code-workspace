@@ -5,7 +5,12 @@
 		},
 		{
 			"path": "../../Sites/gregmacfarlane.github.io"
+		},
+		{
+			"path": "../../Library/CloudStorage/Box-Box/Macfarlane/2 Areas/CFS/final-cfs"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"makefile.configureOnOpen": false
+	}
 }
