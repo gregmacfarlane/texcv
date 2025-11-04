@@ -4,13 +4,30 @@
 			"path": "."
 		},
 		{
-			"path": "../../Sites/gregmacfarlane.github.io"
-		},
-		{
-			"path": "../../Library/CloudStorage/Box-Box/Macfarlane/2 Areas/CFS/final-cfs"
+			"path": "../gregmacfarlane.github.io"
 		}
 	],
 	"settings": {
-		"makefile.configureOnOpen": false
+		"makefile.configureOnOpen": false,
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#b1cc00",
+			"activityBar.background": "#b1cc00",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#008a9f",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#15202b99",
+			"sash.hoverBorder": "#b1cc00",
+			"statusBar.background": "#859900",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#596600",
+			"statusBarItem.remoteBackground": "#859900",
+			"statusBarItem.remoteForeground": "#15202b",
+			"titleBar.activeBackground": "#859900",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#85990099",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.color": "#859900"
 	}
 }
