@@ -29,8 +29,8 @@ all: $(MASTER) detail
 	@ make clean
 
 site: $(MASTER)
-	@ echo + Copying $< to website folder ~/Sites/website
-	@ cp $(MASTER) ~/Sites/gregmacfarlane.github.io/static/cv.pdf
+	@ echo + Copying $< to website folder ~/3_resources/website
+	@ cp $(MASTER) ~/3_resources/gregmacfarlane.github.io/static/cv.pdf
 
 $(MASTER): cv.tex
 	@ echo + Writing $@ from $< ...
