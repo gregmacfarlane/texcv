@@ -8,7 +8,6 @@
 		}
 	],
 	"settings": {
-		"makefile.configureOnOpen": false,
 		"workbench.colorCustomizations": {
 			"activityBar.activeBackground": "#b1cc00",
 			"activityBar.background": "#b1cc00",
