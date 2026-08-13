@@ -1,0 +1,76 @@
+"2026":
+  conference3:
+    name: Intermountain Engineering and Technology Conference
+    action: P
+  conference2:
+    name: hEART European Association for Research in Transportation Annual Symposium
+    action: P
+  conference1:
+    name: 17th International Conference on Ambient Systems Networks and Technologies (ANT)
+    action: P
+"2025":
+  conference5::
+    name: Elsevier Transportation Research Symposium
+    action: P
+  conference4:
+    name: Modeling Mobility (MoMo)
+    action: P, M
+  conference2:
+    name: International Conference on Transportation & Development (ICTD)
+    action: P
+  conference1:
+    name: For the Benefit of the World Conference
+    action: P
+"2024":
+  conference4: 
+    name: Utah Transportation Conference
+    action: P
+  conference3:
+    name: Activity-based Modeling Symposium
+    action: P, C
+  conference2:
+    name: International Conference on Travel Behavior Research (IATBR)
+    action: P
+  conference1:
+    name: 15th International Conference on Ambient Systems Networks and Technologies (ANT)
+    action: P
+  conference:
+    name: Transportation Research Board Annual Meeting (TRB)
+    action: P
+"2023":
+  conference3:
+    name: Innovations in Transportation Analysis and Planning
+    action: P, M
+  conference2:
+    name: Move Utah Summit
+    action: P
+  conference1:
+    name: Utah Transportation Conference
+    action: P
+"2022":
+  conference1:
+    name: Mobil.TUM
+    action: P
+  conference:
+    name: Transportation Research Board Annual Meeting (TRB)
+    action: P
+"2021":
+  conference2:
+    name: North American Regional Science Conference (NARSC)
+    action: P 
+"2020":
+  conference1:
+    name: Transportation Research Board Annual Meeting (TRB)
+    action: P
+"2015":
+  conference2:
+    name: North American Regional Science Conference (NARSC)
+    action: P 
+"2014":
+  conference2:
+    name: North American Regional Science Conference (NARSC)
+    action: P 
+"2013":
+  conference2:
+    name: North American Regional Science Conference (NARSC)
+    action: P 

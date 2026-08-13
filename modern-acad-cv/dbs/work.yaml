@@ -1,0 +1,31 @@
+entry2:
+  title:
+    en: Associate Professor
+  subtitle:
+    en: Civil and Construction Engineering
+  location:
+    en: Brigham Young University
+  left: since 08/2026
+entry:
+  title:
+    en: Assistant Professor
+  subtitle:
+    en: Civil and Construction Engineering
+  location:
+    en: Brigham Young University
+  left: 11/2018-09/2026
+entry1:
+  title:
+    en: Transportation Engineer
+  subtitle:
+    en: ""
+  location:
+    en: Transport Foundry
+  left: 05/2017-11/2017
+entry3:
+  title:
+    en: Technical Principal
+  subtitle:
+    en: Systems Analysis Group
+  location: WSP | Parsons Brinckerhoff
+  left: 05/2014-05/2017

@@ -1,0 +1,2061 @@
+---
+references:
+- id: apeluMeasuringPavementSmoothness2023
+  abstract: >-
+    As e-scooter rental services have become a popular transportation mode in
+    many cities, pavement quality data are needed for e-scooter paths. The
+    objectives of this research were to develop and demonstrate a device for
+    measuring pavement smoothness along e-scooter paths using commercially
+    available equipment, including an e-scooter and a mobile phone with
+    accelerometer and geolocation features. A method of data processing was
+    developed to produce a pavement smoothness metric from the acceleration
+    measurements. The results of data collection and analysis suggest that the
+    instrumented e-scooter is able to efficiently measure and quantify pavement
+    smoothness for bike lanes and paths, where observed differences in pavement
+    smoothness were clearly correlated with differences in pavement distress.
+    Because e-scooters available through typical shared mobility programs are
+    already equipped with sensors like those utilized in this study, the
+    possibility exists for e-scooter rental services to collect useful pavement
+    quality data from their riders' information and provide it to cities, where
+    the data could inform master plans related to infrastructure improvement.
+  author:
+    - family: Apelu
+      given: Dylan
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Guthrie
+      given: W. Spencer
+    - family: Adams
+      given: Nicole
+    - family: Mazzeo
+      given: Brian A.
+  citation-key: apeluMeasuringPavementSmoothness2023
+  container-title: 2023 Intermountain Engineering, Technology and Computing (IETC)
+  container-title-short: 2023 Intermt. Eng. Technol. Comput. IETC
+  DOI: 10.1109/IETC57902.2023.10152077
+  event-title: 2023 Intermountain Engineering, Technology and Computing (IETC)
+  issued:
+    - year: 2023
+      month: 5
+  license: All rights reserved
+  page: 114–119
+  source: IEEE Xplore
+  title: Measuring Pavement Smoothness from the Perspective of E-scooters
+  type: paper-conference
+
+- id: atchleyComparativeIllustrationTrip2025
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Atchley
+      given: Hayden
+    - family: Mansfield
+      given: Kamryn W.
+    - family: Macfarlane
+      given: Gregory S.
+  citation-key: atchleyComparativeIllustrationTrip2025
+  container-title: International Conference on Transportation and Development 2025
+  container-title-short: Int. Conf. Transp. Dev. 2025
+  DOI: 10.1061/9780784486207.002
+  event-title: International Conference on Transportation and Development 2025
+  issued:
+    - year: 2025
+      month: 6
+      day: 5
+  language: en
+  page: 12–23
+  publisher: American Society of Civil Engineers
+  source: ASCE
+  title: A Comparative Illustration of Trip- and Activity-Based Modeling Techniques
+  type: paper-conference
+  URL: https://ascelibrary.org/doi/10.1061/9780784486207.002
+
+- id: binderAssociationsHouseholdCharacteristics2014
+  abstract: >-
+    Many U.S. cities use vehicle emissions testing programs to improve air
+    quality by identifying gross polluting vehicles and requiring their owners
+    to make emissions-related repairs. All vehicles that meet certain criteria
+    must pass an emissions test as part of the vehicle registration process.
+    States use different criteria to determine which vehicles must be tested;
+    however, the equity impacts associated with various screening criteria are
+    unknown. This is due to difficulties researchers have faced in linking
+    vehicle and household characteristics. We investigate the relative influence
+    of vehicle and household characteristics on emissions failures in Atlanta,
+    Georgia, by linking its emissions testing database to a targeted marketing
+    database; the latter contains information about vehicle owners. We use count
+    and hurdle models to predict vehicle emissions failures. Our model finds a
+    relationship between sociodemographic characteristics and emissions failures
+    after controlling for vehicle characteristics; that is, given two identical
+    vehicles, the one owned by a low-income or minority household is more likely
+    to fail emissions. We use our model to investigate the impacts of different
+    emissions testing policies by income and ethnic groups.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Binder
+      given: Stefan
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Garrow
+      given: Laurie A.
+    - family: Bierlaire
+      given: Michel
+  citation-key: binderAssociationsHouseholdCharacteristics2014
+  container-title: 'Transportation Research Part A: Policy and Practice'
+  container-title-short: Transp. Res. Part Policy Pract.
+  DOI: 10.1016/j.tra.2013.11.005
+  ISSN: 0965-8564
+  issued:
+    - year: 2014
+      month: 1
+      day: 1
+  license: All rights reserved
+  page: 122–133
+  source: ScienceDirect
+  title: >-
+    Associations among household characteristics, vehicle characteristics and
+    emissions failures: An application of targeted marketing data
+  title-short: >-
+    Associations among household characteristics, vehicle characteristics and
+    emissions failures
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S0965856413002243
+  volume: '59'
+
+- id: brakewoodImpactRealtimeInformation2015
+  abstract: >-
+    In the past few years, numerous mobile applications have made it possible
+    for public transit passengers to find routes and/or learn about the expected
+    arrival time of their transit vehicles. Though these services are widely
+    used, their impact on overall transit ridership remains unclear. The
+    objective of this research is to assess the effect of real-time information
+    provided via web-enabled and mobile devices on public transit ridership. An
+    empirical evaluation is conducted for New York City, which is the setting of
+    a natural experiment in which a real-time bus tracking system was gradually
+    launched on a borough-by-borough basis beginning in 2011. Panel regression
+    techniques are used to evaluate bus ridership over a three year period,
+    while controlling for changes in transit service, fares, local socioeconomic
+    conditions, weather, and other factors. A fixed effects model of average
+    weekday unlinked bus trips per month reveals an increase of approximately
+    118 trips per route per weekday (median increase of 1.7% of weekday
+    route-level ridership) attributable to providing real-time information.
+    Further refinement of the fixed effects model suggests that this ridership
+    increase may only be occurring on larger routes; specifically, the largest
+    quartile of routes defined by revenue miles of service realized
+    approximately 340 additional trips per route per weekday (median increase of
+    2.3% per route). Although the increase in weekday route-level ridership may
+    appear modest, on aggregate these increases exert a substantial positive
+    effect on farebox revenue. The implications of this research are critical to
+    decision-makers at the country’s transit operators who face pressure to
+    increase ridership under limited budgets, particularly as they seek to
+    prioritize investments in infrastructure, service offerings, and new
+    technologies.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Brakewood
+      given: Candace
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Watkins
+      given: Kari
+  citation-key: brakewoodImpactRealtimeInformation2015
+  container-title: 'Transportation Research Part C: Emerging Technologies'
+  container-title-short: Transp. Res. Part C Emerg. Technol.
+  DOI: 10.1016/j.trc.2015.01.021
+  ISSN: 0968-090X
+  issued:
+    - year: 2015
+      month: 4
+      day: 1
+  license: All rights reserved
+  page: 59–75
+  source: ScienceDirect
+  title: The impact of real-time information on bus ridership in New York City
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S0968090X15000297
+  volume: '53'
+
+- id: cruzSustainableTransportationCurricula2015
+  abstract: >-
+    The National Center for Sustainable Transportation (NCST) seeks to ensure
+    that transportation professionals have the necessary knowledge and skills to
+    design, operate, and maintain sustainable transportation systems. This
+    report provides a structured review of existing sustainable transportation
+    courses to serve as foundation for the development of NCST model curriculum
+    and to support course development elsewhere. This report provides an
+    inventory of transportation-related courses and course concepts. The report
+    also surveys models and modeling support tools, current research topics, and
+    industry job descriptions to identify room for growth in sustainable
+    transportation curricula.View the NCST's Curriculum &amp; Courses
+  accessed:
+    - year: 2026
+      month: 7
+      day: 23
+  author:
+    - family: Cruz
+      given: Judith
+    - family: Macfarlane
+      given: Greg
+    - family: Xu
+      given: Yanzhi
+    - family: Rodgers
+      given: Michael O.
+    - family: Guensler
+      given: Randall
+  citation-key: cruzSustainableTransportationCurricula2015
+  issued:
+    - year: 2015
+      month: 3
+      day: 1
+  language: en
+  publisher: National Center for Sustainable Transportation
+  source: escholarship.org
+  title: Sustainable Transportation Curricula
+  type: report
+  URL: https://escholarship.org/uc/item/3c13q43c
+
+- id: dainesEvaluatingRealTime2022
+  abstract: >-
+    Models to predict ramp meter queue length from traffic detector data are
+    potentially useful tools in improving traffic operations and safety.
+    Existing research, however, has been based on microscopic simulation or
+    relied on extensive calibration of Kalman filter and related models to
+    produce reliable queue length estimates. This research seeks to develop
+    methodologies for improving and simplifying the calibration process of
+    existing queue length models by applying loop detector data including
+    volume, occupancy, and the metering rate data for ramp meters along I-15 in
+    Utah. A conservation model and several variations of a Kalman filter model
+    generated estimated queues that were compared to observed queue lengths in
+    60 s bins. A modified Kalman filter model and a new heuristic model derived
+    from cluster analysis—the models that yielded the best results—provided
+    queue length estimates that were generally within approximately eight
+    vehicles of the observed queue length. Using the ramp metering rate, the
+    queue length estimates were converted into wait times that were generally
+    within approximately 30 s of the actual wait time, producing a viable method
+    to predict wait time from up-to-the-minute traffic detection information
+    with relatively little required calibration. The implementation of the ramp
+    meter queue length and wait time estimation algorithms presented in this
+    research will allow departments of transportation to better assess freeway
+    and ramp conditions, which can then aid in reducing congestion throughout
+    the freeway network.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Daines
+      given: Tanner J.
+    - family: Schultz
+      given: Grant G.
+    - family: Macfarlane
+      given: Gregory S.
+  citation-key: dainesEvaluatingRealTime2022
+  container-title: Future Transportation
+  container-title-short: Future Transp.
+  DOI: 10.3390/futuretransp2040045
+  ISSN: 2673-7590
+  issue: '4'
+  issued:
+    - year: 2022
+      month: 12
+  language: en
+  license: http://creativecommons.org/licenses/by/3.0/
+  number: '4'
+  page: 807–827
+  publisher: Multidisciplinary Digital Publishing Institute
+  source: www.mdpi.com
+  title: Evaluating Real Time Ramp Meter Queue Length and Wait Time Estimation
+  type: article-journal
+  URL: https://www.mdpi.com/2673-7590/2/4/45
+  volume: '2'
+
+- id: gibbonsEvaluatingImpactsParameter2025
+  abstract: >-
+    The inherent uncertainty in travel forecasting models—arising from potential
+    and unknown errors in input data, parameter estimation, or model
+    formulation—is receiving increasing attention from both the scholarly and
+    practicing communities. In this research, we investigate the variance in
+    forecasted traffic volumes resulting from varying the mode and destination
+    choice parameters in an advanced trip-based travel demand model. Using Latin
+    hypercube sampling to construct several hundred combinations of parameters
+    across the plausible parameter space, we introduce substantial changes to
+    implied travel impedances and modal utilities, on the order of a 10 percent
+    variation. However, the aggregate effects of these changes on forecasted
+    traffic volumes are small, with a variation of approximately 1 percent on
+    high-volume facilities. It is likely that in this example—and perhaps in
+    others—the network assignment places constraints on the possible volume
+    solutions and limits the practical impacts of parameter uncertainty.
+    Nevertheless, parameter uncertainty may not be the largest contributor to
+    error in practical travel forecasts. Further research should examine the
+    robustness of this finding across other less constrained networks and within
+    activity-based travel model frameworks.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Gibbons
+      given: Natalie
+    - family: Macfarlane
+      given: Gregory S.
+  citation-key: gibbonsEvaluatingImpactsParameter2025
+  container-title: Future Transportation
+  container-title-short: Future Transp.
+  DOI: 10.3390/futuretransp5010015
+  ISSN: 2673-7590
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 3
+  language: en
+  license: http://creativecommons.org/licenses/by/3.0/
+  page: '15'
+  publisher: Multidisciplinary Digital Publishing Institute
+  source: www.mdpi.com
+  title: >-
+    Evaluating the Impacts of Parameter Uncertainty in a Practical
+    Transportation Demand Model
+  type: article-journal
+  URL: https://www.mdpi.com/2673-7590/5/1/15
+  volume: '5'
+
+- id: glennConsideringPotentialHealth2020
+  abstract: >-
+    Electric scooters (e-scooters) are an increasingly popular form of
+    transportation in urban areas. While research on this topic has focused
+    primarily on injuries, there are multiple mechanisms by which e-scooter
+    share programs may impact health. The aim of this study is to explore the
+    health-related behaviors of e-scooter users and to discuss their
+    implications for public health. Data were collected using an online survey
+    emailed to registered e-scooter users. A total of 1070 users completed the
+    survey. Descriptive variable statistics and chi-squared analysis were
+    performed to determine variable dependent relationships and equality of
+    proportions. The most common destinations reported were “just riding around
+    for fun”, home, and dining/shopping. The two most common modes of
+    transportation that would have been used if e-scooters were not available
+    were walking (43.5%) and using a personal vehicle (28.5%). Riding behavior
+    was equally mixed between on the street, on the sidewalk, and equal amounts
+    of both. e-Scooters in Provo are likely having both positive (e.g., air
+    pollution) and negative impacts on health (e.g., injuries, physical
+    inactivity). Future research should further explore patterns of e-scooter
+    use and explicitly examine the linkages between e-scooters and areas of
+    health beyond just injuries.
+  accessed:
+    - year: 2023
+      month: 1
+      day: 14
+  author:
+    - family: Glenn
+      given: Jeffrey
+    - family: Bluth
+      given: Madeline
+    - family: Christianson
+      given: Mannon
+    - family: Pressley
+      given: Jaymie
+    - family: Taylor
+      given: Austin
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Chaney
+      given: Robert A.
+  citation-key: glennConsideringPotentialHealth2020
+  container-title: International Journal of Environmental Research and Public Health
+  container-title-short: Int. J. Environ. Res. Public. Health
+  DOI: 10.3390/ijerph17176344
+  ISSN: 1660-4601
+  issue: '17'
+  issued:
+    - year: 2020
+      month: 1
+  language: en
+  license: All rights reserved
+  page: '6344'
+  source: www.mdpi.com
+  title: >-
+    Considering the Potential Health Impacts of Electric Scooters: An Analysis
+    of User Reported Behaviors in Provo, Utah
+  title-short: Considering the Potential Health Impacts of Electric Scooters
+  type: article-journal
+  URL: https://www.mdpi.com/1660-4601/17/17/6344
+  volume: '17'
+
+- id: guanTSCOREProjectM1MultiModal2023
+  abstract: >-
+    Over the last decades, urban areas have experienced sustained population
+    growth, which has transformed into a significant increase in personally
+    owned vehicles. Investment in public transit is often expected to make
+    positive impacts on traffic congestion and air quality. Despite the fact
+    that efficient systems such as light rail and Bus Rapid Transit (BRT) are
+    developed in large cities, one of the main challenges facing transit
+    agencies is the first mile and last-mile problem. On- Demand Multimodal
+    Transit Systems (ODMTS) are transit systems that tightly integrate fixed
+    transit routes and on-demand shuttles (Arthur et al., 2019; Auad et al.,
+    2021). The fixed routes usually consist of rail lines and bus lines that
+    provide high frequency services on key corridors, providing economy of scale
+    and addressing congestion issues. On-demand shuttles are employed to
+    overcome the first mile and last-mile problem. The shuttles generally serve
+    local demand by delivering passengers from/to trip origins/destinations
+    to/from nearby hubs. This project explores the viabilities of integrating
+    the ODMTS concept with a highly developed citywide transit system. In
+    particular, the project first extends the optimization framework proposed by
+    Dalmeijer and Van Hentenryck (2020) by introducing novel features such as
+    walking transfer and weighted travel time. This project then considers two
+    systematic case studies conducted in San Francisco and Salt Lake City with
+    data simulated by the microsimulation platform BEAM. These two case studies
+    are unique to their counterparts since all origin-destinations pairs are
+    residential locations or points of interests, instead of transit stops.
+    Together, the new features and the case studies provide more realistic
+    assumptions and lead to interesting computational results. The results
+    demonstrate how to seamlessly integrate the ODMTS concept to extend an
+    existing transit network to address the first mile and last-mile problem and
+    provide a reduced overall operating cost and passenger travel time.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 23
+  author:
+    - family: Guan
+      given: Hongzhao
+    - family: Van Hentenryck
+      given: Pascal
+    - family: Goyal
+      given: Vedant
+    - family: Hoque
+      given: Jawad
+    - family: Day
+      given: Christopher S.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Erhardt
+      given: Gregory D.
+    - family: Watkins
+      given: Kari
+  citation-key: guanTSCOREProjectM1MultiModal2023
+  issued:
+    - year: 2023
+      month: 3
+      day: 1
+  language: en
+  number: M1
+  publisher: >-
+    Transit – Serving Communities Optimally, Responsively, and Efficiently
+    (T-SCORE) Center [UTC]
+  title: >-
+    T-SCORE Project M1-Multi-Modal Optimization: Development of Optimization
+    Frameworks on On-Demand Multimodal Transit Systems
+  title-short: T-SCORE Project M1-Multi-Modal Optimization
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/72992
+
+- id: jarvisSimulatingIncidentManagement2024
+  abstract: >-
+    Recent research has shown the power of large-scale regional traffic
+    simulations—such as MATSim—to model the systemic impacts and costs of
+    capacity-reducing incidents. At the same time, observational studies have
+    illustrated the potential for traffic Incident Management Teams (IMTs) to
+    reduce these impacts and costs on a local scale; mathematical optimization
+    models have also attempted to scale or locate these programs. In this
+    research, we connect these two separate lines of scholarly inquiry by
+    simulating the dynamic response of an IMT fleet to incidents arising on a
+    metropolitan highway network. We introduce a MATSim module that handles
+    stochastically-generated incidents of varying severity, dispatches IMT to
+    clear the incidents based on path distance and availability, and measures
+    excess user costs based on the incidents. We apply this module in a scenario
+    with data from the Salt Lake City, Utah metropolitan region. We demonstrate
+    the potential use of the module through an illustrative experiment
+    increasing the IMT fleet size with a collection of simulated incident days.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Jarvis
+      given: Daniel L.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Woolley
+      given: Brynn
+    - family: Schultz
+      given: Grant G.
+  citation-key: jarvisSimulatingIncidentManagement2024
+  collection-title: >-
+    The 15th International Conference on Ambient Systems, Networks and
+    Technologies Networks (ANT) / The 7th International Conference on Emerging
+    Data and Industry 4.0 (EDI40), April 23-25, 2024, Hasselt University,
+    Belgium
+  container-title: Procedia Computer Science
+  container-title-short: Procedia Comput. Sci.
+  DOI: 10.1016/j.procs.2024.06.002
+  ISSN: 1877-0509
+  issued:
+    - year: 2024
+      month: 1
+      day: 1
+  license: All rights reserved
+  page: 91–96
+  source: ScienceDirect
+  title: Simulating Incident Management Team Response and Performance
+  type: paper-conference
+  URL: https://www.sciencedirect.com/science/article/pii/S1877050924012389
+  volume: '238'
+
+- id: macfarlaneActivityBasedModelImplementation2024
+  abstract: >-
+    Tour-based and activity-based travel demand models are generally considered
+    more theoretically robust compared to their trip-based counterparts, as
+    activity-based models (ABMs) explicitly model individuals making travel
+    choices in contrast to the aggregate nature of trip-based models. There have
+    been a number of comparisons between trip- and activity-based models, but
+    these comparisons focus almost exclusively on the technical ability of the
+    two model types, while not considering the practical benefits an ABM may or
+    may not have to a transportation agency. This research performs a more
+    holistic comparison between trip- and activity-based models, focused
+    specifically on the practical differences between model types, both in terms
+    of usability and capability for complex analysis. We use the existing
+    Wasatch Front model as a representative trip-based model, and an ActivitySim
+    implementation in the same area as a representative ABM. We create three
+    hypothetical scenarios in both models: a change in land use, an improvement
+    to commuter rail service, and an increase in remote work. We discuss the
+    process of creating each scenario in both models, and perform several
+    example analyses with each scenario and model. We find that many commonly
+    cited reasons for the lack of ABM adoption may not be as applicable as
+    previously thought. ABMs are often considered more complicated than
+    trip-based models, requiring more data and computational resources. While
+    ABMs do require more input data, we found that in our case the complexity of
+    the model and the computational resources required were similar between
+    model types. Additionally, the ABM allows for much more intuitive and
+    straightforward interpretation of results.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Atchley
+      given: Hayden
+    - family: Mansfield
+      given: Kamryn
+    - family: Baird
+      given: Tim
+    - family: Gresham
+      given: Craig
+  citation-key: macfarlaneActivityBasedModelImplementation2024
+  issued:
+    - year: 2024
+      month: 9
+      day: 1
+  language: en
+  number: UT-24.16
+  publisher: Utah Department of Transportation
+  title: Activity-Based Model Implementation and Analysis Considerations
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/77610
+
+- id: macfarlaneAtlantaResidentsValue2015
+  abstract: >-
+    Understanding homeowners’ marginal willingness-to-pay (MWTP) for proximity
+    to public transportation infrastructure is important for planning and
+    policy. Naïve estimates of MWTP, however, may be biased as a result of
+    spatial dependence, spatial correlation, and/or spatially endogenous
+    variables. In this paper we discuss a class of spatial autoregressive models
+    that control for these spatial effects, and apply them to sample data
+    collected for the Atlanta, Georgia housing market. We provide evidence that
+    a general-to-specific model selection methodology that relies on the
+    generality of the spatial Durbin model (SDM) should be preferred to the
+    classical specific-to-general methodology that begins with an assumption of
+    no spatial effects. We show that applying the SDM raises the estimate of
+    MWTP for transit proximity in Atlanta but also widens its confidence
+    interval, relative to ordinary linear regression. This finding may have
+    implications for risk estimations in land value capture forecasts and
+    transportation policy decisions.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Garrow
+      given: Laurie A.
+    - family: Moreno-Cruz
+      given: Juan
+  citation-key: macfarlaneAtlantaResidentsValue2015
+  container-title: 'Transportation Research Part A: Policy and Practice'
+  container-title-short: Transp. Res. Part Policy Pract.
+  DOI: 10.1016/j.tra.2015.05.010
+  ISSN: 0965-8564
+  issued:
+    - year: 2015
+      month: 8
+      day: 1
+  license: All rights reserved
+  page: 214–230
+  source: ScienceDirect
+  title: >-
+    Do Atlanta residents value MARTA? Selecting an autoregressive model to
+    recover willingness to pay
+  title-short: Do Atlanta residents value MARTA?
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S096585641500138X
+  volume: '78'
+
+- id: macfarlaneCityParksSlow2022
+  abstract: >-
+    During the spring and summer of 2020, cities across the world responded to
+    the global COVID-19 pandemic by converting roadway facilities into open
+    pedestrian spaces. These conversions improved access to public open space,
+    but measuring the variation in that improvement among different populations
+    requires clear definitions of access and methods for measuring it. In this
+    study, we evaluate the change in a utility-based park accessibility measure
+    resulting from street conversions in Alameda County, California. Our
+    utility-based accessibility measure is constructed from a park activity
+    location choice model we estimate using mobile device data – supplied by
+    StreetLight Data, Inc. – representing trips to parks in that county. The
+    estimated model reveals heterogeneity in inferred affinity for park
+    attributes among different sociodemographic groups. We find, for example,
+    that neighborhoods with more lower-income residents and those with more
+    residents of color show a greater preference for park proximty while
+    neighborhods with higher incomes and those with more white residents show a
+    greater preference for park size and amenities. We then apply this model to
+    examine the accessibility benefits resulting from COVID-19 street
+    conversions to create a set of small park-like open spaces; we find that
+    this has been a pro-social policy in that Black, Hispanic, and low-income
+    households receive a disproportionate share of the policy benefits, relative
+    to the population distribution.
+  accessed:
+    - year: 2023
+      month: 8
+      day: 22
+  archive_location: Alameda County, California
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Voulgaris
+      given: Carole Turley
+    - family: Tapia
+      given: Teresa
+  citation-key: macfarlaneCityParksSlow2022
+  container-title: Journal of Transport and Land Use
+  container-title-short: J. Transp. Land Use
+  DOI: 10.5198/jtlu.2022.2009
+  ISSN: 1938-7849
+  issue: '1'
+  issued:
+    - year: 2022
+      month: 9
+      day: 26
+  language: en
+  license: Copyright (c) 2022 Gregory Macfarlane, Carole Turley Voulgaris, Teresa Tapia
+  number: '1'
+  page: 587–612
+  source: www.jtlu.org
+  title: 'City parks and slow streets: A utility-based access and equity analysis'
+  title-short: City parks and slow streets
+  type: article-journal
+  URL: https://www.jtlu.org/index.php/jtlu/article/view/2009
+  volume: '15'
+
+- id: macfarlaneClassifyingLocationPoints2024
+  abstract: >-
+    Location-based services data collected from mobile phones represent a
+    potentially powerful source of travel behavior data, but transforming the
+    location points into semantic activities – where and when activities
+    occurred – is non-trivial. Existing algorithms to label activities require
+    multiple parameters calibrated to a particular dataset. In this research, we
+    apply a simulated annealing optimization procedure to identify the values of
+    four parameters used in a density-based spatial clustering with additional
+    noise and time entropy (DBSCAN-TE) algorithm. We develop a spatial accuracy
+    scoring function to use in the calibration methodology and identify paths
+    for future research.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Riches
+      given: Gillian
+    - family: Youngs
+      given: Emily K.
+    - family: Nielsen
+      given: Jared A.
+  citation-key: macfarlaneClassifyingLocationPoints2024
+  container-title: Findings
+  DOI: 10.32866/001c.116197
+  issued:
+    - year: 2024
+      month: 4
+      day: 12
+  language: en
+  license: All rights reserved
+  publisher: Findings Press
+  source: findingspress.org
+  title: >-
+    Classifying Location Points as Daily Activities using Simultaneously
+    Optimized DBSCAN-TE Parameters.
+  type: article-journal
+  URL: >-
+    https://findingspress.org/article/116197-classifying-location-points-as-daily-activities-using-simultaneously-optimized-dbscan-te-parameters
+
+- id: macfarlaneDelayUnderestimationFree2011
+  abstract: >-
+    To quantify the effect of unnecessary motorist hesitation in free right-turn
+    channels and its impact on engineering delay models, the authors observed
+    peak-hour operations at two free right-turn channelized intersections in
+    Utah County, Utah. Regression analysis demonstrated that perceived vehicle
+    conflicts would significantly increase individual vehicle delay at free
+    right-turn channels, and that existing traffic prediction models did not
+    adequately describe this delay. On average, motorists yield about 2seconds
+    for each conflicting vehicle. This finding raises questions about the
+    validity of current delay assumptions for free rightturn channels, or
+    indicates the driving public may need more adequate signage. © 2011
+    Published by Elsevier Ltd.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Saito
+      given: Mitsuru
+    - family: Schultz
+      given: Grant G.
+  citation-key: macfarlaneDelayUnderestimationFree2011
+  container-title: Procedia - Social and Behavioral Sciences
+  container-title-short: Procedia - Soc. Behav. Sci.
+  DOI: 10.1016/j.sbspro.2011.04.476
+  event-title: 6th International Symposium on Highway Capacity and Quality of Service
+  ISSN: 1877-0428
+  issued:
+    - year: 2011
+      month: 1
+      day: 1
+  license: All rights reserved
+  page: 560–567
+  source: ScienceDirect
+  title: Delay Underestimation at Free Right-turn Channelized Intersections
+  type: paper-conference
+  URL: https://www.sciencedirect.com/science/article/pii/S1877042811010226
+  volume: '16'
+
+- id: macfarlaneDriverPerceptionsFree2012
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Saito
+      given: Mitsuru
+    - family: Schultz
+      given: Grant G.
+  citation-key: macfarlaneDriverPerceptionsFree2012
+  DOI: 10.1061/41167(398)108
+  event-title: Transportation and Development Institute Congress 2011
+  issued:
+    - year: 2012
+      month: 4
+      day: 26
+  language: EN
+  license: All rights reserved
+  page: 1128–1137
+  publisher: American Society of Civil Engineers
+  source: ASCE
+  title: Driver Perceptions at Free Right-Turn Channelized Intersections
+  type: paper-conference
+  URL: https://ascelibrary.org/doi/10.1061/41167%28398%29108
+
+- id: macfarlaneEffectivenessTemporaryPortable2026
+  abstract: >-
+    This study evaluates the effectiveness and operational implications of
+    Temporary Portable Rumble Strips (TPRS) used by the Utah Department of
+    Transportation (UDOT) to alert drivers to upcoming work zones. While TPRS
+    are intended to capture driver attention and reduce crash risk, concerns
+    remain regarding their influence on driver behavior, avoidance maneuvers,
+    and maintenance requirements. A field experiment was conducted at four work
+    zones in Utah during the Summer 2025 construction season. Four deployment
+    conditions—no TPRS and three spacing configurations—were tested. Data
+    collection included speed measurements using mobile radar detectors and
+    video-based observations of vehicle classification, braking behavior,
+    avoidance maneuvers, and TPRS displacement. Results indicate that the effect
+    of TPRS on speed reduction is inconclusive. Drivers who braked in response
+    to TPRS typically did so before reaching the devices, suggesting that visual
+    cues may be as influential as tactile feedback. Avoidance behavior was
+    common among motorcycles and occurred occasionally among other vehicles.
+    Driver responses were more strongly influenced by site-specific factors—such
+    as roadway geometry and sight distance—than by TPRS spacing. TPRS
+    displacement occurred gradually under traffic but was not clearly related to
+    traffic volume or speed, suggesting that device age and condition play a
+    larger role. Maintenance requires traffic gaps of approximately 34 seconds,
+    which may not be feasible at higher-volume sites. These findings highlight
+    the need for further evaluation of TPRS effectiveness, standards for device
+    condition, consideration of alternative measures for long-term work zones,
+    and increased contractor discretion based on site conditions.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Schultz
+      given: Grant G.
+    - family: Carruth
+      given: Tyler
+    - family: Hailstone
+      given: Benjamin
+  citation-key: macfarlaneEffectivenessTemporaryPortable2026
+  issued:
+    - year: 2026
+      month: 4
+      day: 1
+  language: en
+  number: UT-26.04
+  publisher: Utah Department of Transportation
+  title: Effectiveness of Temporary Portable Rumble Strips on Work Zones
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/91241
+
+- id: macfarlaneEffectTransitSignal2021
+  abstract: >-
+    We report the results of an experiment to evaluate the impact of transit
+    signal priority (TSP) on headway adherence for a bus rapid transit (BRT)
+    system in Provo / Orem, Utah. The bus requests TSP based on its unpublished
+    schedule, but users perceive only a headway. Quantile regression models
+    estimated on raw timepoint data from the BRT system reveal that TSP
+    significantly improves headway adherence, after controlling for peak times,
+    direction, and cumulative trip dwell time. We also find that requiring the
+    bus to be 2 minutes late before requesting TSP improves headway adherence
+    more than allowing all buses to request TSP.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Sheffield
+      given: Michael H.
+    - family: Bennett
+      given: Logan S.
+    - family: Schultz
+      given: Grant G.
+  citation-key: macfarlaneEffectTransitSignal2021
+  container-title: Findings
+  DOI: 10.32866/001c.24499
+  issued:
+    - year: 2021
+      month: 6
+      day: 7
+  language: en
+  license: All rights reserved
+  publisher: Findings Press
+  source: findingspress.org
+  title: The Effect of Transit Signal Priority on Bus Rapid Transit Headway Adherence
+  type: article-journal
+  URL: >-
+    https://findingspress.org/article/24499-the-effect-of-transit-signal-priority-on-bus-rapid-transit-headway-adherence
+
+- id: macfarlaneEstimationSimulationDaily2021
+  abstract: >-
+    Individuals who use wheelchairs or who have other mobility challenges often
+    are unable to access modern mobility systems – including application-based
+    ride hailing and on-demand microtransit. Even designing a system targeted at
+    these users is challenging, given the limited prior analysis of their travel
+    behavior and activity patterns. Simulation tools are used by cities around
+    the world to understand novel and complex transportation systems, yet few
+    are including the needs of users with disabilities in these simulation
+    studies. This report examines the travel patterns of wheelchair users from
+    the 2017 National Household Travel Survey, and presents a model of daily
+    activity pattern choice of respondents who self-identify as using a
+    wheelchair. This report discusses the application of a wheelchair status
+    variable in the activity-based travel demand model ActivitySim and measures
+    its effect on individual and household daily activity pattern choice.
+    Wheelchair use is estimated to reduce the utility of a work daily activity
+    pattern by 1.9 points relative to a home pattern for full-time workers and
+    3.4 for part-time workers. Including the effect of wheelchair use in a
+    regional daily activity pattern model resulted in 21.9 percent of wheelchair
+    users changing to a home activity pattern relative to a base scenario not
+    including wheelchair use. Lastly, the report evaluates the performance of an
+    on-demand, accessible mode for users with wheelchairs in the agent-based
+    microsimulation BEAM. This simulation showed that demand for such a service
+    increases linearly with fleet size and wait time remains constant, though
+    further scenario refinement and research is necessary.
+  accessed:
+    - year: 2023
+      month: 1
+      day: 17
+  author:
+    - family: Macfarlane
+      given: Gregory S
+    - family: Lant
+      given: Nathan J
+  call-number: dot:56982
+  citation-key: macfarlaneEstimationSimulationDaily2021
+  issued:
+    - year: 2021
+      month: 6
+      day: 1
+  language: en
+  license: All rights reserved
+  number: UT- 21.10
+  source: ROSA P
+  title: >-
+    Estimation and Simulation of Daily Activity Patterns for Individuals Using
+    Wheelchairs
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/56982
+
+- id: macfarlaneEstimationSimulationDaily2021a
+  abstract: >-
+    Individuals who use wheelchairs or who have other mobility challenges often
+    are unable to access modern mobility systems – including application-based
+    ride hailing and on-demand microtransit. Even designing a system targeted at
+    these users is challenging, given the limited prior analysis of their travel
+    behavior and activity patterns. Simulation tools are used by cities around
+    the world to understand novel and complex transportation systems, yet few
+    are including the needs of users with disabilities in these simulation
+    studies. This report examines the travel patterns of wheelchair users from
+    the 2017 National Household Travel Survey, and presents a model of daily
+    activity pattern choice of respondents who self-identify as using a
+    wheelchair. This report discusses the application of a wheelchair status
+    variable in the activity-based travel demand model ActivitySim and measures
+    its effect on individual and household daily activity pattern choice.
+    Wheelchair use is estimated to reduce the utility of a work daily activity
+    pattern by 1.9 points relative to a home pattern for full-time workers and
+    3.4 for part-time workers. Including the effect of wheelchair use in a
+    regional daily activity pattern model resulted in 21.9 percent of wheelchair
+    users changing to a home activity pattern relative to a base scenario not
+    including wheelchair use. Lastly, the report evaluates the performance of an
+    on-demand, accessible mode for users with wheelchairs in the agent-based
+    microsimulation BEAM. This simulation showed that demand for such a service
+    increases linearly with fleet size and wait time remains constant, though
+    further scenario refinement and research is necessary.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 23
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Lant
+      given: Nathan J.
+  citation-key: macfarlaneEstimationSimulationDaily2021a
+  issued:
+    - year: 2021
+      month: 6
+      day: 1
+  language: en
+  number: UT-21.10
+  publisher: Utah Department of Transportation
+  title: >-
+    Estimation and Simulation of Daily Activity Patterns for Individuals Using
+    Wheelchairs
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/56982
+
+- id: macfarlaneHowFarAre2023
+  abstract: >-
+    The mobility needs of individuals with travel-limiting disabilities has been
+    a transportation policy priority in the United States for more than thirty
+    years, but efforts to model the behavioral implications of disability on
+    travel have been limited. In this research, we present a daily activity
+    pattern choice model for multiple person type segments including an
+    individual’s wheelchair use as an explanatory variable. The model results
+    show a strong negative impact of wheelchair use on out-of-home travel,
+    exceeding the impact of other variables commonly considered in such models.
+    We then apply the estimated model within an activity-based model for the
+    Wasatch Front region in Utah; the results suggest a shift in tour making of
+    sufficient scale—among both wheelchair users and those in their
+    households—to warrant further scrutiny and analysis.
+  accessed:
+    - year: 2023
+      month: 4
+      day: 6
+  author:
+    - family: Macfarlane
+      given: Gregory S
+    - family: Lant
+      given: Nate
+  citation-key: macfarlaneHowFarAre2023
+  collection-title: Lecture Notes in Mobility
+  container-title: >-
+    Proceedings of the 12th International Scientific Conference on Mobility and
+    Transport
+  container-title-short: Proc. 12th Int. Sci. Conf. Mobil. Transp.
+  DOI: 10.1007/978-981-19-8361-0_10
+  editor:
+    - family: Antoniou
+      given: Constantinos
+    - family: Busch
+      given: Fritz
+    - family: Rau
+      given: Andreas
+    - family: Hariharan
+      given: Mahesh
+  ISBN: 978-981-19-8361-0
+  issued:
+    - year: 2023
+  license: All rights reserved
+  page: 141–155
+  publisher: Springer Nature Singapore
+  publisher-place: Singapore
+  title: >-
+    How Far Are We From Transportation Equity? Measuring the Effect of
+    Wheelchair Use on Daily Activity Patterns
+  type: paper-conference
+  URL: https://link.springer.com/chapter/10.1007/978-981-19-8361-0_10
+
+- id: macfarlaneIdentifyingMicrotransitService2023
+  abstract: >-
+    Demand-responsive microtransit services have operated in Utah since a pilot
+    program debuted in Fall 2019. The Utah Transit Authority (UTA) and its
+    partners see such services as providing key mobility in transit-limited
+    areas, but how to prioritize which areas receive such services is an open
+    question. In this research, we present a multi-agent daily activity
+    simulation of regional travel demand in the Wasatch Front– using the
+    open-source BEAM simulation developed by Lawrence Berkeley National
+    Laboratory – including on-demand microtransit services. Though unresolved
+    methodological limitations surrounding sample size and choice methodology
+    exist, the simulation we develop successfully replicates key indicators of
+    the pilot program including ridership and utilization. An analysis of
+    additional prospective deployment areas suggests that all proposed areas
+    would be successful at the current level of investment. UTA and its partners
+    should prioritize regions that enhance the ability to build multi-modal
+    travel paths and focus on automobile-limited households to maximize system
+    use.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 23
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Atchley
+      given: S. Hayden
+  citation-key: macfarlaneIdentifyingMicrotransitService2023
+  issued:
+    - year: 2023
+      month: 1
+      day: 1
+  language: en
+  number: UT-23.01
+  publisher: Utah Department of Transportation
+  title: Identifying Microtransit Service Areas Through Microsimulation
+  type: report
+  URL: rosap.ntl.bts.gov/view/dot/66312
+
+- id: macfarlaneIdentifyingRidehailRiders2026
+  abstract: >-
+    The advent of on-demand transport modes such as ride-hailing and
+    microtransit has challenged forecasters to develop new methods of
+    forecasting the use and impacts of such modes. In particular, there is some
+    professional disagreement about the relative role of activity-based
+    transportation behavior models — which have detailed understanding of the
+    person making a trip and its purpose — and multi-agent demand simulations
+    which may have a better understanding of the availability and service
+    characteristics of on-demand services. A particular question surrounds how
+    the relative strengths of these two approaches might be successfully paired
+    in practice. Using daily plans generated by the activity-based model
+    ActivitySim as inputs to the BEAM multi-agent simulation, we construct nine
+    different methodological combinations by allowing the choice to use a pooled
+    ride-hail service in ActivitySim, in BEAM with different utility functions,
+    or in both. Within each combination, we estimate ride-hailing ridership and
+    level of service measures. The results suggest that mode choice model
+    structure drastically affects ride-hailing ridership and level of service.
+    In addition, we see that multi-agent simulation overstates the demand
+    interest relative to an activity-based model, but there may be opportunities
+    in future research to implement feedback loops to balance the ridership and
+    level of service forecasts between the two models.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Day
+      given: Christopher
+    - family: Erhardt
+      given: Gregory D.
+    - family: Watkins
+      given: Kari E.
+  citation-key: macfarlaneIdentifyingRidehailRiders2026
+  collection-title: >-
+    The 17th International Conference on Ambient Systems, Networks and
+    Technologies Networks (ANT)/ the 9th International Conference on Emerging
+    Data and Industry 4.0 (EDI40)
+  container-title: Procedia Computer Science
+  container-title-short: Procedia Comput. Sci.
+  DOI: 10.1016/j.procs.2026.04.038
+  ISSN: 1877-0509
+  issued:
+    - year: 2026
+      month: 1
+      day: 1
+  page: 286–293
+  source: ScienceDirect
+  title: Identifying ridehail riders through pairing ActivitySim and BEAM
+  type: paper-conference
+  URL: https://www.sciencedirect.com/science/article/pii/S1877050926010495
+  volume: '280'
+
+- id: macfarlaneInfluencesPresentResidential2015
+  abstract: >-
+    This study explores the relationship between historical exposure to the
+    built environment and current vehicle ownership patterns. The influence of
+    past exposure to the built environment on current vehicle ownership
+    decisions may be causal, but there are alternative explanations. Households
+    may primarily select to live in neighborhoods that facilitate their vehicle
+    ownership preferences, or they may retain preferences that they have
+    developed in the past, irrespective of their current situations. This study
+    seeks to control for these alternative explanations by including the built
+    environment attributes of households’ past residences as an influence on
+    vehicle ownership choices. We use a dataset from a credit reporting firm
+    that contains up to nine previous residential ZIP codes for households
+    currently living in the 13-county Atlanta, Georgia, metropolitan area.
+    Results show that past location is significant, but of marginal influence
+    relative to the attributes of the current location. From a practical
+    perspective, our results suggest that models that include current but not
+    past neighborhood attributes (also controlling for standard socioeconomic
+    variables) can forecast vehicle ownership decisions reasonably well.
+    However, models that include both current and past neighborhood attributes
+    can provide a more nuanced understanding of the built environment’s
+    potentially causal influences on vehicle ownership decisions. This better
+    understanding may provide more realistic forecasts of responses to
+    densification or other travel demand management strategies.
+  accessed:
+    - year: 2023
+      month: 3
+      day: 29
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Garrow
+      given: Laurie A.
+    - family: Mokhtarian
+      given: Patricia L.
+  citation-key: macfarlaneInfluencesPresentResidential2015
+  container-title: 'Transportation Research Part A: Policy and Practice'
+  container-title-short: Transp. Res. Part Policy Pract.
+  DOI: 10.1016/j.tra.2015.01.005
+  ISSN: 0965-8564
+  issued:
+    - year: 2015
+      month: 4
+      day: 1
+  language: en
+  license: All rights reserved
+  page: 186–200
+  source: ScienceDirect
+  title: >-
+    The influences of past and present residential locations on vehicle
+    ownership decisions
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S0965856415000130
+  volume: '74'
+
+- id: macfarlaneModelingImpactsPark2021
+  abstract: >-
+    Recent research has underscored the potential for public green spaces to
+    influence individual and societal health outcomes, but empirical
+    measurements of such influences have yielded mixed results to date, with
+    particular disagreement surrounding how access to parks ought to be defined
+    while controlling for alternate explanations. In this paper, we apply a
+    comprehensive measure of park accessibility drawn from random utility choice
+    theory, which avoids arbitrary assertions of proximity while incorporating
+    potentially numerous amenities and attributes of both the parks and the
+    population. We apply this utility-based accessibility measure to correlate
+    Census tract-level obesity and physical activity rate estimates from the
+    Centers for Disease Control and Prevention’s 500 Cities project with
+    tract-level American Community Survey socioeconomic data in New York City,
+    paired with geographic open space data from New York City. Controlling for
+    the socioeconomic variables and spatially correlated error terms, we show a
+    positive and significant relationship between park access and physical
+    activity rates. The data also suggest a negative relationship between park
+    access and obesity rates, beyond what is expected through physical activity
+    and socioeconomics. In doing so, this research contributes a more
+    comprehensive modeling approach for measuring the impact of park access on
+    health, and may improve our understanding of the role parks and access to
+    them can serve in furthering public health objectives.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S
+    - family: Boyd
+      given: Nico
+    - family: Taylor
+      given: John E
+    - family: Watkins
+      given: Kari
+  citation-key: macfarlaneModelingImpactsPark2021
+  container-title: 'Environment and Planning B: Urban Analytics and City Science'
+  container-title-short: Environ. Plan. B Urban Anal. City Sci.
+  DOI: 10.1177/2399808320974027
+  ISSN: 2399-8083
+  issue: '8'
+  issued:
+    - year: 2021
+      month: 10
+      day: 1
+  language: en
+  license: All rights reserved
+  page: 2289–2306
+  publisher: SAGE Publications Ltd STM
+  source: SAGE Journals
+  title: >-
+    Modeling the impacts of park access on health outcomes: A utility-based
+    accessibility approach
+  title-short: Modeling the impacts of park access on health outcomes
+  type: article-journal
+  URL: https://doi.org/10.1177/2399808320974027
+  volume: '48'
+
+- id: macfarlaneProximityUtilityBasedAccess2022
+  abstract: >-
+    Understanding who in a community has access to its resources—parks,
+    libraries, grocery stores, etc.—has profound equity implications, but
+    typical methods to understand access to these resources are limited. Travel
+    time buffers require researchers to assert mode of access as well as an
+    arbitrary distance threshold; further, these methods do not distinguish
+    between destination quality attributes in an effective way. In this
+    research, we present a methodology to develop utility-based accessibility
+    measures for parks, libraries, and grocery stores in Utah County, Utah. The
+    method relies on passive location-based services data to model destination
+    choice to these community resources; the destination choice model utility
+    functions in turn allow us to develop a picture of regional access that is
+    sensitive to: the quality and size of the destination resource; continuous
+    (non-binary) travel impedance by multiple modes; and the sociodemographic
+    attributes of the traveler. We then use this measure to explore equity in
+    access to the specified community resources across income level in Utah
+    County: the results reveal a discrepancy between which neighborhoods might
+    be targeted for intervention using space-based analysis.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Stucki
+      given: Emma
+    - family: Redelfs
+      given: Alisha H.
+    - family: Spruance
+      given: Lori Andersen
+  citation-key: macfarlaneProximityUtilityBasedAccess2022
+  container-title: International Journal of Environmental Research and Public Health
+  container-title-short: Int. J. Environ. Res. Public. Health
+  DOI: 10.3390/ijerph191912352
+  ISSN: 1660-4601
+  issue: '19'
+  issued:
+    - year: 2022
+      month: 1
+  language: en
+  license: http://creativecommons.org/licenses/by/3.0/
+  number: '19'
+  page: '12352'
+  publisher: Multidisciplinary Digital Publishing Institute
+  source: www.mdpi.com
+  title: 'Beyond Proximity: Utility-Based Access from Location-Based Services Data'
+  title-short: Beyond Proximity
+  type: article-journal
+  URL: https://www.mdpi.com/1660-4601/19/19/12352
+  volume: '19'
+
+- id: macfarlaneRiderPerceptionsOnDemand2021
+  abstract: >-
+    On-demand microtransit services are frequently seen as an important tool in
+    supporting first and last mile operations surrounding fixed route high
+    frequency transit facilities, but questions remain surrounding who will use
+    these novel services and for what purposes. In November 2019, the Utah
+    Transit Authority launched an on-demand microtransit service in south Salt
+    Lake County in partnership with a private mobility operator. This paper
+    reports the results of an expressed preferences survey of 130 transit riders
+    in the microtransit service area that was collected before and immediately
+    after the service launched. There is not a clear relationship between
+    current transit access mode and expressed willingness to use microtransit,
+    although some responses from new riders indicate the novel service competes
+    most directly with commercial transportation network company operations. The
+    survey responses also reveal younger passengers express a more than expected
+    willingness to use microtransit, middle-aged passengers a less than expected
+    willingness, and older passengers neutral or no expressed opinion. The
+    results suggest additional relationships between household size and transit
+    use frequency, but further research is necessary. The effect of other user
+    characteristics, including income and automobile availability, is less
+    statistically clear and requires further research.
+  accessed:
+    - year: 2023
+      month: 1
+      day: 17
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Hunter
+      given: Christian
+    - family: Martinez
+      given: Austin
+    - family: Smith
+      given: Elizabeth
+  citation-key: macfarlaneRiderPerceptionsOnDemand2021
+  container-title: Smart Cities
+  DOI: 10.3390/smartcities4020036
+  ISSN: 2624-6511
+  issue: '2'
+  issued:
+    - year: 2021
+      month: 6
+  language: en
+  license: http://creativecommons.org/licenses/by/3.0/
+  number: '2'
+  page: 717–727
+  publisher: Multidisciplinary Digital Publishing Institute
+  source: www.mdpi.com
+  title: >-
+    Rider Perceptions of an On-Demand Microtransit Service in Salt Lake County,
+    Utah
+  type: article-journal
+  URL: https://www.mdpi.com/2624-6511/4/2/36
+  volume: '4'
+
+- id: macfarlaneSimulatingIncidentManagement2024
+  abstract: >-
+    The effectiveness of Incident Management Teams (IMT) in reducing the
+    duration and impact of traffic incidents is well documented. The capacity of
+    large-scale simulation models to illustrate the negative effects of these
+    incidents on vehicle delays and excess user costs (EUC) is also widely
+    recognized. However, there is a gap in research integrating large-scale
+    simulation modeling with IMT performance analysis. This study uses the
+    Multi-Agent Transport Simulation (MATSim) framework to simulate the impact
+    of incidents and evaluate the performance of IMT across the regional network
+    of Utah’s Wasatch Front, analyzing their operation in various hypothetical
+    situations. Our findings validate the role of IMT in decreasing delays and
+    EUC. The simulation also investigates the potential effects of increased
+    incident frequency and IMT expansion, revealing that more incidents
+    increased delays, whereas additional IMT units can mitigate these effects
+    and improve response times. The MATSim model we developed demonstrates the
+    potential of dynamic large-scale modeling to evaluate incident management
+    strategies in ways that previous studies did not. This model could serve as
+    a valuable tool for further evaluating the performance of Utah’s IMT
+    program, with the potential to offer new perspectives on optimizing team
+    deployment and scheduling efficiency.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Jarvis
+      given: Daniel
+    - family: Woolley
+      given: Brynn
+    - family: Schultz
+      given: Grant G.
+  citation-key: macfarlaneSimulatingIncidentManagement2024
+  issued:
+    - year: 2024
+      month: 3
+      day: 1
+  language: en
+  number: UT-23.22
+  publisher: Utah Department of Transportation
+  title: Simulating Incident Management Team Response and Performance
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/74034
+
+- id: macfarlaneUtilityBasedApproachModeling2025a
+  abstract: >-
+    AbstractThe resilience of transportation networks is an important
+    consideration in policy,
+
+    management, and planning, but practical techniques to identify systemically
+    critical
+
+    links are limited. Further, current practical techniques ignore that when
+    ...
+  accessed:
+    - year: 2026
+      month: 3
+      day: 31
+  author:
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Barnes
+      given: Max
+    - family: Gibbons
+      given: Natalie
+  citation-key: macfarlaneUtilityBasedApproachModeling2025a
+  container-title: 'Journal of Transportation Engineering, Part A: Systems'
+  container-title-short: J. Transp. Eng. Part Syst.
+  DOI: 10.1061/JTEPBS.TEENG-8534
+  issue: '1'
+  issued:
+    - year: 2025
+      month: 1
+      day: 1
+  language: en
+  page: '04024094'
+  publisher: American Society of Civil Engineers
+  source: ASCE
+  title: >-
+    A Utility-Based Approach to Modeling Systemic Resilience of Highway Networks
+    with an Application in Utah
+  type: article-journal
+  URL: https://ascelibrary.org/doi/10.1061/JTEPBS.TEENG-8534
+  volume: '151'
+
+- id: mcbrideSubsurfaceVisualizationUsing2009
+  abstract: >-
+    The use of non-invasive geophysical techniques is becoming increasingly
+    important in archaeological site studies as a means to increase the
+    efficiency of excavation and to thereby avoid unnecessary disturbance.
+    Ground-penetrating radar (GPR) surveys were performed over an orthogonal
+    grid in order to guide the decision-making process for planning excavation
+    at a Roman site in Pollena Trocchia (Italy), located just off the NW flank
+    of Somma-Vesuvius. Archaeological planning for this site is complicated by
+    contextual disruption and intermittent backfill, sometimes exacerbated by
+    its proximity to building sites and by its use as a landfill, and by prior
+    archaeological excavation and subsequent remediation. From a geophysical
+    point of view, the site at Pollena Trocchia provided an ideal test-bed for
+    visualization experiments (a) because the ground surface was readily cleared
+    and smoothed by earth-moving machinery and (b) because the soil derived from
+    geologically recent volcanic ash was dry at the time of the survey.
+    State-of-the-art geophysical visualization techniques were applied to the
+    pseudo-3D GPR data using conventional displays, seismic attribute analysis,
+    and waveform connectivity schemes as employed in petroleum exploration. In
+    this way, we assess the value of applying strategies adapted from industrial
+    3D seismic imaging to the problem of defining the effects of previous
+    disturbance at a complex archaeological site.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Mcbride
+      given: J. H.
+    - family: Keach
+      given: R. W.
+    - family: Macfarlane
+      given: R. T.
+    - family: De Simone
+      given: G. F.
+    - family: Scarpati
+      given: Claudio
+    - family: Johnson
+      given: D. J.
+    - family: Yaede
+      given: J. R.
+    - family: Macfarlane
+      given: G. S.
+    - family: Weight
+      given: R. W. R.
+  citation-key: mcbrideSubsurfaceVisualizationUsing2009
+  issued:
+    - year: 2009
+  language: en
+  note: 'Accepted: 2015-09-23T00:21:38Z'
+  source: www.iris.unina.it
+  title: >-
+    Subsurface Visualization Using Ground-Penetrating Radar for Archaeological
+    Site Preparation on the Northern Slope of Somma-Vesuvius: A Roman Site,
+    Pollena Trocchia, Italy
+  title-short: >-
+    Subsurface Visualization Using Ground-Penetrating Radar for Archaeological
+    Site Preparation on the Northern Slope of Somma-Vesuvius
+  type: article-journal
+  URL: https://www.iris.unina.it/handle/11588/353053
+
+- id: schultzAnalysisBenefitsUDOTs2023
+  abstract: >-
+    In 2019, the Utah Department of Transportation (UDOT) funded a research
+    study evaluating the performance measures of UDOT’s expanded Incident
+    Management Team (IMT) program. The number of IMTs patrolling Utah roadways
+    increased from 13 to 25 between 2018 and 2020. Crash data were collected
+    from the Utah Highway Patrol’s Computer Aided Dispatch database and from the
+    UDOT TransSuite database to compare IMT performance measures between the two
+    years and to evaluate the benefits of the expanded IMT program. However,
+    these data were compromised due to the effects of the COVID-19 pandemic.
+    This study collected data for 2022 using the same methodology as the Phase
+    II study to compare IMT performance measures in 2022 with those of 2018
+    after traffic volumes had returned to a similar level as those of
+    pre-pandemic levels. There were 283 and 307 incidents for the years of 2018
+    and 2022, respectively, that were analyzed for IMT performance measures
+    which include response time, roadway clearance time, and incident clearance
+    time. There were 172 and 236 incidents for the years of 2018 and 2022,
+    respectively, that were analyzed for the user impact categories of affected
+    volume, excess travel time, and excess user costs. Results of the
+    statistical analyses conducted on the 2018 and 2022 datasets show that IMTs
+    can respond more quickly to incidents in a larger coverage area with
+    significantly reduced user impacts. The expanded IMT program is also able to
+    respond to more incidents, including those of high severity, while
+    significantly decreasing congestion.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Schultz
+      given: Grant G.
+    - family: Hyer
+      given: Joel
+    - family: Holdsworth
+      given: W. Harrison
+    - family: Eggett
+      given: Dennis L.
+    - family: Macfarlane
+      given: Gregory S.
+  citation-key: schultzAnalysisBenefitsUDOTs2023
+  DOI: 10.21949/1528563
+  issued:
+    - year: 2023
+      month: 9
+      day: 1
+  language: en
+  number: UT-23.05
+  publisher: Utah Department of Transportation
+  title: Analysis of Benefits of UDOT’s Expanded Incident Management Team Program
+  type: report
+  URL: https://rosap.ntl.bts.gov
+
+- id: schultzAnalysisUDOTsExpanded2025
+  accessed:
+    - year: 2026
+      month: 7
+      day: 22
+  author:
+    - family: Schultz
+      given: Grant G.
+    - family: Hyer
+      given: Joel C.
+    - family: Macfarlane
+      given: Gregory S.
+  citation-key: schultzAnalysisUDOTsExpanded2025
+  container-title: International Conference on Transportation and Development
+  container-title-short: Int. Conf. Transp. Dev.
+  DOI: 10.1061/9780784486207.037
+  issued:
+    - year: 2025
+      month: 6
+      day: 5
+  language: en
+  page: 431–443
+  publisher: American Society of Civil Engineers
+  source: ASCE
+  title: An Analysis of UDOT’s Expanded Incident Management Team Program
+  type: paper-conference
+  URL: https://ascelibrary.org/doi/10.1061/9780784486207.037
+
+- id: schultzDetectingTrafficData2022
+  abstract: >-
+    The Utah Department of Transportation (UDOT) has continuously invested in
+    traffic signal performance evaluation in Utah. The Brigham Young University
+    (BYU) transportation research team developed a high-level scoring system to
+    evaluate signal performance using four Automated Traffic Signal Performance
+    Measures (ATSPM), including platoon ratio, split failures, arrivals on
+    green, and red-light actuations. The scoring system helps UDOT engineers and
+    planners to evaluate the performance of each signal. However, there is still
+    a need to understand how intersections and corridors perform over time.
+    Therefore, the purpose of this research was to use the scoring system
+    developed in the previous research to analyze the signal performance
+    longitudinally. The method described in this research expanded the study
+    area from 20 to 32 signalized intersections and the study period from 24
+    days to 2 years. One additional ATSPM (approach volume) was also included.
+    The BYU research team developed an interactive data visualization tool to
+    show the change in signal performance measures over time, and several data
+    anomalies were discovered in the ATSPM datasets. The research team applied
+    linear regression, moving average and standard deviation, and distribution
+    comparison methods to identify the data anomalies. However, due to the
+    various types of data anomalies, only the moving average and standard
+    deviation method was successful in identifying most of the data anomalies.
+    Future investigation is needed to address the data anomalies and improve the
+    data accuracy.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 23
+  author:
+    - family: Schultz
+      given: Grant G.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Wang
+      given: Bangyu
+    - family: Davis
+      given: Matthew C.
+  citation-key: schultzDetectingTrafficData2022
+  issued:
+    - year: 2022
+      month: 11
+      day: 1
+  language: en
+  number: US-22.21
+  publisher: Utah Department of Transportation
+  title: Detecting Traffic Data Anomalies in Longitudinal Signal Performance Measures
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/65833
+
+- id: schultzEvaluatingQualitySignal2020
+  abstract: >-
+    The Utah Department of Transportation (UDOT) has taken an active role in
+    evaluating and monitoring traffic signal performance throughout the state of
+    Utah. Automated traffic signal performance measures (ATSPM) have been
+    adopted to collect data concerning the current and historical performance of
+    signalized intersections to optimize mobility and manage traffic signal
+    timing and maintenance to reduce congestion, save fuel costs, and improve
+    safety. The collected and aggregated data that are continuously generated
+    yields approximately 1 TB of data per month. The purpose of this research
+    was to provide a method that can evaluate intersection-level and
+    corridor-level performance using the ATSPM data. The method described in
+    this paper analyzed three signalized corridors in Utah, consisting of 22
+    total intersections. Four ATSPM were used to develop threshold values. These
+    performance measures include Platoon Ratio, Split Failures, Arrivals on
+    Green, and Red-Light Actuation. These four performance measures are scaled
+    and classified using k-means cluster analysis. The k-means cluster analysis
+    is a broad set of techniques for finding subgroups of observations within a
+    data set. The results of this analysis produced a score for each
+    intersection and corridor determined from the weighted average of the four
+    measures. The methodology can be developed with more performance types and
+    more extensive corridors for future studies.
+  accessed:
+    - year: 2026
+      month: 7
+      day: 23
+  author:
+    - family: Schultz
+      given: Grant G.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Wang
+      given: Bangyu
+    - family: McCuen
+      given: Sabrina
+  citation-key: schultzEvaluatingQualitySignal2020
+  issued:
+    - year: 2020
+      month: 7
+      day: 1
+  language: en
+  number: UT-20.08
+  publisher: Utah Department of Transportation
+  title: >-
+    Evaluating the Quality of Signal Operations Using Signal Performance
+    Measures
+  type: report
+  URL: https://rosap.ntl.bts.gov/view/dot/54639
+
+- id: transportationresearchboardPublicTransitRider2019
+  abstract: >-
+    TRB's Transit Cooperative Research Program (TCRP) Synthesis 138: Public
+    Transit Rider Origin–Destination Survey Methods and Technologies captures
+    the state of the practice among agencies of different sizes, geographic
+    locations, and modes and evaluates the opportunities for and challenges of
+    conducting surveys in an era of emerging technologies.The report presents
+    the reality and complexity of conducting origin–destination surveys and will
+    allow agencies to compare what they are currently doing with what others are
+    doing, get ideas about what other strategies are possible, and make better
+    decisions about surveying in the future.The report includes case examples of
+    five transit systems that present an in-depth analysis of various survey
+    strategies and include two agencies that have leveraged passive data to
+    complement or eliminate origin–destination surveys.
+  author:
+    - family: Zalewski
+      given: Andrew
+    - family: Sonenklar
+      given: Daniel
+    - family: Cohen
+      given: Alexandra
+    - family: Kressner
+      given: Josie
+    - family: Macfarlane
+      given: Gregory
+  citation-key: transportationresearchboardPublicTransitRider2019
+  DOI: 10.17226/25428
+  ISBN: 978-0-309-48021-5
+  issued:
+    - year: 2019
+  language: en
+  number: TCRP Synthesis 138
+  publisher: >-
+    Transportation Research Board of the National Academies of Sciences,
+    Engineering, and Medicine
+  publisher-place: Washington, DC
+  title: Public Transit Rider Origin–Destination Survey Methods and Technologies
+  type: report
+  URL: >-
+    https://nap.nationalacademies.org/catalog/25428/public-transit-rider-origin-destination-survey-methods-and-technologies
+
+- id: voulgarisWhoseMilesAre2024
+  abstract: >-
+    State, local, and private-sector climate policies increasingly require
+    estimates of site-generated vehicle miles traveled (VMT) for individual
+    properties. No standard, agreed-upon method exists for this purpose. If
+    alternative methods produce reasonably consistent results, then an analyst
+    may select a method based on convenience. The purpose of this study was to
+    determine whether this is the case. We reviewed existing applications and
+    methods for estimating site-generated VMT, which can be conceptualized as
+    the product of site-level trip generation and average length of a
+    site-generated trip. We identified four plausible methods for estimating
+    site-level trip generation and three for estimating average lengths of
+    site-generated trips. Combining these yielded 12 methods for estimating
+    site-generated VMT. We applied these methods to estimate trip generation,
+    average trip length, and total VMT generated by eight existing office sites
+    in the San Francisco Bay Area (CA) and the Wasatch Front Region of Utah. We
+    found that trip generation and trip length estimates varied widely, with
+    greater variation in trip generation estimates than in trip length
+    estimates. Variation was magnified when the estimates were multiplied to
+    produce site-generated VMT estimates, with the minimum estimate at a single
+    site ranging from 84% to 96% lower than the corresponding maximum. In the
+    short term, planning policies requiring site developers or occupants to
+    produce site-level estimates of VMT should specify consistent methods to
+    allow for comparison across sites and over time as needed. In the long term,
+    if VMT is to be used as a performance metric, industry-wide standards for
+    estimating it for both existing and prospective projects are needed.
+    Alternatively, policymakers should consider whether the goals of VMT
+    reduction might be better met with a different performance metric.
+  accessed:
+    - year: 2024
+      month: 11
+      day: 27
+  author:
+    - family: Voulgaris
+      given: Carole Turley
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Kaylor
+      given: Joseph C.
+  citation-key: voulgarisWhoseMilesAre2024
+  container-title: Journal of the American Planning Association
+  container-title-short: J. Am. Plann. Assoc.
+  DOI: 10.1080/01944363.2023.2298962
+  ISSN: 0194-4363
+  issue: '4'
+  issued:
+    - year: 2024
+      month: 10
+      day: 1
+  license: All rights reserved
+  page: 593–609
+  publisher: Routledge
+  source: Taylor and Francis+NEJM
+  title: >-
+    Whose Miles Are These Anyway?: Estimating Site-Generated Vehicle Miles
+    Traveled
+  title-short: Whose Miles Are These Anyway?
+  type: article-journal
+  URL: https://doi.org/10.1080/01944363.2023.2298962
+  volume: '90'
+
+- id: voulgarisYoullNeverWalk2025
+  abstract: >-
+    Introduction:
+
+    Active travel can contribute to children meeting recommended levels of
+    physical activity. Independent travel may also increase children’s mental
+    and emotional health by increasing feelings of autonomy. The purpose of this
+    study is to determine (1) what predicts households’ joint choice of mode and
+    parental escorting for the journey to school, and (2) how the structure of
+    this joint choice is best described.
+
+    Methods:
+
+    Using data from the 2009 and 2017 National Household Travel Surveys in the
+    United States, we estimated several discrete choice models jointly
+    predicting the choice of mode and escorting. We tested alternative model
+    structures representing mode-escorting combinations as independent
+    alternatives, nested alternatives, or cross-nested alternatives.
+
+    Results:
+
+    The cross-nested model structure best fits the data. The cross-nested model
+    is consistent with the conception of escorted active travel as a compromise
+    between motorized travel and unescorted active travel. Lower vehicle access,
+    a later survey year, and the presence of a nonworking mother in the
+    household are associated with lower utility of both motorized travel and
+    unescorted active travel, relative to escorted active travel.
+
+    Conclusions:
+
+    While the physical activity benefits of active travel are available
+    regardless of parental escorting, additional mental and emotional health
+    benefits may come when travel is both active and independent. Since there is
+    less substitution from motorized travel to unescorted active travel than to
+    escorted active travel, we conclude with a call for strategies that not only
+    facilitate active travel to school, but also enable children to safely
+    travel independently of their parents.
+  accessed:
+    - year: 2026
+      month: 3
+      day: 31
+  author:
+    - family: Voulgaris
+      given: Carole Turley
+    - family: Jensen
+      given: Anders Fjendbo
+    - family: Macfarlane
+      given: Gregory S.
+  citation-key: voulgarisYoullNeverWalk2025
+  container-title: Journal of Transport & Health
+  container-title-short: J. Transp. Health
+  DOI: 10.1016/j.jth.2025.102147
+  ISSN: 2214-1405
+  issued:
+    - year: 2025
+      month: 10
+      day: 1
+  page: '102147'
+  source: ScienceDirect
+  title: >-
+    You’ll Never Walk Alone: Parental active escorting as an alternative to car
+    travel to school
+  title-short: You’ll Never Walk Alone
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S2214140525001677
+  volume: '44'
+
+- id: wallExploringUseEgocentric2014
+  abstract: >-
+    The rapid growth of online social networking over the past decade has
+    generated substantial amounts of data about individuals and their social
+    relationships. Recent research studies investigating social relationships
+    and travel behavior have sought connections between individuals’ social
+    networks and socially related travel; however, to the authors’ knowledge, no
+    study has pursued the use of online social networking data to do so. This
+    study explores the use of online social network data in characterizing
+    individuals’ air travel behavior. Data were collected through a web-based
+    survey including information about individuals’ air travel history and
+    online social network information, specifically participants’ Facebook
+    networks. The data were then analyzed to address a series of hypotheses
+    about the association between online social network characteristics
+    (specifically Facebook) and air travel behavior, in particular, travel
+    distance, leisure-related travel, and trip generation. This study found a
+    positive relationship between the size and distribution of individuals’
+    Facebook social networks and both their engagement in air travel and the
+    odds that their air travel will be leisure related or will include a leisure
+    component.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Wall
+      given: Thomas A.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Watkins
+      given: Kari Edison
+  citation-key: wallExploringUseEgocentric2014
+  container-title: Transportation Research Record
+  container-title-short: Transp. Res. Rec.
+  DOI: 10.3141/2400-09
+  ISSN: 0361-1981
+  issue: '1'
+  issued:
+    - year: 2014
+      month: 1
+      day: 1
+  language: en
+  license: All rights reserved
+  page: 78–86
+  publisher: SAGE Publications Inc
+  source: SAGE Journals
+  title: >-
+    Exploring the Use of Egocentric Online Social Network Data to Characterize
+    Individual Air Travel Behavior
+  type: article-journal
+  URL: https://doi.org/10.3141/2400-09
+  volume: '2400'
+
+- id: wangEvaluatingSignalSystems2022
+  abstract: >-
+    Automated traffic signal performance measures (ATSPMs) are used to collect
+    data concerning the current and historical performance of signalized
+    intersections. However, transportation agencies are not using ATSPM data to
+    the full extent of this “big data” resource, because the volume of
+    information can overwhelm traditional identification and prioritization
+    techniques. This paper presents a method that summarizes multiple dimensions
+    of intersection- and corridor-level performance using ATSPM data and returns
+    information that can be used for prioritization of intersections and
+    corridors for further analysis. The method was developed and applied to
+    analyze three signalized corridors in Utah, consisting of 20 total
+    intersections. Four performance measures were used to develop threshold
+    values for evaluation: platoon ratio, split failures, arrivals on green, and
+    red-light violations. The performance measures were scaled and classified
+    using k-means cluster analysis and expert input. The results of this
+    analysis produced a score for each intersection and corridor determined from
+    the average of the four measures, weighted by expert input. The methodology
+    is presented as a prototype that can be developed with more performance
+    measures and more extensive corridors for future studies.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Wang
+      given: Bangyu
+    - family: Schultz
+      given: Grant G.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: McCuen
+      given: Sabrina
+  citation-key: wangEvaluatingSignalSystems2022
+  container-title: Future Transportation
+  container-title-short: Future Transp.
+  DOI: 10.3390/futuretransp2030036
+  ISSN: 2673-7590
+  issue: '3'
+  issued:
+    - year: 2022
+      month: 9
+  language: en
+  license: http://creativecommons.org/licenses/by/3.0/
+  number: '3'
+  page: 659–674
+  publisher: Multidisciplinary Digital Publishing Institute
+  source: www.mdpi.com
+  title: >-
+    Evaluating Signal Systems Using Automated Traffic Signal Performance
+    Measures
+  type: article-journal
+  URL: https://www.mdpi.com/2673-7590/2/3/36
+  volume: '2'
+
+- id: wangMethodologyDetectTraffic2023
+  abstract: >-
+    Automated traffic signal performance measures (ATSPMs) have garnered
+    significant attention for their ability to collect and evaluate real-time
+    and historical data at signalized intersections. ATSPM data are widely
+    utilized by traffic engineers, planners, and researchers in various
+    application scenarios. In working with ATSPM data in Utah, it was discovered
+    that five types of ATSPM data anomalies (data switching, data shifting, data
+    missing under 6 months, data missing over 6 months, and irregular curves)
+    were present in the data. To address the data issues, this paper presents a
+    method that enables transportation agencies to automatically detect data
+    anomalies in their ATSPM datasets. The proposed method utilizes the moving
+    average and standard deviation of a moving window to calculate the z-score
+    for traffic volume data points at each timestamp. Anomalies are flagged when
+    the z-score exceeds 2, which is based on the data falling within two
+    standard deviations of the mean. The results demonstrate that this method
+    effectively identifies anomalies within ATSPM systems, thereby enhancing the
+    usability of data for engineers, planners, and all ATSPM users. By employing
+    this method, transportation agencies can improve the efficiency of their
+    ATSPM systems, leading to more accurate and reliable data for analysis.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Wang
+      given: Bangyu
+    - family: Schultz
+      given: Grant G.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Eggett
+      given: Dennis L.
+    - family: Davis
+      given: Matthew C.
+  citation-key: wangMethodologyDetectTraffic2023
+  container-title: Future Transportation
+  container-title-short: Future Transp.
+  DOI: 10.3390/futuretransp3040064
+  ISSN: 2673-7590
+  issue: '4'
+  issued:
+    - year: 2023
+      month: 12
+  language: en
+  license: http://creativecommons.org/licenses/by/3.0/
+  number: '4'
+  page: 1175–1194
+  publisher: Multidisciplinary Digital Publishing Institute
+  source: www.mdpi.com
+  title: >-
+    A Methodology to Detect Traffic Data Anomalies in Automated Traffic Signal
+    Performance Measures
+  type: article-journal
+  URL: https://www.mdpi.com/2673-7590/3/4/64
+  volume: '3'
+
+- id: wangPredictingDirectionalTraffic2024
+  abstract: >-
+    Automated traffic signal performance measures (ATSPM) have become widely
+    adopted and utilized by state and local agencies in the U.S. for collecting
+    real-time traffic data 24 h a day, 7 days a week. These agencies have
+    developed new performance measures and applications to address their local
+    transportation planning needs. However, recent research has identified data
+    quality issues in the collected data from ATSPM systems. Specifically, the
+    traffic volumes collected through ATSPM exhibit data anomalies that do not
+    accurately reflect the actual traffic patterns at intersections. As such,
+    there is a need to address the data quality issues found in ATSPM datasets.
+    The purpose of this paper is to evaluate the use of machine learning
+    algorithms and statistical methods to predict traffic volume at
+    intersections. Existing traffic volume data, along with additional metrics
+    such as timestamps, weather conditions, crash data, and holidays, are
+    evaluated to predict traffic volume and address the data anomalies present
+    in ATSPM datasets. Two statistical methods and four machine learning
+    algorithms are evaluated to determine their ability to predict traffic
+    volumes. By comparing the root mean square error (RMSE) and the mean
+    absolute percentage error (MAPE) between each model, the results demonstrate
+    that the long short-term memory (LSTM) model exhibits the lowest error in
+    predicting traffic volume compared with the other models. The LSTM model
+    achieves an RMSE as low as 9.4 vehicles and an MAPE as low as 35%. By
+    leveraging the LSTM model, traffic agencies can enhance the quality of their
+    ATSPM data, enabling better decision-making for traffic operations by their
+    engineers and planners.
+  accessed:
+    - year: 2025
+      month: 1
+      day: 22
+  author:
+    - family: Wang
+      given: Bangyu
+    - family: Fulda
+      given: Nancy
+    - family: Huang
+      given: Zhengyang
+    - family: Schultz
+      given: Grant G.
+    - family: Macfarlane
+      given: Gregory S.
+    - family: Arnesen
+      given: Joseph
+    - family: Khayyat
+      given: Adnan
+  citation-key: wangPredictingDirectionalTraffic2024
+  container-title: Transportation Research Record
+  container-title-short: Transp. Res. Rec.
+  DOI: 10.1177/03611981241252829
+  ISSN: 0361-1981
+  issued:
+    - year: 2024
+      month: 6
+      day: 19
+  language: en
+  license: All rights reserved
+  page: '03611981241252829'
+  publisher: SAGE Publications Inc
+  source: SAGE Journals
+  title: >-
+    Predicting Directional Traffic Volume at Intersections with Automated
+    Traffic Signal Performance Measures Data Using Machine Learning Algorithms
+  type: article-journal
+  URL: https://doi.org/10.1177/03611981241252829
+...

@@ -1,0 +1,28 @@
+colors:
+  main_color: "#859900"
+  lightgray_color: "#93a1a1"
+  gray_color: "#657b83"
+personal:
+  name: ["Macfarlane, Gregory"]
+  split: false
+  socials:
+    email:
+      username: gregmacfarlane@byu.edu
+      icon: paper-plane
+      set: fa
+      prefix: "mailto:"
+    homepage:
+      username: gregmacfarlane.github.io
+      icon: globe
+      set: fa
+      prefix: https://
+    orcid:
+      username: 0000-0003-3999-7584
+      icon: orcid
+      set: ai
+      prefix: https://orcid.org
+    linkedin:
+      username: gregmacfarlane
+      icon: linkedin
+      set: fa
+      prefix: https://linkedin.com/in/

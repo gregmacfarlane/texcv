@@ -1,0 +1,47 @@
+lang:
+  en:
+    subtitle: Short CV
+    education: Higher education
+    work: Post-graduate positions
+    grants: Scholarships & awards
+    pubs: Publications
+    pubs-peer: Refereed journal articles
+    pubs-conference: Peer-reviewed conference papers
+    pubs-edited: Contributions in edited books
+    pubs-book: Books
+    pubs-reports: Reports
+    pubs-upcoming: Planned publications
+    confs: Conferences & invited talks
+    confs-conf: Conferences
+    exp-confs: "P: paper/presentation, M: moderator,  C: organizing committee"
+    confs-talks: Invited talks
+    committee: Committee work & voluntary roles (selection)
+    teaching: Teaching experience (Justus-Liebig-University Giessen)
+    teaching-thesis: Supervised theses
+    teaching-courses: Teaching (selected)
+    training: Additional training (selection)
+    training-methods: Methods training
+    training-didactics: Didactics
+    tab-course: Course
+    tab-study: Study program
+    tab-year: Term
+    tab-note: "Course language: (de) German, (en) English"
+    table-summer: "Summer"
+    table-winter: "Winter"
+    others: Further skills
+    skills-computer: Computer languages
+    skills-programs: Software
+    skills-languages: Languages
+    skills-tab-skills: Skill
+    skills-tab-level: Level
+    skills-tab-comment: Comment
+    skills-leg1: basic knowledge
+    skills-leg2: intermediate knowledge
+    skills-leg3: extensive knowledge
+    skills-leg4: expert knowledge
+    pubstate-inpreparation: in preparation
+    pubstate-submitted: submitted
+    pubstate-forthcoming: forthcoming
+    pubstate-inpress: in press
+    pubstate-prepub: preprint
+    date-format: "[month repr:long] [day], [year]"

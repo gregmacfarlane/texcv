@@ -1,0 +1,26 @@
+doctorate:
+  title:
+    en: PhD
+  subtitle:
+    en: Civil Engineering
+  location:
+    en: Georgia Institute of Technology
+  left: "2014"
+master:
+  title:
+    en: MS
+  subtitle:
+    en: Economics
+  location:
+    en: Georgia Institute of Technology
+  left: "2014"
+bachelor:
+  title:
+    en: BS
+  subtitle:
+    en: Civil Engineering
+  location:
+    en: Brigham Young University
+  left: "2009"
+  description:
+    en: with University Honors
