@@ -144,8 +144,10 @@
 #let cv-courses(courses) = {
   for course in courses.values() {
     heading(level: 2)[#course.code: #course.name]
-    course.description
-    v(0.35em)
+    block(above: 0.75em, below: 0.9em)[
+      #set par(leading: 0.35em)
+      #course.description
+    ]
 
     let cells = ()
     for offering in course.offerings {
