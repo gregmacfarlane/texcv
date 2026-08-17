@@ -158,10 +158,13 @@
       table(
         columns: (2.4fr, 0.8fr, 1.5fr, 0.8fr),
         inset: (x: 0.35em, y: 0.2em),
-        stroke: (x: none, y: 0.4pt + luma(75%)),
+        stroke: none,
         align: (left, center, center, center),
+        table.hline(stroke: 0.8pt + luma(35%)),
         table.header([*Semester*], [*Enrolled*], [*Student rating*], [*Average GPA*]),
+        table.hline(stroke: 0.45pt + luma(45%)),
         ..cells,
+        table.hline(stroke: 0.8pt + luma(35%)),
       )
     }
   }
