@@ -61,13 +61,44 @@
   conference2:
     name: North American Regional Science Conference (NARSC)
     action: P
+  conference1:
+    name: Association of Collegiate Schools of Planning Annual Conference
+    action: P
+  conference3:
+    name: Utah Transportation Conference
+    action: P
 "2020":
   conference1:
     name: Transportation Research Board Annual Meeting (TRB)
     action: P
+"2019": 
+  conference1:
+    name: Greater and Greener
+    action: P
+"2018":
+  conference1:
+    name: NHTS Data for Transportation Applications Workshop
+    action: P
+  conference2:
+    name: Innovation
+    action: P
+"2017": 
+  conference1:
+    name: American Public Health Association Annual Meeting
+    action: P
+  conference2: 
+    name: Transportation Planning Applications Conference
+    action: P
+"2016":
+  conference1:
+    name: Innovations in Travel Modeling Conference
+    action: P, M
 "2015":
   conference2:
     name: North American Regional Science Conference (NARSC)
+    action: P
+  conference1:
+    name: Transportation Research Board Annual Meeting (TRB)
     action: P
 "2014":
   conference2:
