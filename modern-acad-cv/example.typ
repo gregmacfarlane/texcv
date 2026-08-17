@@ -57,7 +57,7 @@
   }
 }
 #let review-note(note) = if review-mode {
-  block(above: 0.25em, below: 0.45em, note)
+  block(above: 0.75em, below: 0.45em, note)
 }
 
 // Group appointments and degrees by institution so that the institution,
@@ -345,7 +345,7 @@
 
 #if review-mode [
   == Venue notes
-  #review-data.at("venue-notes").intro
+  #review-note(review-data.at("venue-notes").intro)
   #let venue-cells = ()
   #for venue in review-data.at("venue-notes").entries {
     let citescore = [#venue.at("citescore", default: "-")]
