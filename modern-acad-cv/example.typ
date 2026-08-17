@@ -4,7 +4,7 @@
 #import "publication-renderer.typ": cv-refs-flexible
 
 // loading meta data and databases (needs to be ad this directory)
-#let metadata = yaml("metadata.yaml")
+#let base-metadata = yaml("metadata.yaml")
 #let base-multilingual = yaml("dbs/i18n.yaml")
 #let work = yaml("dbs/work.yaml")
 #let education = yaml("dbs/education.yaml")
@@ -29,6 +29,20 @@
 // defining variables
 #let review-mode = sys.inputs.at("review", default: "false") == "true"
 #let short-mode = sys.inputs.at("short", default: "false") == "true"
+#let metadata = {
+  let result = base-metadata
+  let colors = result.colors
+  let accent-color = if short-mode {
+    colors.short_color
+  } else if review-mode {
+    colors.review_color
+  } else {
+    colors.main_color
+  }
+  colors.insert("main_color", accent-color)
+  result.insert("colors", colors)
+  result
+}
 #let multilingual = {
   let result = base-multilingual
   let languages = result.lang
