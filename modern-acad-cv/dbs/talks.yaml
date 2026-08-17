@@ -1,13 +1,24 @@
 entry1:
   title:
     en: California HSR model transferability
-  subtitle: 
-    en: Presentation
   location:
     en: CalTrans Transit Research-to-Practice Symposium
+  left: "2025"
+entry3:
+  title: "Sustainable Transportation"
+  location:
+    en: Mongolia – BYU MPA Exchange
   left: "2025"
 entry2:
   title: "Modeling with Big Data"
   subtitle: course presentation
   location: Technische Universität München
   left: "2023"
+entry4:
+  title: "Using Mobile Data to Improve Transportation Sustainability"
+  location: Utah Central ASCE Chapter luncheon
+  left: "2020"
+entry5:
+  title: "Using Mobile Device Data to Measure Park Choice, Access, and Health"
+  location: BYU Statistics Department graduate seminar
+  left: "2020"
