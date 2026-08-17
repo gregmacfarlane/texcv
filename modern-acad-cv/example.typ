@@ -57,7 +57,7 @@
   }
 }
 #let review-note(note) = if review-mode {
-  block(above: 0.75em, below: 0.45em, note)
+  block(above: 0.75em, below: 0.75em, note)
 }
 
 // Group appointments and degrees by institution so that the institution,
