@@ -266,6 +266,17 @@
   show-date: true,
 )
 
+// The package indents all non-primary headings into the entry text column.
+// Subsection headings instead begin at the document's left text margin.
+#show heading.where(level: 2): it => {
+  set text(weight: "regular", fill: rgb(metadata.colors.main_color))
+  block(above: 0.65em, below: 0.15em, it.body)
+}
+#show heading.where(level: 3): it => {
+  set text(weight: "regular", fill: rgb(metadata.colors.main_color))
+  block(above: 0.65em, below: 0.15em, it.body)
+}
+
 = #headerLabs.at("work")
 
 #cv-auto-by-institution(work, lang: language)
