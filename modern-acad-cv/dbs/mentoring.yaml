@@ -47,7 +47,8 @@ undergraduate-research:
   entries:
     - {name: Christian Jarvis, area: travel behavior, dates: "2026–present", review-highlight: true}
     - {name: Elise Lefler, area: travel behavior, dates: "2026–present", review-highlight: true}
-    - {name: Kaylen Turley, area: demand microsimulation, dates: "2025–2027", review-highlight: true}
+    - {name: Elizabeth Woodford, area: demand microsimulation, dates: "2026-present", review-highlight: true}
+    - {name: Kaylen Turley, area: demand microsimulation, dates: "2025–2026", review-highlight: true}
     - {name: Tyler Carruth, area: work zone safety, dates: "2024–present"}
     - {name: Benjamin Hailstone, area: work zone safety, dates: "2024–2026"}
     - {name: Connor Williams, area: demand microsimulation, dates: "2024–2026"}
@@ -82,21 +83,21 @@ honors:
   label: Department honors coordinator
   summary: 3 students
   entries:
-    - {name: Becca Apgar, title: Development and demonstration of an apparatus for assessing frost-heave susceptibility of soil, year: "2024", review-highlight: true}
-    - {name: Daria Sofia Velasco-Vega, title: Thermal performance of thin-shell concrete dome structures, year: "2023", outcome: Pursuing Ph.D. at Purdue University, review-highlight: true}
-    - {name: Emma Kratz-Bailey, title: "Accessible methods, novel arrangement: Developing self-centering composite structural frames for highly resilient buildings", year: "2022", review-highlight: true}
+    - {name: Becca Apgar, title: Development and demonstration of an apparatus for assessing frost-heave susceptibility of soil, year: "2024"}
+    - {name: Daria Sofia Velasco-Vega, title: Thermal performance of thin-shell concrete dome structures, year: "2023", outcome: Pursuing Ph.D. at Purdue University}
+    - {name: Emma Kratz-Bailey, title: "Accessible methods, novel arrangement: Developing self-centering composite structural frames for highly resilient buildings", year: "2022"}
 other:
   label: Other mentoring
   entries:
-    - {name: Grace Gibson, title: "Gendered Journeys: analyzing the context, barriers, and solutions for women in public transit", year: "2024", note: Mentor for BYU Global Women’s Studies Minor capstone project, review-highlight: true}
+    - {name: Grace Gibson, title: "Gendered Journeys: analyzing the context, barriers, and solutions for women in public transit", year: "2024", note: Mentor for BYU Global Women’s Studies Minor capstone project}
 capstone:
   label: Civil engineering capstone team mentor
   summary: 26 students
   entries:
-    - {dates: "2024–2025", project: Land development capacity system design, sponsor: UDOT, students: "George Cicotte, Emily Jacobsen, Tacoma Parkinson", review-highlight: true}
-    - {dates: "2023–2024", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Megan Hungerford, Ellie Johns, Kamryn Mansfield, Myrranda Salmon", review-highlight: true}
-    - {dates: "2022–2023", project: SR-140 Corridor alternatives, sponsor: Bluffdale City, students: "Clinton Childers, Robert Mickelson, Trevor Mickelson, Joseph Wells", review-highlight: true}
-    - {dates: "2021–2022", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Nicole Adams, Hayden Atchley, Kyle Leatham, Daniel Jarvis", review-highlight: true}
-    - {dates: "2020–2021", project: Forecasting demand for future FrontRunner scenarios, sponsor: Utah Transit Authority, students: "Gillian Martin Riches, Tomas Barriga, Landon Pratt, Cole Larsen", review-highlight: true}
+    - {dates: "2024–2025", project: Land development capacity system design, sponsor: UDOT, students: "George Cicotte, Emily Jacobsen, Tacoma Parkinson"}
+    - {dates: "2023–2024", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Megan Hungerford, Ellie Johns, Kamryn Mansfield, Myrranda Salmon"}
+    - {dates: "2022–2023", project: SR-140 Corridor alternatives, sponsor: Bluffdale City, students: "Clinton Childers, Robert Mickelson, Trevor Mickelson, Joseph Wells"}
+    - {dates: "2021–2022", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Nicole Adams, Hayden Atchley, Kyle Leatham, Daniel Jarvis"}
+    - {dates: "2020–2021", project: Forecasting demand for future FrontRunner scenarios, sponsor: Utah Transit Authority, students: "Gillian Martin Riches, Tomas Barriga, Landon Pratt, Cole Larsen"}
     - {dates: "2019–2020", project: UTA microtransit pilot evaluation, sponsor: Utah Transit Authority, students: "Christian Hunter, Austin Martinez, Elizabeth Smith"}
     - {dates: "2018–2019", project: Demand for wheelchair-accessible vehicles, sponsor: Utah Transit Authority, students: "Nate Lant, Byron Yates, Cody Irons, Matthew Strong"}
