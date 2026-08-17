@@ -6,6 +6,7 @@ entry2:
   location:
     en: Brigham Young University
   left: since 08/2026
+  short: true
 entry:
   title:
     en: Assistant Professor
@@ -14,6 +15,7 @@ entry:
   location:
     en: Brigham Young University
   left: 11/2018-09/2026
+  short: true
 entry1:
   title:
     en: Transportation Engineer
@@ -22,6 +24,7 @@ entry1:
   location:
     en: Transport Foundry
   left: 05/2017-11/2017
+  short: true
 entry5:
   title: Adjunct Lecturer
   subtitle: City and Regional Planning
@@ -34,6 +37,7 @@ entry3:
     en: Systems Analysis Group
   location: WSP | Parsons Brinckerhoff
   left: 10/2016-05/2017
+  short: true
 entry4:
   title:
     en: Traffic Engineer
@@ -41,3 +45,4 @@ entry4:
     en: "Systems Analysis Group"
   location: WSP | Parsons Brinckerhoff
   left: 05/2014-10/2016
+  short: true

@@ -10,10 +10,12 @@
 gibbonsEvaluatingImpactsParameter2025:
   student-authors:
     "Gibbons, Natalie": graduate
+  short: true
 macfarlaneUtilityBasedApproachModeling2025a:
   student-authors:
     "Barnes, Max": graduate
     "Gibbons, Natalie": undergraduate
+  short: true
 wangPredictingDirectionalTraffic2024:
   student-authors:
     "Wang, Bangyu": graduate
@@ -24,10 +26,12 @@ macfarlaneClassifyingLocationPoints2024:
   student-authors:
     "Riches, Gillian": graduate
     "Youngs, Emily K.": graduate
+  short: true
 wangMethodologyDetectTraffic2023:
   student-authors:
     "Wang, Bangyu": graduate
     "Davis, Matthew C.": undergraduate
+  short: true
 dainesEvaluatingRealTime2022:
   student-authors:
     "Daines, Tanner J.": graduate
@@ -35,6 +39,7 @@ dainesEvaluatingRealTime2022:
 macfarlaneProximityUtilityBasedAccess2022:
   student-authors:
     "Stucki, Emma": graduate
+  short: true
 wangEvaluatingSignalSystems2022:
   student-authors:
     "Wang, Bangyu": graduate
@@ -52,26 +57,34 @@ macfarlaneRiderPerceptionsOnDemand2021:
   review-note: "Citations: 22"
 macfarlaneModelingImpactsPark2021:
   review-note: "Citations: 31"
+  short: true
 glennConsideringPotentialHealth2020:
   student-authors:
     "Bluth, Madeline": undergraduate
     "Christianson, Mannon": undergraduate
     "Pressley, Jaymie": undergraduate
   review-note: "Citations: 79"
+  short: true
 macfarlaneAtlantaResidentsValue2015:
   review-note: "Citations: 10"
+  short: true
 macfarlaneInfluencesPresentResidential2015:
   review-note: "Citations: 55"
+  short: true
 brakewoodImpactRealtimeInformation2015:
   review-note: "Citations: 231"
+  short: true
 binderAssociationsHouseholdCharacteristics2014:
   review-note: "Citations: 19"
+  short: true
 wallExploringUseEgocentric2014:
   review-note: "Citations: 15"
+  short: true
 macfarlaneIdentifyingRidehailRiders2026:
   review-highlight: true
   student-authors:
     "Day, Christopher": graduate
+  short: true
 schultzAnalysisUDOTsExpanded2025:
   student-authors:
     "Hyer, Joel C.": graduate
@@ -83,6 +96,7 @@ jarvisSimulatingIncidentManagement2024:
   student-authors:
     "Jarvis, Daniel L.": graduate
     "Woolley, Brynn": undergraduate
+  short: true
 apeluMeasuringPavementSmoothness2023:
   student-authors:
     "Apelu, Dylan": undergraduate
@@ -90,6 +104,7 @@ apeluMeasuringPavementSmoothness2023:
 macfarlaneHowFarAre2023:
   student-authors:
     "Lant, Nate": graduate
+  short: true
 macfarlaneDelayUnderestimationFree2011:
   review-note: "Citations: 6"
 macfarlaneDriverPerceptionsFree2012:

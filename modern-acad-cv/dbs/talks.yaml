@@ -4,6 +4,7 @@ entry1:
   location:
     en: CalTrans Transit Research-to-Practice Symposium
   left: "2025"
+  short: true
 entry3:
   title: "Sustainable Transportation"
   location:
@@ -14,10 +15,12 @@ entry2:
   subtitle: course presentation
   location: Technische Universität München
   left: "2023"
+  short: true
 entry4:
   title: "Using Mobile Data to Improve Transportation Sustainability"
   location: Utah Central ASCE Chapter luncheon
   left: "2020"
+  short: true
 entry5:
   title: "Using Mobile Device Data to Measure Park Choice, Access, and Health"
   location: BYU Statistics Department graduate seminar

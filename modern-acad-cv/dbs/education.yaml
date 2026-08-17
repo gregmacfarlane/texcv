@@ -6,6 +6,7 @@ doctorate:
   location:
     en: Georgia Institute of Technology
   left: "2014"
+  short: true
 master:
   title:
     en: MS
@@ -14,6 +15,7 @@ master:
   location:
     en: Georgia Institute of Technology
   left: "2014"
+  short: true
 bachelor:
   title:
     en: BS
@@ -24,3 +26,4 @@ bachelor:
   left: "2009"
   description:
     en: with University Honors
+  short: true

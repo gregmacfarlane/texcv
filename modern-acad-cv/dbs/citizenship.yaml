@@ -3,9 +3,11 @@ external:
     role: Peer review panel member
     organization: NCHRP 08-184
     description: Framework for Assessing Induced Demand Effects of Various Roadway Investments
+    short: true
   - dates: "2019–2025"
     role: Committee member; chair, travel forecasting resources subcommittee; editor of tfresource.org
     organization: "Transportation Research Board, AEP50: Travel Demand Forecasting"
+    short: true
   - dates: "2014–2022"
     role: Committee member
     organization: "Transportation Research Board, AMS20: Economics and Land Development"
