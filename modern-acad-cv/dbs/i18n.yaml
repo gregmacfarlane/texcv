@@ -1,6 +1,8 @@
 lang:
   en:
     subtitle: Curriculum vitae
+    subtitle-review: "Curriculum vitae – Review"
+    subtitle-short: "Curriculum vitae – Short"
     education: Higher education
     work: Post-graduate employment
     grants: Research funding

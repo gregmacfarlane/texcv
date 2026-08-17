@@ -5,6 +5,7 @@ site_pdf := "~/3_resources/gregmacfarlane.github.io/static/cv.pdf"
 typst_dir := "modern-acad-cv"
 typst_pdf := "CV.pdf"
 typst_review_pdf := "CV-review.pdf"
+typst_short_pdf := "CV-short.pdf"
 
 default: build
 
@@ -31,7 +32,10 @@ typst:
 typst-review:
     cd {{typst_dir}} && typst compile --input review=true example.typ {{typst_review_pdf}}
 
-typst-build: typst typst-review
+typst-short:
+    cd {{typst_dir}} && typst compile --input short=true example.typ {{typst_short_pdf}}
+
+typst-build: typst typst-review typst-short
 
 clean:
     latexmk -c {{source}}

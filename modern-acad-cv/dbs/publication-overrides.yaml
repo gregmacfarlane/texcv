@@ -2,6 +2,7 @@
 # Keys must match `citation-key` (or `id`) in library.yaml. For example:
 # macfarlaneExample2026:
 #   tags: peer
+#   short: true
 #   corresponding: true
 #   student-authors:
 #     "Student, Alex": undergraduate

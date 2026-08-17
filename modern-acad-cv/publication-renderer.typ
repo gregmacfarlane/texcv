@@ -170,6 +170,7 @@
   tag: none,
   me-family: none,
   review-mode: false,
+  short-mode: false,
   review-color: black,
 ) = {
   set par(hanging-indent: 2em, justify: true, linebreaks: auto)
@@ -177,7 +178,11 @@
 
   let selected = ()
   for (_, fields) in what {
-    let visible = review-mode or not fields.at("review-only", default: false)
+    let visible = if short-mode {
+      fields.at("short", default: false)
+    } else {
+      review-mode or not fields.at("review-only", default: false)
+    }
     if visible and (tag == none or ("tags" in fields.keys() and fields.tags == tag)) {
       selected.push(fields)
     }

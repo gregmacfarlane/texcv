@@ -23,5 +23,10 @@ just realclean  # remove generated PDFs and auxiliary files
 just site       # copy CV.pdf to the website repository
 just typst      # build modern-acad-cv/CV.pdf
 just typst-review # build modern-acad-cv/CV-review.pdf with review notes/highlights
-just typst-build  # build both Typst variants
+just typst-short  # build modern-acad-cv/CV-short.pdf from entries tagged short: true
+just typst-build  # build all three Typst variants
 ```
+
+The short CV includes only database records marked `short: true`. Add the tag
+directly to entries in the YAML databases. For publications, add it to the
+corresponding citation key in `modern-acad-cv/dbs/publication-overrides.yaml`.
