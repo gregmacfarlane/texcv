@@ -22,10 +22,22 @@ entry1:
   location:
     en: Transport Foundry
   left: 05/2017-11/2017
+entry5:
+  title: Adjunct Lecturer
+  subtitle: City and Regional Planning
+  location: University of North Carolina, Chapel Hill
+  left: 01/2017-05/2017
 entry3:
   title:
     en: Technical Principal
   subtitle:
     en: Systems Analysis Group
   location: WSP | Parsons Brinckerhoff
-  left: 05/2014-05/2017
+  left: 10/2016-05/2017
+entry4:
+  title:
+    en: Traffic Engineer
+  subtitle:
+    en: "Systems Analysis Group"
+  location: WSP | Parsons Brinckerhoff
+  left: 05/2014-10/2016
