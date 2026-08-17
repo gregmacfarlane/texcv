@@ -3,7 +3,7 @@ lang:
     subtitle: Short CV
     education: Higher education
     work: Post-graduate positions
-    grants: Scholarships & awards
+    grants: Research funding
     pubs: Publications
     pubs-peer: Refereed journal articles
     pubs-conference: Peer-reviewed conference papers
@@ -16,6 +16,10 @@ lang:
     exp-confs: "P: paper/presentation, M: moderator,  C: organizing committee"
     confs-talks: Invited talks
     committee: Committee work & voluntary roles (selection)
+    courses: Courses
+    mentoring: Mentoring
+    awards: Awards & honors
+    citizenship: Citizenship & service
     teaching: Teaching experience (Justus-Liebig-University Giessen)
     teaching-thesis: Supervised theses
     teaching-courses: Teaching (selected)

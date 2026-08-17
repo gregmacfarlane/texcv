@@ -1,0 +1,102 @@
+graduate-chair:
+  label: Graduate committee chair
+  summary: 10 total, all MS
+  entries:
+    - {name: Connor Williams, status: MS expected December 2027, detail: true}
+    - {name: Erin Christesen, status: MS expected December 2026, detail: true}
+    - {name: Emily Youngs, title: Exploring the Link between Travel Behavior and Mental Health, status: MS granted August 2024, outcome: Pursuing Ph.D. at University of Michigan}
+    - {name: Hayden Atchley, title: A Comparative Illustration of Trip- and Activity-Based Modeling Techniques, status: MS granted August 2024}
+    - {name: Daniel Jarvis, title: Simulating Incident Management Team Response and Performance, status: MS granted December 2023}
+    - {name: Natalie Gray, title: Evaluating parameter uncertainty in transportation demand models, status: MS granted June 2023}
+    - {name: Emma Stucki, title: Evaluating equitable access to nutrition in Utah, status: MS granted December 2022, outcome: Pursuing Ph.D. at Waikato University, New Zealand}
+    - {name: Gillian Riches, title: Transforming GPS points to daily activities using simultaneously optimized DBSCAN-TE parameters, status: MS granted December 2022}
+    - {name: Christopher Day, title: Forecasting ride-hailing across multiple model frameworks, status: MS granted December 2022}
+    - {name: Max Barnes, title: "Resiliency of Utah's road network: a logit-based approach", status: MS granted December 2021}
+    - {name: Nate Lant, title: Estimation and simulation of daily activity patterns for individuals using wheelchairs, status: MS granted June 2021}
+graduate-member:
+  label: Graduate committee member
+  summary: 22 total, 2 current, 3 non-BYU, 3 Ph.D.
+  entries:
+    - {name: Kendon Moline, status: MS expected December 2026, detail: true}
+    - {name: Auzton Stutts, title: A Peer Evaluation of Safety at Signalized Intersections in Utah, status: MS expected December 2026, detail: true}
+    - {name: Cambrie Ball, title: "Preparing Civil and Construction Engineers for Sustainable Practice: Systems Thinking and Interdisciplinary Learning in Undergraduate Education", status: MS in Construction Management granted April 2026, detail: true}
+    - {name: Samuel McKinnon, status: Ph.D. in Mechanical Engineering; completed proposal defense, detail: true}
+    - {name: Adam W. Hill, title: Using unmanned aerial vehicles to facilitate traffic incident management, status: MS granted April 2024}
+    - {name: Ian MacGregor, title: Implementing the safe system approach at intersections in Utah, status: MS granted December 2024}
+    - {name: Sam Runyan, title: Effect of roadway lighting on safety in Utah, status: MS granted December 2024}
+    - {name: Joel Hyer, title: "Analysis of benefits of UDOT's expanded incident management team program", status: MS granted April 2024}
+    - {name: Matthew Davis, title: Effectiveness of intelligent transportation systems on Utah roadways, status: MS granted December 2023}
+    - {name: William Charlton, title: Web-based data visualization in support of agent-based microsimulation models, status: Ph.D. granted October 2023, outcome: Technische Universität Berlin}
+    - {name: Wang Bangyu (Bruce), title: "Evaluating and advancing automated traffic signal performance measures: Statistical and machine learning approaches", status: Ph.D. granted August 2023}
+    - {name: Tomas Barriga, title: Using severity weighted risk scores to prioritize safety funding in Utah, status: MS granted August 2023}
+    - {name: Benjamin Meek, title: Load-deformation behavior of tension-only X-brace roof truss diaphragms, status: MS granted April 2023}
+    - {name: Mylan Cook, title: Physics-guided modeling of acoustic environments using limited spatio-spectro-temporal data, status: Ph.D. in Physics granted June 2023}
+    - {name: Cory Ward, title: An evaluation of the safe speed limit setting procedure and tool for Utah (Project), status: MS granted December 2022}
+    - {name: Samantha Lau, title: Analysis of using V2X DSRC equipped snowplows to request signal preemption, status: MS granted August 2022}
+    - {name: Tanner Daines, title: Evaluating ramp meter delay in Utah, status: MS granted April 2022}
+    - {name: Logan Bennett, title: Analysis of benefits of an expansion to UDOT’s incident management program, status: MS granted August 2021}
+    - {name: Camille Lunt, title: Crash analysis methodology for segments of Utah highway, status: MS granted April 2021}
+    - {name: Chad Vickery, title: Quantifying the conditioning period for geogrid-reinforced aggregate base materials through cyclic loading, status: MS granted August 2020}
+    - {name: Michael Sheffield, title: "Impacts of changing the transit signal priority requesting threshold on bus performance and general traffic: a sensitivity analysis", status: MS granted June 2020}
+    - {name: Michael Adamson, title: An analysis of decision boundaries for left-turn treatments, status: MS granted April 2019}
+    - {name: Nico Boyd, title: Accessibility to urban parks and health outcomes on the neighborhood level, status: MS granted August 2018, outcome: Georgia Institute of Technology}
+    - {name: Zhang Bingling, title: "Friendship influences on air travel: a social autoregressive analysis", status: MS granted August 2014, outcome: Georgia Institute of Technology}
+undergraduate-research:
+  label: Undergraduate funded research
+  summary: 28 total
+  entries:
+    - {name: Christian Jarvis, area: travel behavior, dates: "2026–present", detail: true}
+    - {name: Elise Lefler, area: travel behavior, dates: "2026–present", detail: true}
+    - {name: Kaylen Turley, area: demand microsimulation, dates: "2025–2027", detail: true}
+    - {name: Tyler Carruth, area: work zone safety, dates: "2024–present"}
+    - {name: Benjamin Hailstone, area: work zone safety, dates: "2024–2026"}
+    - {name: Connor Williams, area: demand microsimulation, dates: "2024–2026"}
+    - {name: Kaleigh Squires, area: demand microsimulation, dates: "2024–2025"}
+    - {name: Kamryn Mansfield, area: demand microsimulation, dates: "2023–2024", outcome: Ph.D. student at University of Tennessee}
+    - {name: Brynn Woolley, area: demand microsimulation, dates: "2022–2024", outcome: Ph.D. student at University of Michigan}
+    - {name: Jeremy Raine, area: community resources, dates: "2022"}
+    - {name: Harrison Holdsworth, area: demand microsimulation, dates: "2021–2022"}
+    - {name: Jonathan Orton, area: e-scooters and pavements, dates: "2022"}
+    - {name: Dylan Apelu, area: e-scooters and pavements, dates: "2021–2023", outcome: Completed MS at Georgia Institute of Technology}
+    - {name: Matthew Davis, area: signal performance data, dates: "2021–2022", note: Jointly mentored with Grant Schultz, outcome: Ph.D. student at University of Tennessee}
+    - {name: Hayden Atchley, area: demand microsimulation, dates: "2020–2022", outcome: Completed MS at BYU}
+    - {name: Nicole Adams, area: e-scooters and pavements, dates: "2021–2022"}
+    - {name: Liv Neeley, area: e-scooters and pavements, dates: "2021–2022"}
+    - {name: Kaeli Monahan, area: community resources and passive data, dates: "2020–2022"}
+    - {name: Shannon Anderson, area: V2X data, dates: "2020–2022", note: Jointly mentored with Grant Schultz}
+    - {name: Corey Ward, area: ramp meter evaluation, dates: "2020–2021", note: Jointly mentored with Grant Schultz, outcome: Completed MS at BYU}
+    - {name: Michael Copley, area: third-party passive data, dates: "2018–2021", outcome: Completed MS at University of Illinois}
+    - {name: James Umphress, area: ramp meters, dates: "2020–2021", note: Jointly mentored with Grant Schultz, outcome: Completed MS at Oregon State University}
+    - {name: Christopher Day, area: demand microsimulation, dates: "2020–2021", outcome: Completed MS at BYU}
+    - {name: Emma Stucki, area: community resources, dates: "2020–2021", outcome: Completed MS at BYU}
+    - {name: Gillian Martin Riches, area: community resources, dates: "2020–2021", outcome: Completed MS at BYU}
+    - {name: Natalie Gray, area: network resiliency, dates: "2019–2021", outcome: Completed MS at BYU}
+    - {name: Max Barnes, area: network resiliency, dates: "2019–2020", outcome: Completed MS at BYU}
+    - {name: Kim Munseok, area: demand microsimulation, dates: "2020–2021"}
+    - {name: Christian Hunter, area: demand microsimulation, dates: "2018–2019", outcome: Completed MS at University of Texas at Austin}
+    - {name: Christian Vanderhoeven, area: demand microsimulation, dates: "2019", outcome: Completed MS at University of Washington}
+    - {name: Hayden Anderson, area: e-scooters, dates: "2019–2020", outcome: Completed MS at University of California, Davis}
+    - {name: Emily Andrus, area: signal performance data, dates: "2019", note: Jointly mentored with Grant Schultz}
+    - {name: Sabrina McCuen, area: signal performance data, dates: "2019–2020", note: Jointly mentored with Grant Schultz}
+honors:
+  label: Department honors coordinator
+  summary: 3 students
+  entries:
+    - {name: Becca Apgar, title: Development and demonstration of an apparatus for assessing frost-heave susceptibility of soil, year: "2024", detail: true}
+    - {name: Daria Sofia Velasco-Vega, title: Thermal performance of thin-shell concrete dome structures, year: "2023", outcome: Pursuing Ph.D. at Purdue University, detail: true}
+    - {name: Emma Kratz-Bailey, title: "Accessible methods, novel arrangement: Developing self-centering composite structural frames for highly resilient buildings", year: "2022", detail: true}
+other:
+  label: Other mentoring
+  entries:
+    - {name: Grace Gibson, title: "Gendered Journeys: analyzing the context, barriers, and solutions for women in public transit", year: "2024", note: Mentor for BYU Global Women’s Studies Minor capstone project, detail: true}
+capstone:
+  label: Civil engineering capstone team mentor
+  summary: 26 students
+  entries:
+    - {dates: "2024–2025", project: Land development capacity system design, sponsor: UDOT, students: "George Cicotte, Emily Jacobsen, Tacoma Parkinson", detail: true}
+    - {dates: "2023–2024", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Megan Hungerford, Ellie Johns, Kamryn Mansfield, Myrranda Salmon", detail: true}
+    - {dates: "2022–2023", project: SR-140 Corridor alternatives, sponsor: Bluffdale City, students: "Clinton Childers, Robert Mickelson, Trevor Mickelson, Joseph Wells", detail: true}
+    - {dates: "2021–2022", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Nicole Adams, Hayden Atchley, Kyle Leatham, Daniel Jarvis", detail: true}
+    - {dates: "2020–2021", project: Forecasting demand for future FrontRunner scenarios, sponsor: Utah Transit Authority, students: "Gillian Martin Riches, Tomas Barriga, Landon Pratt, Cole Larsen", detail: true}
+    - {dates: "2019–2020", project: UTA microtransit pilot evaluation, sponsor: Utah Transit Authority, students: "Christian Hunter, Austin Martinez, Elizabeth Smith"}
+    - {dates: "2018–2019", project: Demand for wheelchair-accessible vehicles, sponsor: Utah Transit Authority, students: "Nate Lant, Byron Yates, Cody Irons, Matthew Strong"}

@@ -1,30 +1,140 @@
-grant3:
-  title:
-    en: Research Travel Grant
-  subtitle:
-    en: Alexander von Humboldt Foundation
-  location:
-    en: Brazil
-  left: "2024"
-  description:
-    en: "amount: 1,250 Euros"
-grant2:
-  title:
-    en: Conference Participation Grant
-  subtitle:
-    en: Fritz Thyssen Foundation
-  location:
-    en: Annual Meeting of the German Political Science Association, University of Cologne
-  left: "2023"
-  description:
-    en: "amount: 1,500 Euros"
-grant1:
-  title:
-    en: Research Grant
-  subtitle:
-    en: German Research Foundation (DFG)
-  location:
-    en: 'Research Project: "Democratization in Authoritarian Regimes," Freie Universität Berlin'
-  left: "2022"
-  description:
-    en: "amount: 380,000 Euros"
+# Research funding migrated from CV.tex. `detail: true` marks entries that were
+# wrapped in \ifdetail in the LaTeX source; all records remain available here.
+external:
+  principal-investigator:
+    label: Principal investigator
+    summary: "$598,000 total"
+    entries:
+      - year: "2026"
+        investigators: Macfarlane, G.S. and Brown, N.
+        title: Building automated processes for baseline employment data
+        amount: "$65,000"
+        sponsor: Utah Department of Transportation
+        detail: true
+      - year: "2026"
+        investigators: Macfarlane, G.S. and Schultz, G.G.
+        title: Estimating the marginal effectiveness of wrong way driver alert systems (Phase 1)
+        amount: "$30,000"
+        sponsor: Utah Department of Transportation
+        detail: true
+      - year: "2025"
+        investigators: Macfarlane, G.S. and Atchley, S.H.
+        title: Establishing Performance Measures for Transportation and Quality of Life
+        amount: "$68,000"
+        sponsor: Utah Department of Transportation
+      - year: "2024"
+        investigators: Macfarlane, G.S. and Schultz, G.G.
+        title: Effectiveness of Temporary Portable Rumble Strips
+        amount: "$60,000"
+        sponsor: Utah Department of Transportation
+      - year: "2022"
+        investigators: Macfarlane, G.S. and Brown, N.M.
+        title: Activity-based Model Implementation and Analysis Considerations
+        amount: "$70,000"
+        sponsor: Utah Department of Transportation
+      - year: "2021"
+        investigators: Macfarlane, G.S. and Schultz, G.G.
+        title: Optimizing Traffic Incident Management Deployment in Utah
+        amount: "$70,000"
+        sponsor: Utah Department of Transportation
+      - year: "2021"
+        investigators: Macfarlane, G.S., Redelfs, A.H., and Spruance, L.A.
+        title: Equitable Access to Nutrition in Utah
+        amount: "$70,000"
+        sponsor: Utah Department of Transportation
+      - year: "2020"
+        investigators: Macfarlane, G.S.
+        title: Identifying Microtransit Service Areas through Microsimulation
+        amount: "$20,000"
+        sponsor: Utah Department of Transportation
+      - year: "2019"
+        investigators: Macfarlane, G.S.
+        title: A synthesis of passive third-party datasets used for transportation planning
+        amount: "$25,000"
+        sponsor: Utah Department of Transportation
+      - year: "2019"
+        investigators: Macfarlane, G.S.
+        title: Modeling the demand and operating characteristics for wheelchair-accessible, on-demand mobility services
+        amount: "$60,000"
+        sponsor: Utah Department of Transportation
+      - year: "2019"
+        investigators: Macfarlane, G.S.
+        title: Evaluating the Systemic Redundancy of Critical Highway Facilities
+        amount: "$60,000"
+        sponsor: Utah Department of Transportation
+  co-principal-investigator:
+    label: Co-principal investigator
+    summary: "$1.44 million total ($320,000 to BYU)"
+    entries:
+      - year: "2024"
+        investigators: Watkins, K.E. (PI), Erhardt, G.D., and Macfarlane, G.S.
+        title: The Potential for Behavioral Change in New High Speed Rail Lines
+        amount: "$280,000"
+        sponsor: California High Speed Rail Authority and Deutsche Bahn
+      - year: "2021"
+        investigators: Schultz, G.G. and Macfarlane, G.S.
+        title: "Analysis of performance measures of UDOT’s traffic incident management program: Phase III"
+        amount: "$30,000"
+        sponsor: Utah Department of Transportation
+      - year: "2020"
+        investigators: Watkins, K.E. (PI), Hunter, M.S., Van Hentenryck, P., Peeta, S., Brakewood, C., Cherry, C., Erhardt, G.D., and Macfarlane, G.S.
+        title: "T-SCORE: Transit Serving Communities Optimally, Responsibly, and Efficiently"
+        amount: "$1,000,000"
+        sponsor: United States Department of Transportation
+      - year: "2020"
+        investigators: Schultz, G.G. (PI) and Macfarlane, G.S.
+        title: "Evaluating Signal Performance Measures: a Longitudinal Analysis"
+        amount: "$70,000"
+        sponsor: Utah Department of Transportation
+      - year: "2019"
+        investigators: Schultz, G.G. (PI) and Macfarlane, G.S.
+        title: Evaluating ramp meter delay in Utah
+        amount: "$65,000"
+        sponsor: Utah Department of Transportation
+  unfunded:
+    label: Unfunded proposals
+    detail: true
+    entries:
+      - year: "2023"
+        investigators: Dashti, S. (PI), Torres-Machi, C., Mooney, M., Misra, A., Crow, D., Mallet, S., Esteghemati, M., Macfarlane, G.S., Zlatkovic, M., and Kack, D.
+        title: Resilient, Equitable, and Sustainable Environment through Transportation (RESET)
+        amount: "$3,000,000"
+        sponsor: United States Department of Transportation
+      - year: "2022"
+        investigators: Erhardt, G.D. (PI), Watkins, K.E., Brakewood, C., Pike, S.C., Macfarlane, G.S., Chavis, C., Tal, G., Hunter, M., Van Hentenryck, P., and McDonald, N.
+        title: "T-SCORE 2.0: Transit – Sustainable, Competitive, Responsive, and Equitable Center"
+        amount: "$2,000,000"
+        sponsor: United States Department of Transportation
+      - year: "2023"
+        investigators: Voulgaris, C.T. (PI), Forsyth, A., Pandey, V., Park, H., Handy, S., Macfarlane, G.S., Pande, A., Braun, L.M., and Noland, R.B.
+        title: "Chester: Consortium for Healthy, Equitable, and Sustainable Transportation Systems for Environmental Resilience"
+        amount: "$2,000,000"
+        sponsor: United States Department of Transportation
+internal:
+  funded:
+    label: Funded research
+    entries:
+      - year: "2026"
+        investigators: Macfarlane, G.S. and Williams, G.
+        title: "Land Use Data for Travel Forecast Modeling from Remote Sensing Data"
+        amount: "$25,000"
+        sponsor: Mentored Research Grant, Brigham Young University
+      - year: "2024"
+        investigators: Sowby, R.B. and Macfarlane, G.S.
+        title: Wildfire Solutions for Western Water Utilities
+        amount: "$25,000"
+        sponsor: Mentored Research Grant, Brigham Young University
+      - year: "2021"
+        investigators: Macfarlane, G.S., Guthrie, W.S., and Mazzeo, B.
+        title: Measuring pavement smoothness from the perspective of e-scooters
+        amount: "$25,000"
+        sponsor: Mentored Research Grant, Brigham Young University
+  unfunded:
+    label: Unfunded proposals
+    detail: true
+    entries:
+      - year: "2020"
+        investigators: Macfarlane, G.S., Hooley, C., Redelfs, A., and South, M.
+        title: Using Mobile Device Data to Measure Isolation and Mental Health
+        amount: "$40,000"
+        sponsor: Brigham Young University Interdisciplinary Research Grant

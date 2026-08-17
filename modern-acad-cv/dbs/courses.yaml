@@ -1,0 +1,61 @@
+cce-102:
+  code: CCE 102
+  name: Sustainable Infrastructure
+  description: Sustainability in built environments and infrastructure with a focus on global challenges and solutions. Converted from CCE 201 in Fall 2024.
+  offerings:
+    - {term: Fall 2020, enrolled: 33, rating: "4.1–4.7 (4.1)", gpa: "3.41"}
+    - {term: Fall 2021, enrolled: 64, rating: "4.1–4.5 (4.3)", gpa: "3.25"}
+    - {term: Fall 2022, enrolled: 60, rating: "3.6–4.2 (4.3)", gpa: "3.26"}
+    - {term: Fall 2023, enrolled: 59, rating: "3.9–4.3 (4.2)", gpa: "3.24"}
+    - {term: Spring 2024 (Study Abroad), enrolled: 20, rating: "3.9–4.9 (4.2)", gpa: "3.32"}
+    - {term: Fall 2024 (Section 1), enrolled: 58, rating: "3.4–4.0 (3.5)", gpa: "3.53"}
+    - {term: Fall 2024 (Section 3), enrolled: 47, rating: "3.2–3.8 (3.5)", gpa: "2.96"}
+    - {term: Winter 2025 (Section 1), enrolled: 61, rating: "3.7–4.3 (3.7)", gpa: "3.02"}
+    - {term: Winter 2025 (Section 3), enrolled: 66, rating: "3.9–4.3 (3.7)", gpa: "3.24"}
+    - {term: Fall 2025, enrolled: 65, rating: "3.9–4.3 (3.9)", gpa: "3.35"}
+ce-361:
+  code: CE 361
+  name: Introduction to Transportation Engineering
+  description: Transportation systems characteristics, traffic engineering and operations, transportation planning, geometric design, pavement design, transportation safety, freight, public transport, sustainable transportation.
+  offerings:
+    - {term: Winter 2020, enrolled: 42, rating: "4.4–4.8 (4.4)", gpa: "3.13"}
+    - {term: Winter 2021, enrolled: 38, rating: "4.1–4.7 (4.4)", gpa: "3.21"}
+    - {term: Winter 2022, enrolled: 42, rating: "3.9–4.5 (4.5)", gpa: "3.42"}
+    - {term: Winter 2023, enrolled: 37, rating: "4.2–4.6 (4.5)", gpa: "3.28"}
+    - {term: Winter 2024, enrolled: 43, rating: "3.9–4.5 (4.4)", gpa: "3.39"}
+    - {term: Fall 2025, enrolled: 43, rating: "4.4–4.8 (4.6)", gpa: "3.34"}
+    - {term: Winter 2026, enrolled: 31, rating: "4.6–5.0 (4.7)", gpa: "3.36"}
+ce-565:
+  code: CE 565
+  name: Urban Transportation Planning
+  description: Characteristics of urban transportation planning and decision making, intermodal transportation, land-use transportation interrelationships, transportation demand modeling, site impact analysis, sustainable transportation, and livable cities.
+  offerings:
+    - {term: Fall 2019, enrolled: 12, rating: "3.9–4.9 (4.4)", gpa: "3.41"}
+    - {term: Fall 2020, enrolled: 19, rating: "4.1–4.7 (4.4)", gpa: "3.46"}
+    - {term: Fall 2021, enrolled: 19, rating: "3.9–4.9 (4.4)", gpa: "3.63"}
+    - {term: Winter 2023, enrolled: 14, rating: "4.4–5.0 (4.6)", gpa: "3.24"}
+    - {term: Winter 2024, enrolled: 14, rating: "3.9–4.7 (4.5)", gpa: "3.03"}
+    - {term: Winter 2025, enrolled: 10, rating: "4.2–5.0 (4.5)", gpa: "3.46"}
+ce-594r:
+  code: CE 594R
+  name: Data Science for Engineers
+  description: "A first-semester graduate course in programming and data science techniques: literate programming in Markdown and LaTeX, version control with git, data manipulation and visualization with R, object-oriented programming with Java."
+  offerings:
+    - {term: Fall 2019, enrolled: 4, rating: "4.8–5.0", gpa: "3.85"}
+    - {term: Fall 2020, enrolled: 9, rating: "3.5–4.7", gpa: "3.81"}
+    - {term: Fall 2021, enrolled: 6, rating: "4.5–5.0", gpa: "3.68"}
+ce-662:
+  code: CE 662
+  name: Transport Simulation and Analysis
+  description: An advanced graduate course in traffic flow theory and simulation. Topics include shock wave analysis, discrete event simulation of queues and daily activity pattern choices, car following models, and traffic simulation. Laboratory assignments use MATSim and PTV Vissim simulation software.
+  offerings:
+    - {term: Winter 2019, enrolled: 2, rating: "4.6 (4.3)", gpa: "3.70"}
+    - {term: Winter 2020, enrolled: 3, rating: "5.0–5.0 (4.4)", gpa: "3.00"}
+    - {term: Winter 2022, enrolled: 7, rating: "3.3–5.0 (4.3)", gpa: "3.44"}
+    - {term: Fall 2023, enrolled: 8, rating: "4.1–5.0 (4.4)", gpa: "3.48"}
+ce-694r:
+  code: CE 694R
+  name: Advanced Choice Modeling
+  description: An advanced graduate course in discrete choice modeling. Theory of choice models, including estimation and validation techniques. Mode choice models for work and non-work trip purposes using multinomial and nested logit models.
+  offerings:
+    - {term: Winter 2021, enrolled: 5, rating: "4.0–5.0", gpa: "3.48"}
