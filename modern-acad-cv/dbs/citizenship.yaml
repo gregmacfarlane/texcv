@@ -16,12 +16,12 @@ external:
     role: Member, appointed by Mayor Michelle Kaufusi
     organization: Provo City Transportation and Mobility Advisory Commission
 reviewing:
-  - "Transportation Research Part A: Policy and Practice"
-  - Smart Cities
-  - Transportation Research Record
-  - "Environment and Planning B: Urban Analytics and City Science"
-  - International Journal of Sustainable Transport
-  - Journal of Public Transportation
+  - {journal: "Transportation Research Part A: Policy and Practice"}
+  - {journal: Smart Cities}
+  - {journal: Transportation Research Record}
+  - {journal: "Environment and Planning B: Urban Analytics and City Science"}
+  - {journal: International Journal of Sustainable Transport}
+  - {journal: Journal of Public Transportation}
 memberships:
   - {dates: "2022–present", organization: American Society of Civil Engineers}
   - {dates: "2020–2022", organization: Zephyr Foundation}

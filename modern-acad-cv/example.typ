@@ -70,6 +70,7 @@
   }
   selected
 }
+#let visible-refs = selected-dict(refs)
 #let refs-have-tag(refs, tag) = {
   let found = false
   for reference in refs.values() {
@@ -103,7 +104,7 @@
   }
 }
 #let review-note(note) = if review-mode {
-  block(above: 0.75em, below: 0.75em, note)
+  block(note)
 }
 
 // Group appointments and degrees by institution so that the institution,
@@ -384,11 +385,11 @@
 // Subsection headings instead begin at the document's left text margin.
 #show heading.where(level: 2): it => {
   set text(weight: "regular", fill: rgb(metadata.colors.main_color))
-  block(above: 0.65em, below: 0.15em, it.body)
+  block(above: 0.75em, below: 0.75em, it.body)
 }
 #show heading.where(level: 3): it => {
   set text(weight: "regular", fill: rgb(metadata.colors.main_color))
-  block(above: 0.65em, below: 0.15em, it.body)
+  block(above: 0.75em, below: 0.75em, it.body)
 }
 
 #if selected-dict(work).len() > 0 {
@@ -405,48 +406,48 @@
   review-style((review-highlight: true), cv-cols("", strong(review-data.notice)))
 }
 
-#if refs-have-visible(refs) or (review-mode and not short-mode) {
+#if refs-have-visible(visible-refs) or (review-mode and not short-mode) {
   heading(level: 1)[#headerLabs.at("pubs")]
 }
 
-#if refs-have-student-authors(refs) {
+#if refs-have-student-authors(visible-refs) {
   cv-cols(
     "",
     [† BYU undergraduate student #h(1em) ‡ BYU graduate student],
   )
 }
 
-#if refs-have-tag(refs, "peer") [
+#if refs-have-tag(visible-refs, "peer") [
     == #headerLabs.at("pubs-peer")
     #review-note(review-data.at("publication-notes").peer)
-    #cv-refs-flexible(refs, tag: "peer", me-family: "Macfarlane", review-mode: review-mode, short-mode: short-mode, review-color: review-color)
+    #cv-refs-flexible(visible-refs, tag: "peer", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
-#if refs-have-tag(refs, "conference") [
+#if refs-have-tag(visible-refs, "conference") [
     == #headerLabs.at("pubs-conference")
     #review-note(review-data.at("publication-notes").conference)
-    #cv-refs-flexible(refs, tag: "conference", me-family: "Macfarlane", review-mode: review-mode, short-mode: short-mode, review-color: review-color)
+    #cv-refs-flexible(visible-refs, tag: "conference", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
-#if refs-have-tag(refs, "edited") [
+#if refs-have-tag(visible-refs, "edited") [
     == #headerLabs.at("pubs-edited")
-    #cv-refs-flexible(refs, tag: "edited", me-family: "Macfarlane", review-mode: review-mode, short-mode: short-mode, review-color: review-color)
+    #cv-refs-flexible(visible-refs, tag: "edited", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
-#if refs-have-tag(refs, "book") [
+#if refs-have-tag(visible-refs, "book") [
     == #headerLabs.at("pubs-book")
-    #cv-refs-flexible(refs, tag: "book", me-family: "Macfarlane", review-mode: review-mode, short-mode: short-mode, review-color: review-color)
+    #cv-refs-flexible(visible-refs, tag: "book", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
-#if refs-have-tag(refs, "other") [
+#if refs-have-tag(visible-refs, "other") [
     == #headerLabs.at("pubs-reports")
     #review-note(review-data.at("publication-notes").reports)
-    #cv-refs-flexible(refs, tag: "other", me-family: "Macfarlane", review-mode: review-mode, short-mode: short-mode, review-color: review-color)
+    #cv-refs-flexible(visible-refs, tag: "other", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
-#if (review-mode or short-mode) and refs-have-tag(refs, "planned") [
+#if (review-mode or short-mode) and refs-have-tag(visible-refs, "planned") [
     == #headerLabs.at("pubs-upcoming")
-    #cv-refs-flexible(refs, tag: "planned", me-family: "Macfarlane", review-mode: review-mode, short-mode: short-mode, review-color: review-color)
+    #cv-refs-flexible(visible-refs, tag: "planned", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
 #if review-mode and not short-mode [
