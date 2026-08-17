@@ -12,7 +12,7 @@ cce-102:
     - {term: Fall 2024 (Section 3), enrolled: 47, rating: "3.2–3.8 (3.5)", gpa: "2.96"}
     - {term: Winter 2025 (Section 1), enrolled: 61, rating: "3.7–4.3 (3.7)", gpa: "3.02"}
     - {term: Winter 2025 (Section 3), enrolled: 66, rating: "3.9–4.3 (3.7)", gpa: "3.24"}
-    - {term: Fall 2025, enrolled: 65, rating: "3.9–4.3 (3.9)", gpa: "3.35"}
+    - {term: Fall 2025, enrolled: 65, rating: "3.9–4.3 (3.9)", gpa: "3.35", review-highlight: true}
 ce-361:
   code: CE 361
   name: Introduction to Transportation Engineering
@@ -23,8 +23,8 @@ ce-361:
     - {term: Winter 2022, enrolled: 42, rating: "3.9–4.5 (4.5)", gpa: "3.42"}
     - {term: Winter 2023, enrolled: 37, rating: "4.2–4.6 (4.5)", gpa: "3.28"}
     - {term: Winter 2024, enrolled: 43, rating: "3.9–4.5 (4.4)", gpa: "3.39"}
-    - {term: Fall 2025, enrolled: 43, rating: "4.4–4.8 (4.6)", gpa: "3.34"}
-    - {term: Winter 2026, enrolled: 31, rating: "4.6–5.0 (4.7)", gpa: "3.36"}
+    - {term: Fall 2025, enrolled: 43, rating: "4.4–4.8 (4.6)", gpa: "3.34", review-highlight: true}
+    - {term: Winter 2026, enrolled: 31, rating: "4.6–5.0 (4.7)", gpa: "3.36", review-highlight: true}
 ce-565:
   code: CE 565
   name: Urban Transportation Planning

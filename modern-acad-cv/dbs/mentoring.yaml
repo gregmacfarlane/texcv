@@ -2,8 +2,8 @@ graduate-chair:
   label: Graduate committee chair
   summary: 10 total, all MS
   entries:
-    - {name: Connor Williams, status: MS expected December 2027, detail: true}
-    - {name: Erin Christesen, status: MS expected December 2026, detail: true}
+    - {name: Connor Williams, status: MS expected December 2027, review-highlight: true}
+    - {name: Erin Christesen, status: MS expected December 2026, review-highlight: true}
     - {name: Emily Youngs, title: Exploring the Link between Travel Behavior and Mental Health, status: MS granted August 2024, outcome: Pursuing Ph.D. at University of Michigan}
     - {name: Hayden Atchley, title: A Comparative Illustration of Trip- and Activity-Based Modeling Techniques, status: MS granted August 2024}
     - {name: Daniel Jarvis, title: Simulating Incident Management Team Response and Performance, status: MS granted December 2023}
@@ -17,10 +17,10 @@ graduate-member:
   label: Graduate committee member
   summary: 22 total, 2 current, 3 non-BYU, 3 Ph.D.
   entries:
-    - {name: Kendon Moline, status: MS expected December 2026, detail: true}
-    - {name: Auzton Stutts, title: A Peer Evaluation of Safety at Signalized Intersections in Utah, status: MS expected December 2026, detail: true}
-    - {name: Cambrie Ball, title: "Preparing Civil and Construction Engineers for Sustainable Practice: Systems Thinking and Interdisciplinary Learning in Undergraduate Education", status: MS in Construction Management granted April 2026, detail: true}
-    - {name: Samuel McKinnon, status: Ph.D. in Mechanical Engineering; completed proposal defense, detail: true}
+    - {name: Kendon Moline, status: MS expected December 2026, review-highlight: true}
+    - {name: Auzton Stutts, title: A Peer Evaluation of Safety at Signalized Intersections in Utah, status: MS expected December 2026, review-highlight: true}
+    - {name: Cambrie Ball, title: "Preparing Civil and Construction Engineers for Sustainable Practice: Systems Thinking and Interdisciplinary Learning in Undergraduate Education", status: MS in Construction Management granted April 2026, review-highlight: true}
+    - {name: Samuel McKinnon, status: Ph.D. in Mechanical Engineering; completed proposal defense, review-highlight: true}
     - {name: Adam W. Hill, title: Using unmanned aerial vehicles to facilitate traffic incident management, status: MS granted April 2024}
     - {name: Ian MacGregor, title: Implementing the safe system approach at intersections in Utah, status: MS granted December 2024}
     - {name: Sam Runyan, title: Effect of roadway lighting on safety in Utah, status: MS granted December 2024}
@@ -45,9 +45,9 @@ undergraduate-research:
   label: Undergraduate funded research
   summary: 28 total
   entries:
-    - {name: Christian Jarvis, area: travel behavior, dates: "2026–present", detail: true}
-    - {name: Elise Lefler, area: travel behavior, dates: "2026–present", detail: true}
-    - {name: Kaylen Turley, area: demand microsimulation, dates: "2025–2027", detail: true}
+    - {name: Christian Jarvis, area: travel behavior, dates: "2026–present", review-highlight: true}
+    - {name: Elise Lefler, area: travel behavior, dates: "2026–present", review-highlight: true}
+    - {name: Kaylen Turley, area: demand microsimulation, dates: "2025–2027", review-highlight: true}
     - {name: Tyler Carruth, area: work zone safety, dates: "2024–present"}
     - {name: Benjamin Hailstone, area: work zone safety, dates: "2024–2026"}
     - {name: Connor Williams, area: demand microsimulation, dates: "2024–2026"}
@@ -82,21 +82,21 @@ honors:
   label: Department honors coordinator
   summary: 3 students
   entries:
-    - {name: Becca Apgar, title: Development and demonstration of an apparatus for assessing frost-heave susceptibility of soil, year: "2024", detail: true}
-    - {name: Daria Sofia Velasco-Vega, title: Thermal performance of thin-shell concrete dome structures, year: "2023", outcome: Pursuing Ph.D. at Purdue University, detail: true}
-    - {name: Emma Kratz-Bailey, title: "Accessible methods, novel arrangement: Developing self-centering composite structural frames for highly resilient buildings", year: "2022", detail: true}
+    - {name: Becca Apgar, title: Development and demonstration of an apparatus for assessing frost-heave susceptibility of soil, year: "2024", review-highlight: true}
+    - {name: Daria Sofia Velasco-Vega, title: Thermal performance of thin-shell concrete dome structures, year: "2023", outcome: Pursuing Ph.D. at Purdue University, review-highlight: true}
+    - {name: Emma Kratz-Bailey, title: "Accessible methods, novel arrangement: Developing self-centering composite structural frames for highly resilient buildings", year: "2022", review-highlight: true}
 other:
   label: Other mentoring
   entries:
-    - {name: Grace Gibson, title: "Gendered Journeys: analyzing the context, barriers, and solutions for women in public transit", year: "2024", note: Mentor for BYU Global Women’s Studies Minor capstone project, detail: true}
+    - {name: Grace Gibson, title: "Gendered Journeys: analyzing the context, barriers, and solutions for women in public transit", year: "2024", note: Mentor for BYU Global Women’s Studies Minor capstone project, review-highlight: true}
 capstone:
   label: Civil engineering capstone team mentor
   summary: 26 students
   entries:
-    - {dates: "2024–2025", project: Land development capacity system design, sponsor: UDOT, students: "George Cicotte, Emily Jacobsen, Tacoma Parkinson", detail: true}
-    - {dates: "2023–2024", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Megan Hungerford, Ellie Johns, Kamryn Mansfield, Myrranda Salmon", detail: true}
-    - {dates: "2022–2023", project: SR-140 Corridor alternatives, sponsor: Bluffdale City, students: "Clinton Childers, Robert Mickelson, Trevor Mickelson, Joseph Wells", detail: true}
-    - {dates: "2021–2022", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Nicole Adams, Hayden Atchley, Kyle Leatham, Daniel Jarvis", detail: true}
-    - {dates: "2020–2021", project: Forecasting demand for future FrontRunner scenarios, sponsor: Utah Transit Authority, students: "Gillian Martin Riches, Tomas Barriga, Landon Pratt, Cole Larsen", detail: true}
+    - {dates: "2024–2025", project: Land development capacity system design, sponsor: UDOT, students: "George Cicotte, Emily Jacobsen, Tacoma Parkinson", review-highlight: true}
+    - {dates: "2023–2024", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Megan Hungerford, Ellie Johns, Kamryn Mansfield, Myrranda Salmon", review-highlight: true}
+    - {dates: "2022–2023", project: SR-140 Corridor alternatives, sponsor: Bluffdale City, students: "Clinton Childers, Robert Mickelson, Trevor Mickelson, Joseph Wells", review-highlight: true}
+    - {dates: "2021–2022", project: BYU household travel survey, sponsor: BYU Sustainability Office, students: "Nicole Adams, Hayden Atchley, Kyle Leatham, Daniel Jarvis", review-highlight: true}
+    - {dates: "2020–2021", project: Forecasting demand for future FrontRunner scenarios, sponsor: Utah Transit Authority, students: "Gillian Martin Riches, Tomas Barriga, Landon Pratt, Cole Larsen", review-highlight: true}
     - {dates: "2019–2020", project: UTA microtransit pilot evaluation, sponsor: Utah Transit Authority, students: "Christian Hunter, Austin Martinez, Elizabeth Smith"}
     - {dates: "2018–2019", project: Demand for wheelchair-accessible vehicles, sponsor: Utah Transit Authority, students: "Nate Lant, Byron Yates, Cody Irons, Matthew Strong"}

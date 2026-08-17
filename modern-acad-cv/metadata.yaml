@@ -2,6 +2,7 @@ colors:
   main_color: "#859900"
   lightgray_color: "#93a1a1"
   gray_color: "#657b83"
+  review_color: "#268bd2"
 personal:
   name: ["Macfarlane, Gregory"]
   split: false

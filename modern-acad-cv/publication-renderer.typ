@@ -76,10 +76,15 @@
 #let render-editors(editors) = join-names(editors.map(editor => {
   if type(editor) == dictionary and "literal" in editor.keys() {
     [#editor.literal]
-  } else {
+  } else if type(editor) == dictionary {
     let family = editor.family
     let given-initials = initials(editor.given)
     [#given-initials #family]
+  } else {
+    let parts = editor.split(", ")
+    let family = parts.first()
+    let given = if parts.len() > 1 { parts.at(1) } else { "" }
+    [#initials(given) #family]
   }
 }))
 
@@ -160,21 +165,34 @@
   append-link(reference, fields)
 }
 
-#let cv-refs-flexible(what, tag: none, me-family: none) = {
+#let cv-refs-flexible(
+  what,
+  tag: none,
+  me-family: none,
+  review-mode: false,
+  review-color: black,
+) = {
   set par(hanging-indent: 2em, justify: true, linebreaks: auto)
   set block(above: 0.65em)
 
   let selected = ()
   for (_, fields) in what {
-    if tag == none or ("tags" in fields.keys() and fields.tags == tag) {
+    let visible = review-mode or not fields.at("review-only", default: false)
+    if visible and (tag == none or ("tags" in fields.keys() and fields.tags == tag)) {
       selected.push(fields)
     }
   }
 
   let total = selected.len()
   for (index, fields) in selected.enumerate() {
-    [\[#(total - index)\] ]
-    render-publication(fields, me-family: me-family)
+    let entry = [\[#(total - index)\] ] + render-publication(fields, me-family: me-family)
+    if review-mode and "review-note" in fields.keys() {
+      entry += [ #strong(fields.at("review-note"))]
+    }
+    if review-mode and fields.at("review-highlight", default: false) {
+      entry = text(fill: review-color, entry)
+    }
+    entry
     parbreak()
   }
 }

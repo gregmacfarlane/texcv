@@ -2,6 +2,9 @@ source := "CV.tex"
 main_pdf := "CV.pdf"
 detail_pdf := "cv_detail.pdf"
 site_pdf := "~/3_resources/gregmacfarlane.github.io/static/cv.pdf"
+typst_dir := "modern-acad-cv"
+typst_pdf := "CV.pdf"
+typst_review_pdf := "CV-review.pdf"
 
 default: build
 
@@ -21,6 +24,14 @@ watch:
 
 site: pdf
     cp {{main_pdf}} {{site_pdf}}
+
+typst:
+    cd {{typst_dir}} && typst compile example.typ {{typst_pdf}}
+
+typst-review:
+    cd {{typst_dir}} && typst compile --input review=true example.typ {{typst_review_pdf}}
+
+typst-build: typst typst-review
 
 clean:
     latexmk -c {{source}}

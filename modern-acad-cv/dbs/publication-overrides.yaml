@@ -42,17 +42,33 @@ macfarlaneEffectTransitSignal2021:
   student-authors:
     "Sheffield, Michael H.": graduate
     "Bennett, Logan S.": graduate
+  review-note: "Citations: 2"
 macfarlaneRiderPerceptionsOnDemand2021:
   student-authors:
     "Hunter, Christian": undergraduate
     "Martinez, Austin": undergraduate
     "Smith, Elizabeth": undergraduate
+  review-note: "Citations: 22"
+macfarlaneModelingImpactsPark2021:
+  review-note: "Citations: 31"
 glennConsideringPotentialHealth2020:
   student-authors:
     "Bluth, Madeline": undergraduate
     "Christianson, Mannon": undergraduate
     "Pressley, Jaymie": undergraduate
+  review-note: "Citations: 79"
+macfarlaneAtlantaResidentsValue2015:
+  review-note: "Citations: 10"
+macfarlaneInfluencesPresentResidential2015:
+  review-note: "Citations: 55"
+brakewoodImpactRealtimeInformation2015:
+  review-note: "Citations: 231"
+binderAssociationsHouseholdCharacteristics2014:
+  review-note: "Citations: 19"
+wallExploringUseEgocentric2014:
+  review-note: "Citations: 15"
 macfarlaneIdentifyingRidehailRiders2026:
+  review-highlight: true
   student-authors:
     "Day, Christopher": graduate
 schultzAnalysisUDOTsExpanded2025:
@@ -73,3 +89,11 @@ apeluMeasuringPavementSmoothness2023:
 macfarlaneHowFarAre2023:
   student-authors:
     "Lant, Nate": graduate
+macfarlaneDelayUnderestimationFree2011:
+  review-note: "Citations: 6"
+macfarlaneDriverPerceptionsFree2012:
+  review-note: "Citations: 5"
+macfarlaneEffectivenessTemporaryPortable2026:
+  review-highlight: true
+transportationresearchboardPublicTransitRider2019:
+  review-note: "Citations: 1"

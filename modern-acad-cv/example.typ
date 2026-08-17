@@ -39,14 +39,26 @@
 #let mentoring = yaml("dbs/mentoring.yaml")
 #let awards = yaml("dbs/awards.yaml")
 #let citizenship = yaml("dbs/citizenship.yaml")
+#let review-data = yaml("dbs/review.yaml")
 
 // set the language of the document
 #let language = "en"
 
 // defining variables
 #let headerLabs = create-headers(multilingual, lang: language)
-#let show-detail = false // Mirrors the commented-out \detailtrue in CV.tex.
-#let include-entry(item) = show-detail or not item.at("detail", default: false)
+#let review-mode = sys.inputs.at("review", default: "false") == "true"
+#let review-color = rgb(metadata.colors.review_color)
+#let include-entry(item) = review-mode or not item.at("review-only", default: false)
+#let review-style(item, body) = {
+  if review-mode and item.at("review-highlight", default: false) {
+    text(fill: review-color, body)
+  } else {
+    body
+  }
+}
+#let review-note(note) = if review-mode {
+  block(above: 0.25em, below: 0.45em, note)
+}
 
 // Group appointments and degrees by institution so that the institution,
 // rather than the role or degree, anchors each entry.
@@ -107,7 +119,7 @@
     body += [. #emph(item.title)]
   }
   body += [. #item.amount, #item.sponsor.]
-  cv-cols(item.year, body)
+  review-style(item, cv-cols(item.year, body))
 }
 
 #let cv-funding-group(group) = {
@@ -137,12 +149,12 @@
 
     let cells = ()
     for offering in course.offerings {
-      cells.push([#offering.term])
-      cells.push([#offering.enrolled])
-      cells.push([#offering.rating])
-      cells.push([#offering.gpa])
+      cells.push(review-style(offering, [#offering.term]))
+      cells.push(review-style(offering, [#offering.enrolled]))
+      cells.push(review-style(offering, [#offering.rating]))
+      cells.push(review-style(offering, [#offering.gpa]))
     }
-    if show-detail {
+    if review-mode {
       table(
         columns: (2.4fr, 0.8fr, 1.5fr, 0.8fr),
         inset: (x: 0.35em, y: 0.2em),
@@ -163,7 +175,7 @@
   if "status" in item { body += [. #item.status] }
   if "note" in item { body += [. #item.note] }
   if "outcome" in item { body += [. #item.outcome] }
-  cv-cols(left, body)
+  review-style(item, cv-cols(left, body))
 }
 
 #let cv-mentoring(mentoring) = {
@@ -179,7 +191,10 @@
   heading(level: 2)[#capstone.label (#capstone.summary)]
   for item in capstone.entries {
     if include-entry(item) {
-      cv-cols(item.dates, [#strong(item.project). Sponsored by #item.sponsor. Students: #item.students.])
+      review-style(
+        item,
+        cv-cols(item.dates, [#strong(item.project). Sponsored by #item.sponsor. Students: #item.students.]),
+      )
     }
   }
 }
@@ -187,7 +202,7 @@
 #let cv-awards(awards) = {
   for award in awards {
     if include-entry(award) {
-      cv-cols(award.year, [#strong(award.title). #award.description])
+      review-style(award, cv-cols(award.year, [#strong(award.title). #award.description]))
     }
   }
 }
@@ -217,6 +232,32 @@
   for item in citizenship.internal { cv-service-entry(item) }
 }
 
+// The package's cv-auto-list uses the default, very small superscript size.
+// Keep this renderer local so publication footnotes and other superscripts are
+// unaffected.
+#let cv-conference-list(conferences, lang: "en") = {
+  let localized(value) = if type(value) == dictionary {
+    value.at(lang)
+  } else {
+    value
+  }
+
+  for year in conferences.keys() {
+    let entries = conferences.at(year)
+    let body = []
+    for (index, event) in entries.values().enumerate() {
+      if index > 0 { body += [, ] }
+      let rendered-event = [#localized(event.name)#box(
+        height: 0.8em,
+        baseline: 0pt,
+        text(size: 0.85em, weight: "semibold")[#event.action],
+      )]
+      body += review-style(event, rendered-event)
+    }
+    cv-cols(year, body)
+  }
+}
+
 #show: modern-acad-cv.with(
   metadata,
   multilingual,
@@ -233,6 +274,9 @@
 
 #cv-auto-by-institution(education, lang: language)
 
+#if review-mode {
+  review-style((review-highlight: true), cv-cols("", strong(review-data.notice)))
+}
 
 = #headerLabs.at("pubs")
 
@@ -245,31 +289,55 @@
 }
 
 == #headerLabs.at("pubs-peer")
-#cv-refs(refs, multilingual, tag: "peer", me: publication-author, lang: language)
+#review-note(review-data.at("publication-notes").peer)
+#cv-refs-flexible(
+  refs,
+  tag: "peer",
+  me-family: "Macfarlane",
+  review-mode: review-mode,
+  review-color: review-color,
+)
 
 == #headerLabs.at("pubs-conference")
-#cv-refs(refs, multilingual, tag: "conference", me: publication-author, lang: language)
+#review-note(review-data.at("publication-notes").conference)
+#cv-refs-flexible(
+  refs,
+  tag: "conference",
+  me-family: "Macfarlane",
+  review-mode: review-mode,
+  review-color: review-color,
+)
 
 #if refs-have-tag(refs, "edited") [
   == #headerLabs.at("pubs-edited")
-  #cv-refs(refs, multilingual, tag: "edited", me: publication-author, lang: language)
+  #cv-refs-flexible(refs, tag: "edited", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
 #if refs-have-tag(refs, "book") [
   == #headerLabs.at("pubs-book")
-  #cv-refs(refs, multilingual, tag: "book", me: publication-author, lang: language)
+  #cv-refs-flexible(refs, tag: "book", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
 #if refs-have-tag(refs, "other") [
   == #headerLabs.at("pubs-reports")
-  #cv-refs-flexible(refs, tag: "other", me-family: "Macfarlane")
+  #review-note(review-data.at("publication-notes").reports)
+  #cv-refs-flexible(refs, tag: "other", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
-#if refs-have-tag(refs, "planned") [
+#if review-mode and refs-have-tag(refs, "planned") [
   == #headerLabs.at("pubs-upcoming")
-  #cv-refs(refs, multilingual, tag: "planned", me: publication-author, lang: language)
+  #cv-refs-flexible(refs, tag: "planned", me-family: "Macfarlane", review-mode: review-mode, review-color: review-color)
 ]
 
+#if review-mode [
+  == Venue notes
+  #review-data.at("venue-notes").intro
+  #for venue in review-data.at("venue-notes").entries {
+    cv-cols("", [#emph(venue.title): #venue.description])
+  }
+]
+
+#if review-mode { pagebreak(weak: true) }
 = #headerLabs.at("confs")
 == #headerLabs.at("confs-conf")
 #cv-cols(
@@ -277,7 +345,7 @@
   headerLabs.at("exp-confs"),
 )
 
-#cv-auto-list(conferences, multilingual, lang: language)
+#cv-conference-list(conferences, lang: language)
 
 == #headerLabs.at("confs-talks")
 #cv-auto(talks, multilingual, lang: language)

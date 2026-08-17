@@ -2,12 +2,15 @@
   conference3:
     name: Intermountain Engineering and Technology Conference
     action: P
+    review-highlight: true
   conference2:
     name: hEART European Association for Research in Transportation Annual Symposium
     action: P
+    review-highlight: true
   conference1:
     name: 17th International Conference on Ambient Systems Networks and Technologies (ANT)
     action: P
+    review-highlight: true
 "2025":
   conference5::
     name: Elsevier Transportation Research Symposium
@@ -57,7 +60,7 @@
 "2021":
   conference2:
     name: North American Regional Science Conference (NARSC)
-    action: P 
+    action: P
 "2020":
   conference1:
     name: Transportation Research Board Annual Meeting (TRB)
@@ -65,12 +68,12 @@
 "2015":
   conference2:
     name: North American Regional Science Conference (NARSC)
-    action: P 
+    action: P
 "2014":
   conference2:
     name: North American Regional Science Conference (NARSC)
-    action: P 
+    action: P
 "2013":
   conference2:
     name: North American Regional Science Conference (NARSC)
-    action: P 
+    action: P

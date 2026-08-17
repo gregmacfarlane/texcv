@@ -21,4 +21,7 @@ just watch      # rebuild CV.pdf when files change
 just clean      # remove auxiliary files
 just realclean  # remove generated PDFs and auxiliary files
 just site       # copy CV.pdf to the website repository
+just typst      # build modern-acad-cv/CV.pdf
+just typst-review # build modern-acad-cv/CV-review.pdf with review notes/highlights
+just typst-build  # build both Typst variants
 ```

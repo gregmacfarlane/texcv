@@ -1,0 +1,53 @@
+notice: Throughout this document, work completed since my promotion to associate professor appears in blue.
+
+publication-notes:
+  peer: >-
+    First author or first faculty author on 12 of 21 total journal articles,
+    indicating primary responsibility for the work. Paper 1 came from my
+    undergraduate work, papers 2 through 6 were from my doctoral research, and
+    papers 7 onward represent work completed during my time on the faculty at
+    BYU. Citation counts are from Google Scholar as of August 2025. Notes on the
+    venues where I publish, including impact factors and rankings, follow the
+    publication lists.
+  conference: >-
+    Papers 1 and 2 resulted from my undergraduate honors thesis, papers 3
+    through 5 from work completed in graduate school, and subsequent work from
+    my time on the faculty at BYU.
+  reports: >-
+    These are technical reports completed under contract for the sponsoring
+    agency; each report was reviewed by a technical advisory committee prior to
+    publication. Item 1 resulted from postdoctoral activities at Georgia Tech,
+    items 2 and 3 from my consulting practice, and items 4 through the present
+    from my work since joining BYU.
+
+venue-notes:
+  intro: >-
+    I publish in a wide variety of journals, including both traditional and
+    open-access journals. Each description includes the Scopus CiteScore and
+    relative ranking in the most relevant field, Clarivate Impact Factor, and
+    Scimago journal quartile ranking.
+  entries:
+    - title: "Transportation Research Part C: Emerging Technologies"
+      description: "A leading international journal with robust peer review focusing on applications and implications of technology in transportation systems. CiteScore: 15.9; 9/407 in civil engineering. Impact Factor: 7.9. Scimago: Q1. Publisher: Elsevier."
+    - title: "Transportation Research Part A: Policy and Practice"
+      description: "A leading international journal with robust peer review focusing on transportation policy analysis and the planning of transportation systems. CiteScore: 11.3; 27/407 in civil engineering. Impact Factor: 6.8. Scimago: Q1. Publisher: Elsevier."
+    - title: Smart Cities
+      description: "An international, scientific, peer-reviewed, open-access journal on the science and technology of smart cities. CiteScore: 14.7; 4/288 in urban studies. Impact Factor: 5.5. Scimago: Q1. Publisher: MDPI."
+    - title: Journal of the American Planning Association
+      description: "The quarterly journal of record for the planning profession. CiteScore: 7.3; 20/288 in urban studies. Impact Factor: 3.4. Scimago: Q1. Publisher: Taylor & Francis."
+    - title: "Environment and Planning B: Urban Analytics and City Science"
+      description: "A leading international journal with robust peer review publishing cutting-edge research in analytical methods for urban planning and design. CiteScore: 7.3; 21/288 in urban studies. Impact Factor: 3.1. Scimago: Q1. Publisher: Sage."
+    - title: Journal of Transport & Health
+      description: "An international, peer-reviewed journal devoted to research on interactions between transport and health and the policies affecting them. CiteScore: 6.3; 13/109 in safety research. Impact Factor: 3.3. Scimago: Q1. Publisher: Elsevier."
+    - title: Journal of Transport and Land Use
+      description: "A leading international journal publishing original interdisciplinary papers on the interaction of transport and land use. CiteScore: 4.0; 67/279 in urban studies. Impact Factor: 2.2. Scimago: Q1. Publisher: University of Minnesota."
+    - title: International Journal of Environmental Research and Public Health
+      description: "An interdisciplinary, open-access journal with peer review. CiteScore: 7.3; 104/665 in public health. Impact Factor: 8.5. Scimago: Q2. Publisher: MDPI."
+    - title: "Journal of Transportation Engineering Part A: Systems"
+      description: "Publishes technical and professional engineering articles with robust peer review on the planning, design, construction, operation, and maintenance of transportation systems and infrastructure. CiteScore: 4.0; 157/407 in civil engineering. Impact Factor: 2.1. Scimago: Q2. Publisher: ASCE."
+    - title: Transportation Research Record
+      description: "The journal of the Transportation Research Board of the National Academies. Since 2020, the journal has instituted more rigorous peer review. CiteScore: 3.4; 178/407 in civil engineering. Impact Factor: 2.1. Scimago: Q2. Publisher: Sage."
+    - title: Future Transportation
+      description: "An international, peer-reviewed, open-access journal covering the civil engineering, economics, environment and geography, computer science, and other transdisciplinary dimensions of transportation. CiteScore: 3.8; 92/264 in engineering (miscellaneous). Impact Factor: 1.7. Publisher: MDPI."
+    - title: Findings
+      description: "An interdisciplinary, independent, community-led, peer-reviewed, open-access journal focused on short, clear research results and rapid dissemination of transportation science. Scimago: Q2. Publisher: University of Sydney and McGill University."

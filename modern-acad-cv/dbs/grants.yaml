@@ -1,5 +1,5 @@
-# Research funding migrated from CV.tex. `detail: true` marks entries that were
-# wrapped in \ifdetail in the LaTeX source; all records remain available here.
+# Research funding migrated from CV.tex. Review highlighting and review-only
+# visibility are intentionally separate.
 external:
   principal-investigator:
     label: Principal investigator
@@ -10,13 +10,13 @@ external:
         title: Building automated processes for baseline employment data
         amount: "$65,000"
         sponsor: Utah Department of Transportation
-        detail: true
+        review-highlight: true
       - year: "2026"
         investigators: Macfarlane, G.S. and Schultz, G.G.
         title: Estimating the marginal effectiveness of wrong way driver alert systems (Phase 1)
         amount: "$30,000"
         sponsor: Utah Department of Transportation
-        detail: true
+        review-highlight: true
       - year: "2025"
         investigators: Macfarlane, G.S. and Atchley, S.H.
         title: Establishing Performance Measures for Transportation and Quality of Life
@@ -93,7 +93,7 @@ external:
         sponsor: Utah Department of Transportation
   unfunded:
     label: Unfunded proposals
-    detail: true
+    review-only: true
     entries:
       - year: "2023"
         investigators: Dashti, S. (PI), Torres-Machi, C., Mooney, M., Misra, A., Crow, D., Mallet, S., Esteghemati, M., Macfarlane, G.S., Zlatkovic, M., and Kack, D.
@@ -131,7 +131,7 @@ internal:
         sponsor: Mentored Research Grant, Brigham Young University
   unfunded:
     label: Unfunded proposals
-    detail: true
+    review-only: true
     entries:
       - year: "2020"
         investigators: Macfarlane, G.S., Hooley, C., Redelfs, A., and South, M.
