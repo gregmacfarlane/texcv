@@ -23,31 +23,87 @@ publication-notes:
 venue-notes:
   intro: >-
     I publish in a wide variety of journals, including both traditional and
-    open-access journals. Each description includes the Scopus CiteScore and
-    relative ranking in the most relevant field, Clarivate Impact Factor, and
-    Scimago journal quartile ranking.
+    open-access journals. Each entry includes the Scopus CiteScore and relative
+    ranking in the most relevant field, Clarivate Impact Factor, and Scimago
+    journal quartile ranking where available.
   entries:
     - title: "Transportation Research Part C: Emerging Technologies"
-      description: "A leading international journal with robust peer review focusing on applications and implications of technology in transportation systems. CiteScore: 15.9; 9/407 in civil engineering. Impact Factor: 7.9. Scimago: Q1. Publisher: Elsevier."
+      description: A leading international journal with robust peer review focusing on applications and implications of technology in transportation systems.
+      citescore: "15.9"
+      citescore-ranking: 9/407 in civil engineering
+      impact-factor: "7.9"
+      scimago-quartile: Q1
+      publisher: Elsevier
     - title: "Transportation Research Part A: Policy and Practice"
-      description: "A leading international journal with robust peer review focusing on transportation policy analysis and the planning of transportation systems. CiteScore: 11.3; 27/407 in civil engineering. Impact Factor: 6.8. Scimago: Q1. Publisher: Elsevier."
+      description: A leading international journal with robust peer review focusing on transportation policy analysis and the planning of transportation systems.
+      citescore: "11.3"
+      citescore-ranking: 27/407 in civil engineering
+      impact-factor: "6.8"
+      scimago-quartile: Q1
+      publisher: Elsevier
     - title: Smart Cities
-      description: "An international, scientific, peer-reviewed, open-access journal on the science and technology of smart cities. CiteScore: 14.7; 4/288 in urban studies. Impact Factor: 5.5. Scimago: Q1. Publisher: MDPI."
+      description: An international, scientific, peer-reviewed, open-access journal on the science and technology of smart cities.
+      citescore: "14.7"
+      citescore-ranking: 4/288 in urban studies
+      impact-factor: "5.5"
+      scimago-quartile: Q1
+      publisher: MDPI
     - title: Journal of the American Planning Association
-      description: "The quarterly journal of record for the planning profession. CiteScore: 7.3; 20/288 in urban studies. Impact Factor: 3.4. Scimago: Q1. Publisher: Taylor & Francis."
+      description: The quarterly journal of record for the planning profession.
+      citescore: "7.3"
+      citescore-ranking: 20/288 in urban studies
+      impact-factor: "3.4"
+      scimago-quartile: Q1
+      publisher: Taylor & Francis
     - title: "Environment and Planning B: Urban Analytics and City Science"
-      description: "A leading international journal with robust peer review publishing cutting-edge research in analytical methods for urban planning and design. CiteScore: 7.3; 21/288 in urban studies. Impact Factor: 3.1. Scimago: Q1. Publisher: Sage."
+      description: A leading international journal with robust peer review publishing cutting-edge research in analytical methods for urban planning and design.
+      citescore: "7.3"
+      citescore-ranking: 21/288 in urban studies
+      impact-factor: "3.1"
+      scimago-quartile: Q1
+      publisher: Sage
     - title: Journal of Transport & Health
-      description: "An international, peer-reviewed journal devoted to research on interactions between transport and health and the policies affecting them. CiteScore: 6.3; 13/109 in safety research. Impact Factor: 3.3. Scimago: Q1. Publisher: Elsevier."
+      description: An international, peer-reviewed journal devoted to research on interactions between transport and health and the policies affecting them.
+      citescore: "6.3"
+      citescore-ranking: 13/109 in safety research
+      impact-factor: "3.3"
+      scimago-quartile: Q1
+      publisher: Elsevier
     - title: Journal of Transport and Land Use
-      description: "A leading international journal publishing original interdisciplinary papers on the interaction of transport and land use. CiteScore: 4.0; 67/279 in urban studies. Impact Factor: 2.2. Scimago: Q1. Publisher: University of Minnesota."
+      description: A leading international journal publishing original interdisciplinary papers on the interaction of transport and land use.
+      citescore: "4.0"
+      citescore-ranking: 67/279 in urban studies
+      impact-factor: "2.2"
+      scimago-quartile: Q1
+      publisher: University of Minnesota
     - title: International Journal of Environmental Research and Public Health
-      description: "An interdisciplinary, open-access journal with peer review. CiteScore: 7.3; 104/665 in public health. Impact Factor: 8.5. Scimago: Q2. Publisher: MDPI."
+      description: An interdisciplinary, open-access journal with peer review.
+      citescore: "7.3"
+      citescore-ranking: 104/665 in public health
+      impact-factor: "8.5"
+      scimago-quartile: Q2
+      publisher: MDPI
     - title: "Journal of Transportation Engineering Part A: Systems"
-      description: "Publishes technical and professional engineering articles with robust peer review on the planning, design, construction, operation, and maintenance of transportation systems and infrastructure. CiteScore: 4.0; 157/407 in civil engineering. Impact Factor: 2.1. Scimago: Q2. Publisher: ASCE."
+      description: Publishes technical and professional engineering articles with robust peer review on the planning, design, construction, operation, and maintenance of transportation systems and infrastructure.
+      citescore: "4.0"
+      citescore-ranking: 157/407 in civil engineering
+      impact-factor: "2.1"
+      scimago-quartile: Q2
+      publisher: ASCE
     - title: Transportation Research Record
-      description: "The journal of the Transportation Research Board of the National Academies. Since 2020, the journal has instituted more rigorous peer review. CiteScore: 3.4; 178/407 in civil engineering. Impact Factor: 2.1. Scimago: Q2. Publisher: Sage."
+      description: The journal of the Transportation Research Board of the National Academies. Since 2020, the journal has instituted more rigorous peer review.
+      citescore: "3.4"
+      citescore-ranking: 178/407 in civil engineering
+      impact-factor: "2.1"
+      scimago-quartile: Q2
+      publisher: Sage
     - title: Future Transportation
-      description: "An international, peer-reviewed, open-access journal covering the civil engineering, economics, environment and geography, computer science, and other transdisciplinary dimensions of transportation. CiteScore: 3.8; 92/264 in engineering (miscellaneous). Impact Factor: 1.7. Publisher: MDPI."
+      description: An international, peer-reviewed, open-access journal covering the civil engineering, economics, environment and geography, computer science, and other transdisciplinary dimensions of transportation.
+      citescore: "3.8"
+      citescore-ranking: 92/264 in engineering (miscellaneous)
+      impact-factor: "1.7"
+      publisher: MDPI
     - title: Findings
-      description: "An interdisciplinary, independent, community-led, peer-reviewed, open-access journal focused on short, clear research results and rapid dissemination of transportation science. Scimago: Q2. Publisher: University of Sydney and McGill University."
+      description: An interdisciplinary, independent, community-led, peer-reviewed, open-access journal focused on short, clear research results and rapid dissemination of transportation science.
+      scimago-quartile: Q2
+      publisher: University of Sydney and McGill University

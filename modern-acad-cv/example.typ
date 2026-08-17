@@ -346,9 +346,37 @@
 #if review-mode [
   == Venue notes
   #review-data.at("venue-notes").intro
+  #let venue-cells = ()
   #for venue in review-data.at("venue-notes").entries {
-    cv-cols("", [#emph(venue.title): #venue.description])
+    let citescore = [#venue.at("citescore", default: "-")]
+    if "citescore-ranking" in venue {
+      citescore += [#linebreak()#text(size: 0.82em)[#venue.at("citescore-ranking")]]
+    }
+    venue-cells.push(emph(venue.title))
+    venue-cells.push(venue.description)
+    venue-cells.push(citescore)
+    venue-cells.push(venue.at("impact-factor", default: "-"))
+    venue-cells.push(venue.at("scimago-quartile", default: "-"))
+    venue-cells.push(venue.at("publisher", default: "-"))
   }
+  #text(size: 8.3pt, table(
+    columns: (1.45fr, 3.1fr, 1.1fr, 0.8fr, 0.7fr, 1fr),
+    inset: (x: 0.28em, y: 0.5em),
+    stroke: none,
+    align: (left, left, center, center, center, left),
+    table.hline(stroke: 0.8pt + luma(35%)),
+    table.header(
+      [*Journal*],
+      [*Description*],
+      [*CiteScore*],
+      [*Impact Factor*],
+      [*Scimago*],
+      [*Publisher*],
+    ),
+    table.hline(stroke: 0.45pt + luma(45%)),
+    ..venue-cells,
+    table.hline(stroke: 0.8pt + luma(35%)),
+  ))
 ]
 
 #if review-mode { pagebreak(weak: true) }
