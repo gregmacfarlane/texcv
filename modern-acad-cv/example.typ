@@ -48,6 +48,8 @@
 #let headerLabs = create-headers(multilingual, lang: language)
 #let review-mode = sys.inputs.at("review", default: "false") == "true"
 #let review-color = rgb(metadata.colors.review_color)
+#let solarized-base01 = rgb("#586e75")
+#let solarized-base00 = rgb("#657b83")
 #let include-entry(item) = review-mode or not item.at("review-only", default: false)
 #let review-style(item, body) = {
   if review-mode and item.at("review-highlight", default: false) {
@@ -162,11 +164,11 @@
         inset: (x: 0.35em, y: 0.2em),
         stroke: none,
         align: (left, center, center, center),
-        table.hline(stroke: 0.8pt + luma(35%)),
+        table.hline(stroke: 0.8pt + solarized-base01),
         table.header([*Semester*], [*Enrolled*], [*Student rating*], [*Average GPA*]),
-        table.hline(stroke: 0.45pt + luma(45%)),
+        table.hline(stroke: 0.45pt + solarized-base00),
         ..cells,
-        table.hline(stroke: 0.8pt + luma(35%)),
+        table.hline(stroke: 0.8pt + solarized-base01),
       )
     }
   }
@@ -366,7 +368,7 @@
     inset: (x: 0.28em, y: 0.5em),
     stroke: none,
     align: (left, left, center, center, center, left),
-    table.hline(stroke: 0.8pt + luma(35%)),
+    table.hline(stroke: 0.8pt + solarized-base01),
     table.header(
       [*Journal*],
       [*Description*],
@@ -375,9 +377,9 @@
       [*Scimago*],
       [*Publisher*],
     ),
-    table.hline(stroke: 0.45pt + luma(45%)),
+    table.hline(stroke: 0.45pt + solarized-base00),
     ..venue-cells,
-    table.hline(stroke: 0.8pt + luma(35%)),
+    table.hline(stroke: 0.8pt + solarized-base01),
   ))
 ]
 
