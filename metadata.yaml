@@ -22,7 +22,7 @@ personal:
       username: 0000-0003-3999-7584
       icon: orcid
       set: ai
-      prefix: https://orcid.org
+      prefix: https://orcid.org/
     linkedin:
       username: gregmacfarlane
       icon: linkedin
