@@ -1421,6 +1421,63 @@ references:
   URL: https://ascelibrary.org/doi/10.1061/JTEPBS.TEENG-8534
   volume: '151'
 
+- id: macfarlaneWheresDinnerComing2026
+  abstract: >-
+    Convenient access to food resources is a critical element of public health
+    as well as an important interface between communities and the transportation
+    system. In this research, we seek to construct a detailed picture of the
+    food environment in three communities in Utah, alongside the community
+    members’ ability to access that environment through multiple transportation
+    modes. In doing so, we construct a utility-based accessiblity model enabled
+    by modern mobility device data. This model reveals the tradeoffs between the
+    quality and price of goods on one hand and the distance traveled to reach
+    them on the other. We then apply this model to a series of potential
+    access-improving policies: building a new store, improving an existing
+    store, and improving the non-automobile transport network between residents
+    and existing stores. The results show that new or improved store locations
+    bring substantially higher benefits than improvements to the transportation
+    system at likely lower costs. The findings suggest that transportation
+    agencies work to increase the availability of community-sized grocery stores
+    in low-access areas and consider activity-based methods of measuring
+    resource access.
+  accessed:
+    - year: 2026
+      month: 8
+      day: 24
+  archive_location: Utah, U.S.
+  author:
+    - family: Macfarlane
+      given: Gregory
+    - family: Stucki
+      given: Emma
+    - family: Redelfs
+      given: Alisha
+    - family: Spruance
+      given: Lori
+  citation-key: macfarlaneWheresDinnerComing2026
+  container-title: Journal of Transport and Land Use
+  container-title-short: J. Transp. Land Use
+  DOI: 10.5198/jtlu.2026.2554
+  ISSN: 1938-7849
+  issue: '1'
+  issued:
+    - year: 2026
+      month: 8
+      day: 21
+  language: en
+  license: >-
+    Copyright (c) 2026 Gregory S. Macfarlane, Emma Stucki, Alisha H. Redelfs,
+    Lori A. Spruance
+  page: 249–277
+  source: jtlu.org
+  title: >-
+    Where's dinner coming from? A utility-based investigation of food access in
+    Utah
+  title-short: Where's dinner coming from?
+  type: article-journal
+  URL: https://jtlu.org/index.php/jtlu/article/view/2554
+  volume: '19'
+
 - id: mcbrideSubsurfaceVisualizationUsing2009
   abstract: >-
     The use of non-invasive geophysical techniques is becoming increasingly
