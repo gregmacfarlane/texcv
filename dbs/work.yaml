@@ -18,12 +18,12 @@ entry:
   short: true
 entry1:
   title:
-    en: Transportation Engineer
+    en: Data scientist
   subtitle:
     en: ""
   location:
     en: Transport Foundry
-  left: 05/2017-11/2017
+  left: 05/2017-11/2018
   short: true
 entry5:
   title: Adjunct Lecturer
@@ -40,7 +40,7 @@ entry3:
   short: true
 entry4:
   title:
-    en: Traffic Engineer
+    en: Data scientist
   subtitle:
     en: "Systems Analysis Group"
   location: WSP | Parsons Brinckerhoff
