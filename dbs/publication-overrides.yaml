@@ -26,6 +26,13 @@ wangPredictingDirectionalTraffic2024:
     "Huang, Zhengyang": undergraduate
     "Arnesen, Joseph": undergraduate
     "Khayyat, Adnan": undergraduate
+  short: true
+macfarlaneIdentifyingMicrotransitService2023:
+  short: true
+macfarlaneEffectivenessTemporaryPortable2026:
+  short: true
+schultzDetectingTrafficData2022:
+  short: true
 macfarlaneClassifyingLocationPoints2024:
   student-authors:
     "Riches, Gillian": graduate
@@ -59,6 +66,7 @@ macfarlaneRiderPerceptionsOnDemand2021:
     "Martinez, Austin": undergraduate
     "Smith, Elizabeth": undergraduate
   review-note: "Citations: 22"
+  short: true
 macfarlaneModelingImpactsPark2021:
   review-note: "Citations: 31"
   short: true
@@ -96,6 +104,7 @@ atchleyComparativeIllustrationTrip2025:
   student-authors:
     "Atchley, Hayden": graduate
     "Mansfield, Kamryn W.": undergraduate
+  short: true
 jarvisSimulatingIncidentManagement2024:
   student-authors:
     "Jarvis, Daniel L.": graduate

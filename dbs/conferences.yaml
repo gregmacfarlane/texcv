@@ -7,20 +7,25 @@
     name: hEART European Association for Research in Transportation Annual Symposium
     action: P
     review-highlight: true
+    short: true
   conference1:
-    name: 17th International Conference on Ambient Systems Networks and Technologies (ANT)
+    name: 17th International Conference on Ambient Systems Networks and Technologies (ANT – Istanbul)
     action: P
     review-highlight: true
+    short: true
 "2025":
   conference5::
     name: Elsevier Transportation Research Symposium
     action: P
+    short: true
   conference4:
     name: Modeling Mobility (MoMo)
     action: P, M
+    short: true
   conference2:
     name: International Conference on Transportation & Development (ICTD)
     action: P
+    short: true
   conference1:
     name: For the Benefit of the World Conference
     action: P
@@ -29,21 +34,29 @@
     name: Utah Transportation Conference
     action: P
   conference3:
-    name: Activity-based Modeling Symposium
+    name: Activity-based Modeling Symposium (Munich)
     action: P, C
+    short: true
   conference2:
-    name: International Conference on Travel Behavior Research (IATBR)
+    name: International Conference on Travel Behavior Research (IATBR – Vienna)
     action: P
+    short: true
   conference1:
-    name: 15th International Conference on Ambient Systems Networks and Technologies (ANT)
+    name: 15th International Conference on Ambient Systems Networks and Technologies (ANT – Hasselt)
     action: P
+    short: true
   conference:
     name: Transportation Research Board Annual Meeting (TRB)
     action: P
 "2023":
+  conference4: 
+    name: Activity-based modeling symposium (Austin)
+    action: P
+    short: true
   conference3:
-    name: Innovations in Transportation Analysis and Planning
+    name: Innovations in Transportation Analysis and Planning (Indianapolis)
     action: P, M
+    short: true
   conference2:
     name: Move Utah Summit
     action: P
@@ -52,8 +65,9 @@
     action: P
 "2022":
   conference1:
-    name: Mobil.TUM
+    name: Mobil.TUM (Singapore)
     action: P
+    short: true
   conference:
     name: Transportation Research Board Annual Meeting (TRB)
     action: P
