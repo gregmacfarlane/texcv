@@ -29,6 +29,7 @@
 // defining variables
 #let review-mode = sys.inputs.at("review", default: "false") == "true"
 #let short-mode = sys.inputs.at("short", default: "false") == "true"
+#let withhold-socials-mode = short-mode and sys.inputs.at("withhold-socials", default: "false") == "true"
 #let metadata = {
   let result = base-metadata
   let colors = result.colors
@@ -41,6 +42,19 @@
   }
   colors.insert("main_color", accent-color)
   result.insert("colors", colors)
+
+  if withhold-socials-mode {
+    let personal = result.personal
+    let socials = (:)
+    for (key, field) in personal.socials {
+      if key not in ("email", "orcid", "linkedin", "homepage") {
+        socials.insert(key, field)
+      }
+    }
+    personal.insert("socials", socials)
+    result.insert("personal", personal)
+  }
+
   result
 }
 #let multilingual = {

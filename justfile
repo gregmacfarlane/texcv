@@ -2,6 +2,7 @@ typst_source := "cv.typ"
 main_pdf := "CV.pdf"
 review_pdf := "CV-review.pdf"
 short_pdf := "CV-short.pdf"
+withheld_short_pdf := "CV-short-withheld.pdf"
 site_pdf := "../gregmacfarlane.github.io/static/cv.pdf"
 
 latex_dir := "latex"
@@ -22,6 +23,9 @@ typst-review:
 
 typst-short:
     typst compile --input short=true {{typst_source}} {{short_pdf}}
+
+typst-short-withheld:
+    typst compile --input short=true --input withhold-socials=true {{typst_source}} {{withheld_short_pdf}}
 
 typst-build: typst typst-review typst-short
 
@@ -55,5 +59,5 @@ clean:
     rm -f {{latex_dir}}/*.bbl {{latex_dir}}/*.blg {{latex_dir}}/*.dvi {{latex_dir}}/*.fls {{latex_dir}}/*.fdb_latexmk {{latex_dir}}/*.xdv
 
 realclean: clean
-    rm -f {{main_pdf}} {{review_pdf}} {{short_pdf}}
+    rm -f {{main_pdf}} {{review_pdf}} {{short_pdf}} {{withheld_short_pdf}}
     rm -f {{latex_dir}}/{{latex_main_pdf}} {{latex_dir}}/{{latex_detail_pdf}}

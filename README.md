@@ -20,6 +20,7 @@ just build          # build all three Typst CV variants
 just typst          # build the public CV as CV.pdf
 just typst-review   # build CV-review.pdf with review notes/highlights
 just typst-short    # build CV-short.pdf from entries tagged short: true
+just typst-short-withheld  # build CV-short-withheld.pdf without email/social links
 just watch          # rebuild the public Typst CV when sources change
 just site           # rebuild CV.pdf and copy it to the website repository
 ```
@@ -27,6 +28,12 @@ just site           # rebuild CV.pdf and copy it to the website repository
 The short CV includes only database records marked `short: true`. Add the tag
 directly to entries in the YAML databases. For publications, add it to the
 corresponding citation key in `dbs/publication-overrides.yaml`.
+
+For submissions that request contact and social links to be withheld, use
+`just typst-short-withheld`, or pass `--input withhold-socials=true` alongside
+`--input short=true` when compiling directly. This removes the email, ORCID,
+LinkedIn, and homepage (GitHub Pages) links while leaving other CV variants
+unchanged.
 
 ## Legacy LaTeX CV
 
