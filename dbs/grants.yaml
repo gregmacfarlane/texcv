@@ -106,16 +106,19 @@ external:
         title: Resilient, Equitable, and Sustainable Environment through Transportation (RESET)
         amount: "$3,000,000"
         sponsor: United States Department of Transportation
+        review-only: true
       - year: "2022"
         investigators: Erhardt, G.D. (PI), Watkins, K.E., Brakewood, C., Pike, S.C., Macfarlane, G.S., Chavis, C., Tal, G., Hunter, M., Van Hentenryck, P., and McDonald, N.
         title: "T-SCORE 2.0: Transit – Sustainable, Competitive, Responsive, and Equitable Center"
         amount: "$2,000,000"
         sponsor: United States Department of Transportation
+        review-only: true
       - year: "2023"
         investigators: Voulgaris, C.T. (PI), Forsyth, A., Pandey, V., Park, H., Handy, S., Macfarlane, G.S., Pande, A., Braun, L.M., and Noland, R.B.
         title: "Chester: Consortium for Healthy, Equitable, and Sustainable Transportation Systems for Environmental Resilience"
         amount: "$2,000,000"
         sponsor: United States Department of Transportation
+        review-only: true
 internal:
   funded:
     label: Funded research
@@ -140,6 +143,7 @@ internal:
     review-only: true
     entries:
       - year: "2020"
+        review-only: true
         investigators: Macfarlane, G.S., Hooley, C., Redelfs, A., and South, M.
         title: Using Mobile Device Data to Measure Isolation and Mental Health
         amount: "$40,000"
